@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="0" lslib_meta="v1,bswap_guids" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hSSTORMwpnassassinDESC" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hSSTORMwpnassassinNAME" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="9971b881-ee3d-5490-8bf9-88809cf26d2b" />
+					<attribute id="Name" type="LSString" value="SSTORM_WPN_AssassinsBlade_Template" />
+					<attribute id="ParentTemplateId" type="FixedString" value="467ddb4f-6791-41fa-99f7-ee8620d63bbe" />
+					<attribute id="Stats" type="FixedString" value="SSTORM_WPN_AssassinsBlade" />
+					<attribute id="Type" type="FixedString" value="item" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hSSTORMwpnbastardDESC" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hSSTORMwpnbastardNAME" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="133819bf-323a-5c3c-8341-1af4f2904557" />
+					<attribute id="Name" type="LSString" value="SSTORM_WPN_BastardSword_Template" />
+					<attribute id="ParentTemplateId" type="FixedString" value="1865323f-b428-4791-a0a9-578841e57463" />
+					<attribute id="Stats" type="FixedString" value="SSTORM_WPN_BastardSword" />
+					<attribute id="Type" type="FixedString" value="item" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hSSTORMwpnfoilDESC" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hSSTORMwpnfoilNAME" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="11a11ea0-99f0-5597-bcfd-21bf0bb37699" />
+					<attribute id="Name" type="LSString" value="SSTORM_WPN_ElvenFoil_Template" />
+					<attribute id="ParentTemplateId" type="FixedString" value="7061f489-4b13-4982-aa09-cf0ad961e75f" />
+					<attribute id="Stats" type="FixedString" value="SSTORM_WPN_ElvenFoil" />
+					<attribute id="Type" type="FixedString" value="item" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hSSTORMwpnhookDESC" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hSSTORMwpnhookNAME" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cc0d74-67df-57ec-83b3-8b066d1e6ce4" />
+					<attribute id="Name" type="LSString" value="SSTORM_WPN_HookSword_Template" />
+					<attribute id="ParentTemplateId" type="FixedString" value="d60524f4-583e-4b16-91b2-871221d441cf" />
+					<attribute id="Stats" type="FixedString" value="SSTORM_WPN_HookSword" />
+					<attribute id="Type" type="FixedString" value="item" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hSSTORMwpnparryDESC" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hSSTORMwpnparryNAME" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="9e82e6d7-8275-515b-b002-88ce1287a91e" />
+					<attribute id="Name" type="LSString" value="SSTORM_WPN_ParryingDagger_Template" />
+					<attribute id="ParentTemplateId" type="FixedString" value="569b0f3d-abcd-4b01-aaf0-979091288163" />
+					<attribute id="Stats" type="FixedString" value="SSTORM_WPN_ParryingDagger" />
+					<attribute id="Type" type="FixedString" value="item" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hSSTORMwpndervishDESC" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hSSTORMwpndervishNAME" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="f1144f17-fe40-5829-b88b-21ac5a31b4f9" />
+					<attribute id="Name" type="LSString" value="SSTORM_WPN_Dervish_Template" />
+					<attribute id="ParentTemplateId" type="FixedString" value="868217db-9dcb-414c-bb88-e321ab3e0349" />
+					<attribute id="Stats" type="FixedString" value="SSTORM_WPN_Dervish" />
+					<attribute id="Type" type="FixedString" value="item" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hSSTORMwpnzweiDESC" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hSSTORMwpnzweiNAME" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="16791f21-8f93-5de9-8b9c-6afe1b8c9c1e" />
+					<attribute id="Name" type="LSString" value="SSTORM_WPN_Zweihander_Template" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ecfb9f69-5bc3-402e-acd8-c91d57e28403" />
+					<attribute id="Stats" type="FixedString" value="SSTORM_WPN_Zweihander" />
+					<attribute id="Type" type="FixedString" value="item" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hSSTORMwpnvindrDESC" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hSSTORMwpnvindrNAME" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="966ebbf7-9709-5641-935f-fedeab780a10" />
+					<attribute id="Name" type="LSString" value="SSTORM_WPN_VindrScimitar_Template" />
+					<attribute id="ParentTemplateId" type="FixedString" value="d60524f4-583e-4b16-91b2-871221d441cf" />
+					<attribute id="Stats" type="FixedString" value="SSTORM_WPN_VindrScimitar" />
+					<attribute id="Type" type="FixedString" value="item" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hSSTORMwpncleaverDESC" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hSSTORMwpncleaverNAME" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="421cb02c-e6dc-51e5-a9fc-b1d025588211" />
+					<attribute id="Name" type="LSString" value="SSTORM_WPN_MountainCleaver_Template" />
+					<attribute id="ParentTemplateId" type="FixedString" value="58925ad8-f9da-482c-82da-70bede9bf2b8" />
+					<attribute id="Stats" type="FixedString" value="SSTORM_WPN_MountainCleaver" />
+					<attribute id="Type" type="FixedString" value="item" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hSSTORMwpnballistaDESC" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hSSTORMwpnballistaNAME" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="b903c2f7-edea-564f-bfe3-b1def7fe0dee" />
+					<attribute id="Name" type="LSString" value="SSTORM_WPN_PortableBallista_Template" />
+					<attribute id="ParentTemplateId" type="FixedString" value="45d888b5-e002-4bb8-85d7-6df569aceaa4" />
+					<attribute id="Stats" type="FixedString" value="SSTORM_WPN_PortableBallista" />
+					<attribute id="Type" type="FixedString" value="item" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hSSTORMarmbrigDESC" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hSSTORMarmbrigNAME" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c7d32625-02a5-5cd1-91d5-d678d06dbf4b" />
+					<attribute id="Name" type="LSString" value="SSTORM_ARM_Brigandine_Body_Template" />
+					<attribute id="ParentTemplateId" type="FixedString" value="02ae5d88-8044-43df-8363-02a2900776db" />
+					<attribute id="Stats" type="FixedString" value="SSTORM_ARM_Brigandine_Body" />
+					<attribute id="Type" type="FixedString" value="item" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hSSTORMarmbandedDESC" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hSSTORMarmbandedNAME" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="033d40bd-4532-53a5-af51-7ec081af3072" />
+					<attribute id="Name" type="LSString" value="SSTORM_ARM_BandedPlate_Body_Template" />
+					<attribute id="ParentTemplateId" type="FixedString" value="34a71679-0ab5-4fd4-bba8-d6ad341ee490" />
+					<attribute id="Stats" type="FixedString" value="SSTORM_ARM_BandedPlate_Body" />
+					<attribute id="Type" type="FixedString" value="item" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hSSTORMarmheroDESC" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hSSTORMarmheroNAME" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="1dbd71d2-9c71-5c7b-b810-e4dc7f816392" />
+					<attribute id="Name" type="LSString" value="SSTORM_ARM_HeroPlate_Body_Template" />
+					<attribute id="ParentTemplateId" type="FixedString" value="34a71679-0ab5-4fd4-bba8-d6ad341ee490" />
+					<attribute id="Stats" type="FixedString" value="SSTORM_ARM_HeroPlate_Body" />
+					<attribute id="Type" type="FixedString" value="item" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hSSTORMarmlamellarDESC" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hSSTORMarmlamellarNAME" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="665ac537-d2b8-5a4c-8a5b-547fee7e4cfb" />
+					<attribute id="Name" type="LSString" value="SSTORM_ARM_Lamellar_Body_Template" />
+					<attribute id="ParentTemplateId" type="FixedString" value="8ed82f7e-fdd4-4a9f-94b6-f256c599bfdd" />
+					<attribute id="Stats" type="FixedString" value="SSTORM_ARM_Lamellar_Body" />
+					<attribute id="Type" type="FixedString" value="item" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hSSTORMarmmountainDESC" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hSSTORMarmmountainNAME" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="7530156c-bcda-57ef-9a15-88209558b3e0" />
+					<attribute id="Name" type="LSString" value="SSTORM_ARM_MountainPlate_Body_Template" />
+					<attribute id="ParentTemplateId" type="FixedString" value="5427c806-5565-421f-a00f-a8282a9f504f" />
+					<attribute id="Stats" type="FixedString" value="SSTORM_ARM_MountainPlate_Body" />
+					<attribute id="Type" type="FixedString" value="item" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hSSTORMarmreverbDESC" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hSSTORMarmreverbNAME" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="89b26842-534f-5b9f-bcf9-251a639ac14e" />
+					<attribute id="Name" type="LSString" value="SSTORM_ARM_ReverberatingShield_Template" />
+					<attribute id="ParentTemplateId" type="FixedString" value="53b3317f-5a52-41c0-89ea-c6ef31adc4f7" />
+					<attribute id="Stats" type="FixedString" value="SSTORM_ARM_ReverberatingShield" />
+					<attribute id="Type" type="FixedString" value="item" />
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

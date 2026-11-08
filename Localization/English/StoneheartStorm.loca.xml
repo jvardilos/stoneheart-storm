@@ -1,0 +1,586 @@
+<?xml version='1.0' encoding='utf-8'?>
+<contentList>
+  <content contentuid="ha85e2c40gb0b3g4901g9ac3g87efb5c1c70c" version="1">Warden</content>
+  <content contentuid="hbfb0d869gcb80g4deeg9289g48817f15687e" version="1">Towers that cannot easily be felled. Wardens defend a place or a person with unshakable resolve, marking foes and holding them in place. (Valda's Spire of Secrets)</content>
+  <content contentuid="h94ae0140g57bcg4a43g8396gab9ac1a7ff7f" version="1">Stoneheart Defender</content>
+  <content contentuid="h43cfa4d7gaab4g455cgad93g4d27f1551ed8" version="1">An unyielding protector of mountain strongholds. You are unmovable: a mountain in the shape of a man, drawing power from the earth beneath your feet.</content>
+  <content contentuid="h6871d41cg304fg4cb6g87c3gb33fbe76a168" version="1">Oath of Storms</content>
+  <content contentuid="hac5c524dg46b1g4ca5g84d3g5ccfa01b88df" version="1">A wandering paladin pledged to the superstition of storms and the sea. (Valda's Spire of Secrets)</content>
+  <content contentuid="hSSTORMdjinniescapeNAME" version="1">Djinni's Escape</content>
+  <content contentuid="hSSTORMdjinniescapeDESC" version="1">Teleport to an unoccupied space you can see within 30 feet and take on a mist-like form until the end of your next turn. While in this form you are immune to being Grappled, Prone and Restrained.</content>
+  <content contentuid="hSSTORMdjinnimistNAME" version="1">Mist Form</content>
+  <content contentuid="hSSTORMdjinnimistDESC" version="1">You are immune to the Grappled, Prone and Restrained conditions.</content>
+  <content contentuid="hSSTORMgraspNAME" version="1">Warden's Grasp</content>
+  <content contentuid="hSSTORMgraspDESC" version="1">Use the force of your daunting presence to ensnare nearby enemies. Until the start of your next turn you cannot move, and creatures within 5 feet cannot willingly move away from you unless they first Disengage.</content>
+  <content contentuid="hSSTORMgraspselfNAME" version="1">Warden's Grasp: Rooted</content>
+  <content contentuid="hSSTORMgraspselfDESC" version="1">You cannot move until the start of your next turn.</content>
+  <content contentuid="hSSTORMgraspedNAME" version="1">Grasped</content>
+  <content contentuid="hSSTORMgraspedDESC" version="1">You cannot willingly move away from the Warden unless you first take the Disengage action.</content>
+  <content contentuid="hSSTORMmarkNAME" version="1">Warden's Mark</content>
+  <content contentuid="hSSTORMmarkDESC" version="1">Mark a creature you can see within 30 feet. While it is within 5 feet of you, it has disadvantage on attack rolls that don't target you. Lasts 1 minute or until you mark another creature.</content>
+  <content contentuid="hSSTORMmarkstatusNAME" version="1">Marked by the Warden</content>
+  <content contentuid="hSSTORMmarkstatusDESC" version="1">Disadvantage on attack rolls that don't target the Warden who marked you.</content>
+  <content contentuid="hSSTORMcripplingNAME" version="1">Fighting Style: Crippling</content>
+  <content contentuid="hSSTORMcripplingDESC" version="1">When you hit a creature with a melee weapon attack, its speed is reduced by 10 feet until the end of its next turn.</content>
+  <content contentuid="hSSTORMcrippledNAME" version="1">Crippled</content>
+  <content contentuid="hSSTORMcrippledDESC" version="1">Movement speed reduced by 10 feet.</content>
+  <content contentuid="hSSTORMrootspassiveNAME" version="1">Roots of Rock</content>
+  <content contentuid="hSSTORMrootspassiveDESC" version="1">When you use Warden's Grasp, rocky roots anchor you: +2 Armor Class until the start of your next turn, and you can't be shoved or knocked prone until you move.</content>
+  <content contentuid="hSSTORMrootsNAME" version="1">Roots of Rock</content>
+  <content contentuid="hSSTORMrootsDESC" version="1">+2 Armor Class. You can't be shoved or knocked prone. You have advantage on Strength saving throws.</content>
+  <content contentuid="hSSTORMearthshatterpassiveNAME" version="1">Earthshatter</content>
+  <content contentuid="hSSTORMearthshatterpassiveDESC" version="1">You can use Warden's Grasp as an action. Each creature affected must make a Strength saving throw or be knocked prone.</content>
+  <content contentuid="hSSTORMearthshatterNAME" version="1">Earthshatter</content>
+  <content contentuid="hSSTORMearthshatterDESC" version="1">Use Warden's Grasp as an action. Each creature affected must succeed on a Strength saving throw or be knocked prone.</content>
+  <content contentuid="hSSTORMshieldmasteryNAME" version="1">Shield Mastery</content>
+  <content contentuid="hSSTORMshieldmasteryDESC" version="1">As a reaction, reduce damage you take by your proficiency bonus.</content>
+  <content contentuid="hSSTORMshieldmasteryreactNAME" version="1">Shield Mastery</content>
+  <content contentuid="hSSTORMshieldmasteryreactDESC" version="1">Use your reaction to reduce the damage you take by your proficiency bonus.</content>
+  <content contentuid="hSSTORMshieldmasteryreduceNAME" version="1">Shield Mastery: Braced</content>
+  <content contentuid="hSSTORMshieldmasteryreduceDESC" version="1">Damage you take is reduced by your proficiency bonus.</content>
+  <content contentuid="hSSTORMinterceptionNAME" version="1">Fighting Style: Interception</content>
+  <content contentuid="hSSTORMinterceptionDESC" version="1">When a creature within 5 feet of you is hit, you can use your reaction to reduce the damage it takes by 1d10 + your proficiency bonus.</content>
+  <content contentuid="hSSTORMinterceptionreactNAME" version="1">Interception</content>
+  <content contentuid="hSSTORMinterceptionreactDESC" version="1">Use your reaction to reduce the damage an adjacent ally takes by 1d10 + your proficiency bonus.</content>
+  <content contentuid="hSSTORMinterceptionreduceNAME" version="1">Intercepted</content>
+  <content contentuid="hSSTORMinterceptionreduceDESC" version="1">The next damage you take is reduced.</content>
+  <content contentuid="hSSTORMrevengeNAME" version="1">Thunderous Revenge</content>
+  <content contentuid="hSSTORMrevengeDESC" version="1">Channel Divinity. When a creature you can see within 30 feet damages you with an attack, force it to make a Wisdom saving throw. On a failure it takes lightning damage; on a success, half.</content>
+  <content contentuid="hSSTORMgrapnelNAME" version="1">Phantom Grapnel</content>
+  <content contentuid="hSSTORMgrapnelDESC" version="1">Conjure a chain and hook of magical force. A creature of Large size or smaller is pulled up to 10 feet toward you unless it succeeds on a Strength saving throw.</content>
+  <content contentuid="hSSTORMvortexNAME" version="1">Vortex Aura</content>
+  <content contentuid="hSSTORMvortexDESC" version="1">Summon a strong wind that whirls around you in a 10-foot radius. Creatures other than you are slowed within it.</content>
+  <content contentuid="hSSTORMvortexstatusNAME" version="1">Vortex Aura</content>
+  <content contentuid="hSSTORMvortexstatusDESC" version="1">A strong wind whirls around you, hindering creatures within 10 feet.</content>
+  <content contentuid="hSSTORMvortexslowedNAME" version="1">Buffeted by Wind</content>
+  <content contentuid="hSSTORMvortexslowedDESC" version="1">Movement speed halved.</content>
+  <content contentuid="hSSTORMstandarmorNAME" version="1">Sentinel's Stand: Armor Proficiency</content>
+  <content contentuid="hSSTORMstandarmorDESC" version="1">You gain proficiency with heavy armor.</content>
+  <content contentuid="hSSTORMstandtoughNAME" version="1">Sentinel's Stand: Primal Toughness</content>
+  <content contentuid="hSSTORMstandtoughDESC" version="1">Your hit point maximum increases by 1 for each Warden level, plus 1.</content>
+  <content contentuid="hSSTORMstanddexNAME" version="1">Sentinel's Stand: Stalwart Spirit (Dexterity)</content>
+  <content contentuid="hSSTORMstanddexDESC" version="1">You gain proficiency in Dexterity saving throws.</content>
+  <content contentuid="hSSTORMstandintNAME" version="1">Sentinel's Stand: Stalwart Spirit (Intelligence)</content>
+  <content contentuid="hSSTORMstandintDESC" version="1">You gain proficiency in Intelligence saving throws.</content>
+  <content contentuid="hSSTORMstandwisNAME" version="1">Sentinel's Stand: Stalwart Spirit (Wisdom)</content>
+  <content contentuid="hSSTORMstandwisDESC" version="1">You gain proficiency in Wisdom saving throws.</content>
+  <content contentuid="hSSTORMstandchaNAME" version="1">Sentinel's Stand: Stalwart Spirit (Charisma)</content>
+  <content contentuid="hSSTORMstandchaDESC" version="1">You gain proficiency in Charisma saving throws.</content>
+  <content contentuid="hSSTORMresolveNAME" version="1">Warden's Resolve</content>
+  <content contentuid="hSSTORMresolveDESC" version="1">Whenever your hit points are less than half your maximum, you have resistance to bludgeoning, piercing and slashing damage.</content>
+  <content contentuid="hSSTORMfontNAME" version="1">Font of Life</content>
+  <content contentuid="hSSTORMfontDESC" version="1">Use your action to end one condition afflicting you: blinded, charmed, frightened, paralyzed or poisoned. Recharges on a short rest.</content>
+  <content contentuid="hSSTORMstepearthNAME" version="1">Sentinel's Step: Earthstrength</content>
+  <content contentuid="hSSTORMstepearthDESC" version="1">You possess the might of the earth itself. You have advantage on Strength saving throws.</content>
+  <content contentuid="hSSTORMstepwildNAME" version="1">Sentinel's Step: Wildblood</content>
+  <content contentuid="hSSTORMstepwildDESC" version="1">Your reflexes are honed by the perils of nature. You can't be surprised while you are conscious, and you gain +5 to initiative.</content>
+  <content contentuid="hSSTORMstepchargeNAME" version="1">Sentinel's Step: Thundering Charge</content>
+  <content contentuid="hSSTORMstepchargeDESC" version="1">In the first round of combat, your speed increases by 30 feet and you have advantage on your first attack roll.</content>
+  <content contentuid="hSSTORMundyingNAME" version="1">Undying</content>
+  <content contentuid="hSSTORMundyingDESC" version="1">When you are reduced to 0 hit points and aren't killed outright, you drop to 1 hit point instead. Recharges on a long rest.</content>
+  <content contentuid="hSSTORMinterruptNAME" version="1">Interrupt</content>
+  <content contentuid="hSSTORMinterruptDESC" version="1">As a reaction when a creature within 5 feet makes a melee attack against you, punctuate its strikes. It has disadvantage on its attacks until the end of its turn.</content>
+  <content contentuid="hSSTORMinterruptedNAME" version="1">Interrupted</content>
+  <content contentuid="hSSTORMinterruptedDESC" version="1">Disadvantage on attack rolls.</content>
+  <content contentuid="hSSTORMmarkimproveNAME" version="1">Warden's Mark Improvement</content>
+  <content contentuid="hSSTORMmarkimproveDESC" version="1">While you have a creature marked, you can make one additional attack when you take the Attack action.</content>
+  <content contentuid="hSSTORMarmreverbNAME" version="1">Reverberating Shield</content>
+  <content contentuid="hSSTORMarmreverbDESC" version="1">While holding this shield, you have a +1 bonus to AC in addition to the shield's normal bonus. Whenever a creature misses you with a melee weapon attack, it must succeed on a DC 15 Dexterity saving throw or drop its weapon. (Valda's Spire of Secrets, very rare)</content>
+  <content contentuid="hSSTORMarmreverbpassiveDESC" version="1">Whenever a creature misses you with a melee weapon attack, it must succeed on a DC 15 Dexterity saving throw or drop its weapon.</content>
+  <content contentuid="hSSTORMwpncleaverNAME" version="1">Mountain Cleaver</content>
+  <content contentuid="hSSTORMwpncleaverDESC" version="1">A colossal exotic cleaver. 2d10 slashing; heavy, massive, superheavy and two-handed. (Valda's Spire of Secrets)</content>
+  <content contentuid="hSSTORMwpnballistaNAME" version="1">Portable Ballista</content>
+  <content contentuid="hSSTORMwpnballistaDESC" version="1">A compact exotic siege weapon. 2d8 piercing; heavy, loading, mounted and two-handed. (Valda's Spire of Secrets)</content>
+  <content contentuid="hSSTORMwpnvindrNAME" version="1">Vindr's Scimitar</content>
+  <content contentuid="hSSTORMwpnvindrDESC" version="1">A curved blade with the look of a legendary scimitar. Uses longsword statistics: 1d8 slashing, versatile (1d10).</content>
+  <content contentuid="hSSTORMdoubleNAME" version="1">Double Strike</content>
+  <content contentuid="hSSTORMdoubleDESC" version="1">Strike with the weapon's other end as a bonus action. The attack doesn't add your ability modifier to damage.</content>
+  <content contentuid="hSSTORMtripNAME" version="1">Trip</content>
+  <content contentuid="hSSTORMtripDESC" version="1">Make a shove attempt against a creature within the weapon's reach. On a success the target is knocked prone.</content>
+  <content contentuid="hSSTORMbackpackNAME" version="1">Vindr's Backpack</content>
+  <content contentuid="hSSTORMbackpackDESC" version="1">A well-worn pack holding exotic swords and armor from Valda's Spire of Secrets.</content>
+  <content contentuid="hSSTORMwpnassassinNAME" version="1">Assassin's Blade</content>
+  <content contentuid="hSSTORMwpnassassinDESC" version="1">An exotic slender blade made for quiet work. Light and finesse. (Valda's Spire of Secrets)</content>
+  <content contentuid="hSSTORMwpnbastardNAME" version="1">Bastard Sword</content>
+  <content contentuid="hSSTORMwpnbastardDESC" version="1">An exotic sword between a longsword and a greatsword. Versatile (1d12). (Valda's Spire of Secrets)</content>
+  <content contentuid="hSSTORMwpnfoilNAME" version="1">Elven Foil</content>
+  <content contentuid="hSSTORMwpnfoilDESC" version="1">A graceful exotic thrusting sword. Finesse. (Valda's Spire of Secrets)</content>
+  <content contentuid="hSSTORMwpnhookNAME" version="1">Hook Sword</content>
+  <content contentuid="hSSTORMwpnhookDESC" version="1">An exotic sword with a hooked tip. Finesse and light. (Valda's Spire of Secrets)</content>
+  <content contentuid="hSSTORMwpnparryNAME" version="1">Parrying Dagger</content>
+  <content contentuid="hSSTORMwpnparryDESC" version="1">An exotic off-hand dagger. Finesse and light. (Valda's Spire of Secrets)</content>
+  <content contentuid="hSSTORMwpndervishNAME" version="1">Dervish</content>
+  <content contentuid="hSSTORMwpndervishDESC" version="1">An exotic curved sword built for fluid, spinning combat. Finesse. (Valda's Spire of Secrets)</content>
+  <content contentuid="hSSTORMwpnzweiNAME" version="1">Zweihander</content>
+  <content contentuid="hSSTORMwpnzweiDESC" version="1">A massive exotic two-handed sword. Heavy. (Valda's Spire of Secrets)</content>
+  <content contentuid="hSSTORMarmbrigNAME" version="1">Brigandine Armor</content>
+  <content contentuid="hSSTORMarmbrigDESC" version="1">Exotic light armor, AC 13 + Dexterity modifier. (Valda's Spire of Secrets)</content>
+  <content contentuid="hSSTORMarmbandedNAME" version="1">Banded Plate</content>
+  <content contentuid="hSSTORMarmbandedDESC" version="1">Exotic medium armor, AC 15 + Dexterity modifier (max 2). (Valda's Spire of Secrets)</content>
+  <content contentuid="hSSTORMarmheroNAME" version="1">Hero Plate</content>
+  <content contentuid="hSSTORMarmheroDESC" version="1">Exotic medium armor, AC 16 + Dexterity modifier (max 2). Disadvantage on Stealth. (Valda's Spire of Secrets)</content>
+  <content contentuid="hSSTORMarmlamellarNAME" version="1">Lamellar Armor</content>
+  <content contentuid="hSSTORMarmlamellarDESC" version="1">Exotic heavy armor, AC 17. Disadvantage on Stealth. (Valda's Spire of Secrets)</content>
+  <content contentuid="hSSTORMarmmountainNAME" version="1">Mountain Plate</content>
+  <content contentuid="hSSTORMarmmountainDESC" version="1">Exotic heavy armor, AC 19. Disadvantage on Stealth. (Valda's Spire of Secrets)</content>
+  <content contentuid="h5a283effgbc10g448cg970eg7a0a925b802d" version="1">Boogie Woogie</content>
+  <content contentuid="hb18d20fcg6acbg4e4cgad82gd39140b5996e" version="1">A fighter who channels Cursed Energy into a single clap, trading places with friend or foe in an instant. (Homebrew; Tulio)</content>
+  <content contentuid="hb69a5232g404bg4ecbg9c2bg40bfe845c4b9" version="1">Cursed Energy</content>
+  <content contentuid="h4a5cc21cg9193g4003g8d58gc0143511df6a" version="1">Fuel for Boogie Woogie. Your pool equals your Charisma modifier. Regain 3 on a short rest and all on a long rest.</content>
+  <content contentuid="hSSTORMbwNAME" version="1">Boogie Woogie</content>
+  <content contentuid="hSSTORMbwDESC" version="1">Clap and swap places with a creature you can see within 40 feet as a bonus action. An ally swaps automatically; any other creature must succeed on a Charisma saving throw to resist. Costs 1 Cursed Energy. Works while wielding weapons.</content>
+  <content contentuid="hSSTORMcerecNAME" version="1">Cursed Energy Recovery</content>
+  <content contentuid="hSSTORMcerecDESC" version="1">When you finish a short rest, you regain 3 Cursed Energy.</content>
+  <content contentuid="hSSTORMbwreactNAME" version="1">Boogie Woogie (Reaction)</content>
+  <content contentuid="hSSTORMbwreactDESC" version="1">When a creature within 40 feet hits you with an attack, use your reaction and 1 Cursed Energy to clap and swap places with it. An unwilling creature makes a Charisma saving throw to resist.</content>
+  <content contentuid="hSSTORMsteedNAME" version="1">Find Steed</content>
+  <content contentuid="hSSTORMsteedDESC" version="1">Summon a loyal steed to fight at your side: a wolf, a boar or a bear. It stays until dismissed or killed. (BG3 has no mounted combat, so the steed fights as a companion.)</content>
+  <content contentuid="hSSTORMsteedwolfNAME" version="1">Find Steed: Wolf</content>
+  <content contentuid="hSSTORMsteedboarNAME" version="1">Find Steed: Boar</content>
+  <content contentuid="hSSTORMsteedbearNAME" version="1">Find Steed: Bear</content>
+  <content contentuid="hSSTORMstormsoulNAME" version="1">Storm Soul</content>
+  <content contentuid="hSSTORMstormsoulDESC" version="1">You have resistance to lightning damage. When a creature within 5 feet attacks you while you aren't incapacitated, it takes lightning damage equal to your Charisma modifier.</content>
+  <content contentuid="hSSTORMtgNAME" version="1">Thunder God</content>
+  <content contentuid="hSSTORMtgDESC" version="1">Mantle yourself in the power of a tempest deity for 1 minute: you are immune to lightning and thunder damage, you can fly, and you can cast Call Lightning as a 5th-level spell as a bonus action without a spell slot, calling down bolts as a bonus action on later turns. Once per long rest.</content>
+  <content contentuid="hSSTORMtgstatusDESC" version="1">Immune to lightning and thunder damage. You can fly, cast Call Lightning (5th level) as a bonus action without a slot, and call its bolts as a bonus action.</content>
+  <content contentuid="hSSTORMtgcallNAME" version="1">Call Lightning (Thunder God)</content>
+  <content contentuid="hSSTORMtgcallDESC" version="1">Call Lightning as a 5th-level spell, as a bonus action and without a spell slot.</content>
+  <content contentuid="hSSTORMtgboltNAME" version="1">Lightning Bolt (Thunder God)</content>
+  <content contentuid="hSSTORMtgboltDESC" version="1">Call down another bolt from your storm as a bonus action.</content>
+  <content contentuid="hc2a9200dgff40g562fgbe06g07e9dcae6b08" version="1">Mettle</content>
+  <content contentuid="h182b5a4dg4438g550ag881fg4f099a43a0db" version="1">Your determination lets you shrug off effects: you have advantage on Constitution saving throws (approximating 'no damage on a successful Constitution save for half').</content>
+  <content contentuid="ha6dbd175g06dbg5e7dga4efgdcf44b2df966" version="1">Warden's Mark</content>
+  <content contentuid="h940038f7g7d14g556dgaff3g3146f930e830" version="1">Mark a creature you can see within 30 feet. While it is within 5 feet of you, it has disadvantage on attack rolls that don't target you. Lasts 1 minute or until you mark another creature.</content>
+  <content contentuid="h864c8df3ge56dg5a4eg96a6gbac3e1d6bd9d" version="1">Feral Trance</content>
+  <content contentuid="h21ed99cag9e93g5e1bg9d71g8aa6321d68b0" version="1">Bonus action. Fall into a primal battle trance for 1 minute: advantage on Strength checks and saves, +10 ft speed, advantage on melee weapon attacks against a creature you've marked, but attack rolls against you have advantage. Once per short rest.</content>
+  <content contentuid="hdd656de3g2632g5021g9491gad076cc1304f" version="1">Feral Trance</content>
+  <content contentuid="h6ea7bfa7g276dg57abga452g51126b1a3e3c" version="1">Advantage on Strength checks and saves, +10 ft speed, advantage on melee attacks against your mark; attacks against you have advantage.</content>
+  <content contentuid="h6e1d35edgc437g5f9eg8ce4ga1c380fe5ac7" version="1">Predator's Scent</content>
+  <content contentuid="h6d1bba1agf390g56dcgaa49g5d5084d970aa" version="1">Your Warden's Mark lasts far longer (until you mark another creature), and you have advantage on Survival checks.</content>
+  <content contentuid="he6fb92e4gc65eg5b3ag8ecegf9102542b6ce" version="1">Form of the Primal Beast</content>
+  <content contentuid="h7a411e0bg7c30g5326gb396ga5c252e0413e" version="1">Become an echo of the Primal Beast for 1 minute: you gain the benefits of Feral Trance and 40 temporary hit points, and your melee weapon hits give targets a bleeding wound (1d8 damage at the start of each of their turns; constructs, oozes and undead are immune). Once per long rest.</content>
+  <content contentuid="hda18f7fcg4f1fg5137gb0f0g8ad9f48d0fc7" version="1">Form of the Primal Beast</content>
+  <content contentuid="h1981bcdcg1ecdg57f4gae95gbbe3b3b7f13e" version="1">Feral Trance benefits, 40 temporary hit points, and bleeding wounds on melee hits.</content>
+  <content contentuid="h79dc0ef5g416bg549cga4efg038342c43306" version="1">Primal Beast: Bleeding Wounds</content>
+  <content contentuid="h96cbd04cg14f6g516cg9089g97e1bba20f77" version="1">While in the Form of the Primal Beast, your melee weapon hits inflict a bleeding wound.</content>
+  <content contentuid="h63d6f5f6g1a2dg5da6g9eb4g0131a6f01e20" version="1">Bleeding Wound</content>
+  <content contentuid="ha64fa107gd7e7g5894g85adge050059e2c93" version="1">Takes 1d8 damage at the start of each turn.</content>
+  <content contentuid="h7c6c0163g4787g5970ga937g56a801bc99f4" version="1">Bloodwrath Guardian</content>
+  <content contentuid="h80475b2eg2ce4g5bbbgb834g2652acbe2b38" version="1">Enters a trance to channel the primal ferocity of beasts. (Valda's Spire of Secrets)</content>
+  <content contentuid="h0583aa2agd908g59fcgb9a3gc3f9b182d176" version="1">Bull Rush</content>
+  <content contentuid="h5e5b74b5g03d0g59b8g9facg9c0229b5848e" version="1">Maneuver. Bonus action: expend a battle die and shove a creature, knocking it prone on a success.</content>
+  <content contentuid="h82f1a051ge3d7g533agb873g4bb998172122" version="1">Bulwark</content>
+  <content contentuid="hd68f38begd4ddg5f9dgba73gbc9d8692d2e2" version="1">Maneuver. Bonus action: expend a battle die to brace against a creature's counterattack. The next damage you take before your next turn is reduced by 5.</content>
+  <content contentuid="h530db73dg11ecg5de6g85c0g3c8eaa777711" version="1">Bulwark</content>
+  <content contentuid="h9337edabgd151g530ag84b6gb4592a02640a" version="1">The next damage you take is reduced by 5.</content>
+  <content contentuid="h4de70788gbb40g55a9g993egd453ced1b8bb" version="1">Reckless Assault</content>
+  <content contentuid="h7f76da09g6629g5c9cga5c6gb224bbee2766" version="1">Maneuver. Expend a battle die (no action): advantage on your attack rolls this turn, but attack rolls against you have advantage until the start of your next turn.</content>
+  <content contentuid="h05a98c34g8d4fg5586gb6cbgbca80822b1a7" version="1">Reckless Assault</content>
+  <content contentuid="h5bf83e5eg52e2g514dg8128g67412087b3c0" version="1">Advantage on attacks; attacks against you have advantage.</content>
+  <content contentuid="hf090877fg81c4g506cg9654g47fafe76c20b" version="1">Staggering Strike</content>
+  <content contentuid="he38ba393g24b1g5941gad92g1ecdda583aef" version="1">Maneuver. Bonus action: expend a battle die and strike. On a hit against a humanoid, it must make a Constitution saving throw or be incapacitated until the start of your next turn.</content>
+  <content contentuid="h5aa7d8e9g496dg5537g9bcegb7425f121aa3" version="1">Staggered</content>
+  <content contentuid="habdae38dgf4feg5203g9780g83772ea05a54" version="1">Incapacitated: can't take actions, bonus actions or reactions.</content>
+  <content contentuid="h960110dbga738g5242ga4eag8779fd81b45d" version="1">Hold the Line</content>
+  <content contentuid="hea5cfa3cg6894g5822ga2cfgb7efd2c0b65c" version="1">When you use Warden's Grasp, allies within 5 feet gain +1 AC and +1 to saving throws until the start of your next turn.</content>
+  <content contentuid="h9ae97d00gebb2g5024g97f3gfd9d6d6738da" version="1">Hold the Line</content>
+  <content contentuid="hfc449246g0b6ag5e4agadb9g85fd7507b979" version="1">When you use Warden's Grasp, allies within 5 feet gain +1 AC and +1 to saving throws until the start of your next turn.</content>
+  <content contentuid="h32491f7eg3065g5f63g9eb7g9fb3fcda1b41" version="1">Hold the Line</content>
+  <content contentuid="h2bb0fe61g3d83g559eg9006g130225addf73" version="1">+1 AC and +1 to saving throws.</content>
+  <content contentuid="ha398bbb4g16eag5995gbb61gc7eb642cc4a0" version="1">Fortification Expert</content>
+  <content contentuid="h49a0230egea36g5ad2gb79cgd0b8a41db1c7" version="1">Your experience manning battlements gives you advantage on Athletics and Investigation checks.</content>
+  <content contentuid="h7cf7bf74g3a49g54f3g9e2bg7c610bae0073" version="1">Unbreakable Sentinel</content>
+  <content contentuid="he9d77a81g4734g5f10ga02cg71c5dcb13cb6" version="1">Become a paragon of battle for 1 minute: +2 AC, an additional reaction each round, and hitting a creature you've marked restores a battle die. Once per long rest.</content>
+  <content contentuid="h66de20fdg2581g51e2g92eagc098d21d1375" version="1">Unbreakable Sentinel</content>
+  <content contentuid="hdbb9d9acgefcag5c30g855dgb0ccc2f63cad" version="1">+2 AC and an extra reaction; hitting your mark restores a battle die.</content>
+  <content contentuid="h85a7137ag3b4dg5b73g9166g72dd68bb38ea" version="1">Unbreakable Sentinel: Second Wind</content>
+  <content contentuid="hf45f2bb3g93a9g548fg9b44gba210ccd883d" version="1">While Unbreakable Sentinel is active, hitting a creature you've marked restores a battle die.</content>
+  <content contentuid="ha213d1d3gff7fg540egab48g326cce13cde3" version="1">Grey Watchman</content>
+  <content contentuid="h062bac69gd36fg543fgb047g254173513fde" version="1">A maneuver-trained guard that repels invaders from cities. (Valda's Spire of Secrets)</content>
+  <content contentuid="h1e86e8afg9e9eg5a9cg8e11gfcf099f802a2" version="1">Nightgaunt Darkvision</content>
+  <content contentuid="hdd69ef8fgf226g586agaa1dg30ca4de1a896" version="1">You can see in darkness within 60 feet.</content>
+  <content contentuid="h59839a5bgee06g5756g8e3cgc8fe08b0a388" version="1">Marked for Death</content>
+  <content contentuid="h71190712g0f2ag5924ga430g37837a656b1b" version="1">Your mark beckons death: when your melee weapon hit leaves a creature you've marked at 20% of its hit points or fewer, it drops to 0 hit points instead (approximating 'if its remaining hit points are lower than the damage you dealt').</content>
+  <content contentuid="h44041e17g5f08g5fa2g9fa5g524b45beda47" version="1">Undead Empathy</content>
+  <content contentuid="h5772b349g96a5g5f32gbb19g36a7d69c18eb" version="1">Undead struggle to strike you: they have disadvantage on attack rolls against you.</content>
+  <content contentuid="ha14831b9g606bg532aga4a1g1d331f633f2f" version="1">Gravelord</content>
+  <content contentuid="h2335c812gf813g5967g9afdg6555e4a5ba3a" version="1">Divorce yourself from life for 1 minute: immune to poison damage and the poisoned condition, and once per turn your melee weapon hits deal an extra 4d6 necrotic damage and grant you temporary hit points. Once per long rest.</content>
+  <content contentuid="h95d0f363g808cg5776gb88ag6b9671dcbd59" version="1">Gravelord</content>
+  <content contentuid="hbe23d822g3fc3g5b93g909fg0777b71a72ad" version="1">Immune to poison; melee hits deal extra necrotic damage once per turn.</content>
+  <content contentuid="hf44c31bag86c7g5b51g9f20gf7732f65eef3" version="1">Gravelord: Necrotic Strike</content>
+  <content contentuid="h70634b89g08b3g5627g81ccg7e0c5185dc36" version="1">Once per turn while Gravelord is active, a melee weapon hit deals an extra 4d6 necrotic damage and gives you 14 temporary hit points.</content>
+  <content contentuid="hecd5f66fg633eg5f0dga9ebgcc65f09c4bcf" version="1">Grave Vigor</content>
+  <content contentuid="hc10d6ffeg27b1g59e1g85b5g4406e17d4285" version="1">Temporary hit points from Gravelord.</content>
+  <content contentuid="ha3e3dacfg6af7g501ag9a97gd4fc33f0b18e" version="1">Nightgaunt</content>
+  <content contentuid="h378a3aa0g38a6g57e4g823fge97d1bca22be" version="1">An ally of the undead, suffused with necromantic energies. (Valda's Spire of Secrets)</content>
+  <content contentuid="hd55bb517gee85g5f75g9938g131ea72845b2" version="1">Whispers of Beyond</content>
+  <content contentuid="h3fa704e4g0d78g54ffg8b2ag94e99c35a3ad" version="1">Ancestor spirits guide you: advantage on History, Religion and Insight checks.</content>
+  <content contentuid="h60640b18g1033g5845g9e40g989086671b4c" version="1">Soulblood</content>
+  <content contentuid="h62ea2507g2223g586dgb473gad8441358a96" version="1">When a creature within 5 feet damages you, you can use your reaction to mark it.</content>
+  <content contentuid="h211dcaedgeec5g5af7g803ag26d6ab8625fe" version="1">Soulblood</content>
+  <content contentuid="h2d0e7018gb1eeg5fb2g9b4ag71c5b44b4109" version="1">Use your reaction to mark the creature that damaged you.</content>
+  <content contentuid="he881dee0g4e5fg5377gb533g8a07e553bdab" version="1">Ethereal Watcher</content>
+  <content contentuid="h2ac774b0g6282g5c3ag925cg0d6ab0012b9e" version="1">Shrug off your mortal form for 1 minute: gain an extra 1st- and 2nd-level spell slot, and as a bonus action you can tear yourself back through the planes, dealing 4d6 force damage to enemies within 10 feet. Once per long rest.</content>
+  <content contentuid="h239e6fc3g4080g5b6cg8d2cg7bff4d4585c3" version="1">Ethereal Watcher</content>
+  <content contentuid="h7263724bg3bd5g590egab67gb1dae22d19f4" version="1">Extra spell slots; you can release a burst of force as a bonus action.</content>
+  <content contentuid="hbce7f1c2g30ffg5acfgad82g0692768e9682" version="1">Ethereal Return</content>
+  <content contentuid="h19010df3g59aag5d0fgad66g5d39444dff9b" version="1">Bonus action. Each enemy within 10 feet is pulled partially between the planes and takes 4d6 force damage.</content>
+  <content contentuid="ha1a51225g83fbg5fa8g8846ga472785f8960" version="1">Soulblood Shaman</content>
+  <content contentuid="hd05967c4g9e8eg59c4g9ceag8784b75a8319" version="1">Manipulates their own soul to conjure long-forgotten magic. Casts druid spells with Wisdom. (Valda's Spire of Secrets)</content>
+  <content contentuid="h21575448g7273g56eag8340g2eaadbdd290c" version="1">Thunderblast</content>
+  <content contentuid="hb85b90e5gda0cg5f97gb472g98b210064312" version="1">When you hit a creature you've marked with a melee weapon attack, lightning arcs to its allies within 5 feet, dealing 1d8 lightning damage to each.</content>
+  <content contentuid="hf9647fc9g19feg5419g9d66gd738efe79c4a" version="1">Thunderblast</content>
+  <content contentuid="ha5bd0bb5gac05g54bag80a0g528c4966b23d" version="1">Lightning arcs from this creature.</content>
+  <content contentuid="h687ba575g9470g5446ga9e6g8237b546df1b" version="1">Thunderblast</content>
+  <content contentuid="h334d12b0g4e50g5244ga4b4gbfa1d4b733f7" version="1">Struck by arcing lightning.</content>
+  <content contentuid="h6e0bd91bgab1cg5580g8eb6g0f512b3d8b5b" version="1">Static Burst</content>
+  <content contentuid="h500f0d98ga082g5e77gba23gbd04ccfee9cd" version="1">When you use Warden's Grasp, enemies within 5 feet can't take reactions until the start of your next turn.</content>
+  <content contentuid="h1346614eg2c69g5f2egafbcg154dbb01bd55" version="1">Static Burst</content>
+  <content contentuid="h22577d50g8ba1g51c0gb530g3697430d967e" version="1">When you use Warden's Grasp, enemies within 5 feet can't take reactions until the start of your next turn.</content>
+  <content contentuid="h21a2b66bg209cg51ccg8729g6cf83701ec66" version="1">Static Burst</content>
+  <content contentuid="ha664d28bg931dg575egbb6bg7f0b630df50d" version="1">Can't take reactions.</content>
+  <content contentuid="hb2ae5d1cg8537g50c4gb4d0ge06fdda59ee7" version="1">Stormlord</content>
+  <content contentuid="hea25e350g629eg5299ga185gc1f20c3ec5bd" version="1">You have a flying speed.</content>
+  <content contentuid="he174465dgc5cfg5307ga1cdg081c38af0bfd" version="1">Stormlord</content>
+  <content contentuid="h58d60d0bgb3abg529bga95egc6e0b2a5b20c" version="1">Call a bolt of lightning down upon yourself for 1 minute: cast Call Lightning as a bonus action without a spell slot, and call down its bolts as a bonus action on later turns. Once per long rest.</content>
+  <content contentuid="h34f57badg03f6g55a7ga1d3g28d51830e006" version="1">Stormlord</content>
+  <content contentuid="h89470a2fgac1eg5e02g97cagf98ddc7eee64" version="1">Cast Call Lightning and its bolts as bonus actions without a slot.</content>
+  <content contentuid="h8b25ec97g403cg599fgb5b5g6f968174d359" version="1">Call Lightning (Stormlord)</content>
+  <content contentuid="hfaeb3ecagcc2fg51f4gb1b6g8bff739eff2c" version="1">Call Lightning as a bonus action without a spell slot.</content>
+  <content contentuid="h8dc20346g81d3g5d6bga84fg13fa07c102be" version="1">Lightning Bolt (Stormlord)</content>
+  <content contentuid="h22bb1d0fg3062g5a16gaa5eg8f33ee7d278e" version="1">Call down another bolt as a bonus action.</content>
+  <content contentuid="h6ca1f5e8g95e1g53e3ga945ga78c48a4cc8c" version="1">Storm Sentinel</content>
+  <content contentuid="ha666eb27g9e7bg54b9gaf1eg260e6bb7b318" version="1">Channels the fury of thunderstorms to protect the weak. (Valda's Spire of Secrets)</content>
+  <content contentuid="h9ae6ab85g8f70g5849g86a6g78c55014e47b" version="1">Green Mark</content>
+  <content contentuid="h9ac69e10g611cg51f9gb47cgfb9bd5ebb52a" version="1">When you mark a creature, plants rise to hinder it: its movement is halved while the mark lasts.</content>
+  <content contentuid="hf667888eg7f04g52d8gaee9g419e07d1a75f" version="1">Green Mark</content>
+  <content contentuid="h92f5d4c0g59ddg5a14g9982gc2848045970a" version="1">The ground hinders its movement: speed halved.</content>
+  <content contentuid="h83592899g4720g5e73gb2d3g0960597ff1d1" version="1">Verdant Skin</content>
+  <content contentuid="h5b148610g0ba5g5c4cg86ecg48dd110c2f62" version="1">You are proficient in Stealth.</content>
+  <content contentuid="h8331ad6fg46fdg5b7cg8335ge99358924b8d" version="1">Verdant Skin</content>
+  <content contentuid="h8f8a7b58gde8eg5c84gab6cga98b84664797" version="1">Draw vines and leaves around you: advantage on Stealth checks until you move.</content>
+  <content contentuid="h332b3b29gbeb9g575bgb6b3gedf7189d0d83" version="1">Verdant Skin</content>
+  <content contentuid="h115ac8c0ga21cg5be6ga58fge04731d077e2" version="1">Advantage on Stealth checks until you move.</content>
+  <content contentuid="hf7faacc1ga850g5f76gb7e4gcd7855898acf" version="1">Form of the Oak Sentinel</content>
+  <content contentuid="h704719d4ga3e3g5cdfg9464g2491c85b8d5e" version="1">Transform into a bark-covered titan for 1 minute: your Armor Class becomes 20. Once per long rest.</content>
+  <content contentuid="h411aa743g37fcg51d9g9799g4f8e9600d5f3" version="1">Form of the Oak Sentinel</content>
+  <content contentuid="h2c5539bbgc745g5242gb000ge0784617da5a" version="1">Armor Class 20.</content>
+  <content contentuid="h64a2074bg995cg5ba4g8179gbe205d093db3" version="1">Verdant Protector</content>
+  <content contentuid="he4aafa19g7be9g5ab9gb89fgb7e312ac561b" version="1">Imbued with the power of the forests and pledged to defend them. (Valda's Spire of Secrets)</content>
+  <content contentuid="h00612d62g6d39g537bgb858g6981a9764fce" version="1">Immortal Mountain</content>
+  <content contentuid="h6a0d8753gc369g5fe0g9624geadab0c95f01" version="1">Encase yourself in stone for 1 minute: bludgeoning, piercing and slashing damage you take is reduced by 5, and you keep the benefits of Roots of Rock the whole time. Once per long rest.</content>
+  <content contentuid="hd405da06g12f3g521fgac5eg9828326b98e3" version="1">Immortal Mountain</content>
+  <content contentuid="h2e61358fg8c04g5fcfg90a7g05e22e78a380" version="1">Physical damage reduced by 5; Roots of Rock for the duration.</content>
+  <content contentuid="h349837d8g5efeg5571ga19bg1382eb1fcaf2" version="1">Masterwork: Parrying</content>
+  <content contentuid="h49cf8509g0707g5efdg98afg2674dc0246fd" version="1">While you aren't wielding a shield, you have +1 AC.</content>
+  <content contentuid="h2fb36df3g7fddg5c64gb596g869706f81de5" version="1">Masterwork: Scaled</content>
+  <content contentuid="h6e656f63g1baag5009g8eebga5f8c4497232" version="1">Your armor is covered in hardened scales: +1 AC.</content>
+  <content contentuid="h77248834ge87ag5558g886age176a8409cc0" version="1">Masterwork: Integrated</content>
+  <content contentuid="ha45657e1g15ddg51a1g9d0bg2de3f6ac6278" version="1">Your weapons are integrated into your armor: you can't be disarmed.</content>
+  <content contentuid="hf473d90fg400ag5da5ga1b8g84b8d5abb09b" version="1">Masterwork: Trip</content>
+  <content contentuid="hb318d863g89e7g5307gbd70gd62edfa8ea8c" version="1">Your weapon is built to hook and trip: advantage on Athletics checks, including shoves.</content>
+  <content contentuid="h7553bf90g0b4bg5bbdgbba5g5733d1a873b6" version="1">Masterwork: Magical (+1)</content>
+  <content contentuid="hde5b5f59gaf27g534dgab61gd7f4b694fa47" version="1">Your masterwork weapon is magical: +1 to weapon attack and damage rolls.</content>
+  <content contentuid="h192dd393gdc0dg5cf6g855cg1233f8bc1d92" version="1">Masterwork: Adamantine Armor</content>
+  <content contentuid="ha26338c6gb248g5e4eg8cffg466ec43a6ad3" version="1">Critical hits against you become normal hits.</content>
+  <content contentuid="hb5c419b0g4d0dg5818gae06g727da67167a4" version="1">Masterwork: Mithral Armor</content>
+  <content contentuid="hae5935eegb8c6g5b11gb472g742303d371dd" version="1">Your armor doesn't hinder stealth: advantage on Stealth checks (offsetting armor's disadvantage).</content>
+  <content contentuid="ha361b939gcd40g52d4g8c84g1eaa29e5d54a" version="1">Masterwork: Resistance (Fire)</content>
+  <content contentuid="h2a25e2aeg6319g5921g91bag7bdd7715b9df" version="1">Your armor grants resistance to fire damage.</content>
+  <content contentuid="hc883af5dge52ag5407gb05dgc073ccb8cb48" version="1">Masterwork: Resistance (Cold)</content>
+  <content contentuid="hf8f77eeaga721g5f51g948eg881ccc02956d" version="1">Your armor grants resistance to cold damage.</content>
+  <content contentuid="h6c1d4716gd187g58ecgb455gb2d8c53260a6" version="1">Masterwork: Resistance (Lightning)</content>
+  <content contentuid="h4978248agccfeg5bddga6a2gc9a14a7e21dd" version="1">Your armor grants resistance to lightning damage.</content>
+  <content contentuid="h2348f772g316bg5712gb972g5bf666630bc9" version="1">Masterwork: Resistance (Thunder)</content>
+  <content contentuid="h059e77bag8dc2g5f76ga54cga2c2031ae28d" version="1">Your armor grants resistance to thunder damage.</content>
+  <content contentuid="h3f87b313gac0eg58b4ga4b8g26c99a4042e2" version="1">Masterwork: Resistance (Acid)</content>
+  <content contentuid="h3444bc7ag0826g5ec9g8591gf61c48a4d4ab" version="1">Your armor grants resistance to acid damage.</content>
+  <content contentuid="h79a3d567gc204g5fb2g92cbgc69ea600154f" version="1">Masterwork: Resistance (Poison)</content>
+  <content contentuid="he989feacg42a4g5dafgab4dgd367c373cf26" version="1">Your armor grants resistance to poison damage.</content>
+  <content contentuid="h4234e82fge97fg5790g9fffg16c74bfb4e43" version="1">Masterwork: Resistance (Necrotic)</content>
+  <content contentuid="h2992e40bgb16dg5ef9g8327g33bc997c1524" version="1">Your armor grants resistance to necrotic damage.</content>
+  <content contentuid="h2568f0e7g90fcg5470g913egd699703ebbba" version="1">Masterwork: Resistance (Radiant)</content>
+  <content contentuid="hf1a4aa9bg9eb5g5df7gbfd9ge98f14f902c5" version="1">Your armor grants resistance to radiant damage.</content>
+  <content contentuid="hc3b0eeaeg6e0ag5559g846dgcc1a0f8ff2af" version="1">Trollskin</content>
+  <content contentuid="h1f098388g4721g58f6gbe16g2676e9eedcd0" version="1">Bonus action: regain 1d10 + your craftsman level hit points. Once per short rest.</content>
+  <content contentuid="h655b0892ge179g5a6dg819bg0f62c5c19ef1" version="1">Masterwork: Keen</content>
+  <content contentuid="h5d0439ccg7e23g5864gac3fgc39ceaaf98cb" version="1">Your weapon scores a critical hit on a roll of 19 or 20.</content>
+  <content contentuid="hd0d87759ga6efg5917gad23g643d03276c54" version="1">Masterwork: Venom</content>
+  <content contentuid="h500a9637g7868g5f5egbdacgaa6df5325614" version="1">Your weapon deals an extra 1d8 poison damage.</content>
+  <content contentuid="h769677c7g75e8g5d96g8a31g1147780fae88" version="1">Masterwork: Blessed</content>
+  <content contentuid="h3ab16fc5g4e36g59f2g92e3g31080405dacd" version="1">Your weapon deals an extra 1d4 radiant damage, or 1d10 against fiends and undead.</content>
+  <content contentuid="hbe1787fdg3845g59bcg9848gea809ab7b4e1" version="1">Masterwork: Magical (+1, Master)</content>
+  <content contentuid="h69b2e8b3ga175g5ec2gb43fg419f33eab0e1" version="1">Another +1 to weapon attack and damage rolls (stacks with Journeyman Magical).</content>
+  <content contentuid="h3cc6199agb2dcg573cg8d2agbdc4b1dff8fe" version="1">Masterwork: Trollskin Armor</content>
+  <content contentuid="h373fe8e2g97ecg5c63ga82cg728206591d79" version="1">Your armor is lined with troll skin: as a bonus action, regain 1d10 + your craftsman level hit points once per short rest.</content>
+  <content contentuid="h5ba8622fg1ae3g52e1gbd38g52a26a017c72" version="1">Masterwork: Winged Armor</content>
+  <content contentuid="ha12b8958ga5c9g5010gaec3gf22724d7412d" version="1">Your armor has fold-out wings: you can fly.</content>
+  <content contentuid="hab4a65e9g8d54g5f43g8b38gc1ea6a153236" version="1">Masterwork: Elemental (Fire)</content>
+  <content contentuid="ha5e0d811g2feeg5b5bg9309gbf455091ab12" version="1">Your weapon deals an extra 1d6 fire damage.</content>
+  <content contentuid="hd8d9c51bg4237g5f79gac56g0c1b6c1fb16c" version="1">Masterwork: Elemental (Cold)</content>
+  <content contentuid="hfee3cb8dg7aceg53b9gbddbgc254224e6941" version="1">Your weapon deals an extra 1d6 cold damage.</content>
+  <content contentuid="hbed98a59gbbafg50e4gbe23gf403caf79452" version="1">Masterwork: Elemental (Lightning)</content>
+  <content contentuid="h1e61d56fg1d6ag5838g95ebg539db4b38c68" version="1">Your weapon deals an extra 1d6 lightning damage.</content>
+  <content contentuid="h6691fb09g637dg5203g956bg59a84558f1b8" version="1">Masterwork: Elemental (Thunder)</content>
+  <content contentuid="h3d77dc10g45b1g5dd7ga241g611a77875f47" version="1">Your weapon deals an extra 1d6 thunder damage.</content>
+  <content contentuid="h61c00234g4c80g5edbg8643g8f607e610bdb" version="1">Masterwork: Elemental (Acid)</content>
+  <content contentuid="h24685106ge3efg57d9g89bdg798560c4897f" version="1">Your weapon deals an extra 1d6 acid damage.</content>
+  <content contentuid="h738fb309g8a71g50b2g824bg2f3d455d0a63" version="1">Masterwork: Slaying (Undead)</content>
+  <content contentuid="h11d0e212g4b57g5245gbcc7gf66c3f064d57" version="1">Your weapon deals an extra 1d12 damage to undead.</content>
+  <content contentuid="hf1251251gc42ag5d6fgb7b8gd18d95cc2781" version="1">Masterwork: Slaying (Fiends)</content>
+  <content contentuid="hd880789fg601ag5323gb4e9gec7f70618530" version="1">Your weapon deals an extra 1d12 damage to fiends.</content>
+  <content contentuid="hf17c4c6bg94cfg5f9fg9a22g8681e4338208" version="1">Masterwork: Slaying (Dragons)</content>
+  <content contentuid="h59e3043egf760g56b3gb478ge6551e7dbeef" version="1">Your weapon deals an extra 1d12 damage to dragons.</content>
+  <content contentuid="hfbccf48egcd84g53a7gbf1ag9ea1b95252ce" version="1">Masterwork: Slaying (Aberrations)</content>
+  <content contentuid="hf52a7281ge63dg553dgb2bfgab97d26ec3ee" version="1">Your weapon deals an extra 1d12 damage to aberrations.</content>
+  <content contentuid="h1e616b17ga7f5g5487g8f1bg26a630942ccc" version="1">Mirrored Armor</content>
+  <content contentuid="ha70b0292ga95cg5b8ag8680gcdd25f9e1371" version="1">Cast Mirror Image without a spell slot. Once per short rest.</content>
+  <content contentuid="h32184b6cga602g5fe4gafe7gbae8ab50e056" version="1">Immortal Armor</content>
+  <content contentuid="h985ea37dgb46eg533cgba93g3c82d2dbe56c" version="1">The next time you drop to 0 hit points, you drop to 1 instead.</content>
+  <content contentuid="hf44c271cgab4ag5fb6g80e1gec2588238dce" version="1">Masterwork: Magical (+1, Legendary)</content>
+  <content contentuid="h2a96c585gfd62g51dega2c3g26aa76392198" version="1">Another +1 to weapon attack and damage rolls (stacks with the other Magical properties).</content>
+  <content contentuid="h777730eeg6759g5252ga756g4c3a488b96ee" version="1">Masterwork: Vorpal</content>
+  <content contentuid="h3c6f3e93g7f8bg5d38g8a99g2ad479a33168" version="1">When you score a critical hit with a weapon, the target takes an extra 4d8 slashing damage.</content>
+  <content contentuid="hfa01d81dgaf32g51a6ga308g394853f69c08" version="1">Masterwork: Fleet Armor</content>
+  <content contentuid="h7911aa90g9f8bg59d8g8e5bgb6303efc9bd8" version="1">+10 ft speed and +3 initiative.</content>
+  <content contentuid="hcbd9e07dgc1b8g5abeg98e3gd32f091a0a5f" version="1">Masterwork: Immortal Armor</content>
+  <content contentuid="h9abdda40g93aeg550fg8724gafeefc67b6bc" version="1">Once per long rest, when you drop to 0 hit points you drop to 1 instead.</content>
+  <content contentuid="hd7ca24a7g3f5fg5121g98afga6440e3253fd" version="1">Masterwork: Mirrored Armor</content>
+  <content contentuid="h8adb38deg6e6fg5186gae0agc997f9949668" version="1">Cast Mirror Image without a spell slot once per short rest.</content>
+  <content contentuid="hf0a5829ag25e2g5e91g9dceg503f01235bd5" version="1">Challenged by Shining Steel</content>
+  <content contentuid="h98a9759eg9d0eg5540g8b50g79c2734e2d10" version="1">Disadvantage on attack rolls that don't target the Armiger.</content>
+  <content contentuid="hd10d8e97ga6e8g5d7eg8a5dg95d5b10b1bd7" version="1">Shining Steel</content>
+  <content contentuid="h06c231e6ge457g54e3g939fgf1c476c2eb46" version="1">No action, once per combat. Challenge enemies within 60 feet: each makes a Wisdom saving throw against your Masterwork save DC or has disadvantage on attack rolls that don't target you for 1 round.</content>
+  <content contentuid="hb9e76652g0795g5905g82adg4372fe285e7d" version="1">Reinforced Armor (Banded)</content>
+  <content contentuid="h55e780d8g031cg5d2aga232g4e15cf51e9a3" version="1">+1 AC until you're hit.</content>
+  <content contentuid="h73ea194dg1863g5f91g80c3gd264c8bbb893" version="1">Reinforced Armor (Adamant)</content>
+  <content contentuid="h02f07d60g91e9g5a24g8c0fg217bc0d59ce8" version="1">The next damage you take is reduced by 4.</content>
+  <content contentuid="hbc041678gb95bg5efag864fg1d5f34cc88e6" version="1">Reinforce Armor: Banded</content>
+  <content contentuid="h4619b9d3g0bd3g5dfdg9428g44a43f34ecf4" version="1">Reinforce an ally's armor (or your own). +1 AC until the wearer is hit. Six reinforcements per short rest.</content>
+  <content contentuid="h18a11843g7fb4g58a2gaa0ageeb62ba9e658" version="1">Reinforce Armor: Adamant</content>
+  <content contentuid="h90ea728bgea85g563cg85e9gf1748733bd83" version="1">Reinforce an ally's armor (or your own). The next damage the wearer takes is reduced by 4. Six reinforcements per short rest.</content>
+  <content contentuid="h200470e8g69f1g501egb49ag2489ed20f537" version="1">Armor Reinforcements</content>
+  <content contentuid="hbf10ba40g27c2g50bbg82e4gb4bffe8bab65" version="1">Armor reinforcements you can apply. Six per short rest.</content>
+  <content contentuid="h59a018b0gf0a8g5a6bga718g9c9edfaea22b" version="1">Fortify</content>
+  <content contentuid="hc38678c2g5232g5cb4g9e8bg2f661dc6fe24" version="1">Bonus action: you take half damage from all sources until the end of your next turn. Once per short rest.</content>
+  <content contentuid="h493f117bg5c4eg53ffgbb25gef26f24df357" version="1">Fortified</content>
+  <content contentuid="h0d51f60cga556g5579gb0f1g95e1300786fe" version="1">Damage taken is halved.</content>
+  <content contentuid="h7235c404g96deg57cag80ccgc1837088407b" version="1">Invincible Armor</content>
+  <content contentuid="h3b23a564gc9d9g58d0g90f5g64a84cdf46cf" version="1">Bludgeoning, piercing and slashing damage you take from nonmagical attacks is reduced by 5.</content>
+  <content contentuid="hc5d08e74g4d8ag55e4gab0cgf53c345ec5bc" version="1">Armigers' Guild</content>
+  <content contentuid="h609827dbgecf8g52b9g83a3ga571bdb47c4a" version="1">Armorsmiths of great renown that wear reinforced steel. (Valda's Spire of Secrets)</content>
+  <content contentuid="h78e0fa46g5117g5236g9b1bg42594724e304" version="1">Sabotaging Strike: Disarm</content>
+  <content contentuid="h09fc7716g8df8g5124gb707g362b2ea179f8" version="1">Once per turn, attempt to disarm a creature within reach: it makes a Strength saving throw against your Masterwork save DC or drops its weapon.</content>
+  <content contentuid="h502c2278g9904g5bdcgb317gfabe0b230879" version="1">Sabotaging Strike: Sunder</content>
+  <content contentuid="h4685302fg73f0g51abgad6bg2465fa790722" version="1">Once per turn, shatter a creature's defenses: it makes a Dexterity saving throw against your Masterwork save DC or its armor suffers a -1 AC penalty until it's repaired (a long rest).</content>
+  <content contentuid="h0a195bf4g571eg5697g8724gd8cfc09edfda" version="1">Sundered</content>
+  <content contentuid="ha7940720g0cbfg5ef4g8f1ega452d7496250" version="1">Armor damaged: -1 AC.</content>
+  <content contentuid="ha2e9c2f2g04fbg57c7gbb76g45f095c21971" version="1">Honed Weapon</content>
+  <content contentuid="hed77ce93g6f24g50cega28egffeec0a5040f" version="1">+2 to your next weapon attack roll.</content>
+  <content contentuid="hd4129059gc463g5200gb0dbg40fa36d46d54" version="1">Sharpened Weapon</content>
+  <content contentuid="h1c35cfe4g43beg5311g8906g04c407b79dde" version="1">Your next weapon attack deals an extra 1d8 damage.</content>
+  <content contentuid="hefc0eb00g4453g5c90gbd63gcc7299a8a75b" version="1">Fortify Weapon: Honed</content>
+  <content contentuid="h2e956f3fga177g5e0fg89a4g61f30bedabb4" version="1">Fortify an ally's weapon (or your own). +2 to the next weapon attack roll. Six per short rest.</content>
+  <content contentuid="h4f3e18a7g4009g5b16gaa84g3b3cfed2886a" version="1">Fortify Weapon: Sharpened</content>
+  <content contentuid="h532f7fa9g2c25g5f2bg91b2ge23746b13a80" version="1">Fortify an ally's weapon (or your own). The next weapon attack deals an extra 1d8 damage. Six per short rest.</content>
+  <content contentuid="h881ac120gdabdg56e6g96d7g549354df0648" version="1">Weapon Fortifications</content>
+  <content contentuid="h98d5535bge60dg53ecgab8eg5469a7cd217e" version="1">Weapon fortifications you can apply. Six per short rest.</content>
+  <content contentuid="hf2ef25c4g45f2g57abgb1beg631ea38181c4" version="1">Versatile Weapon Master</content>
+  <content contentuid="hb21fe451g5014g5957gb1d2ge7c4a0ad8c9e" version="1">No action, once per turn: advantage on your next weapon attack roll.</content>
+  <content contentuid="h139fc5e2g873bg5931g8c25gab0ad9bc157a" version="1">Versatile Weapon Master</content>
+  <content contentuid="h9101339cg449dg5a04ga73cgecac83d51392" version="1">Advantage on your next weapon attack.</content>
+  <content contentuid="h559df3b4gfee9g5829gb601g5a5eef36ef35" version="1">Devastating</content>
+  <content contentuid="hb71405bdg730ag572bgbf4ag3082a2fb2b1d" version="1">Your weapons score a critical hit on a roll of 18-20.</content>
+  <content contentuid="h7373900bg7c33g5c2eg94f1g401754c210c4" version="1">Bladeworkers' Guild</content>
+  <content contentuid="hf9c8eb7age247g54b7g8909ga6abe8d104c0" version="1">Weaponsmiths who build innovative implements of war and train in their use. (Valda's Spire of Secrets)</content>
+  <content contentuid="h0aaf9c49ga330g53b6gbdceg526ae8fefa51" version="1">Portable Forge</content>
+  <content contentuid="hdccbbeafg171dg5e04gaaebg75caaea84c07" version="1">While carrying your forge you have resistance to fire damage, and you know Produce Flame (Intelligence).</content>
+  <content contentuid="h7455e486g34c5g503eg9afeg0eea64860247" version="1">Forgefired Armory</content>
+  <content contentuid="h2bfbb1abg1ee4g50d5g9044g67bbc2edec76" version="1">Your melee weapons are explosive: when you hit, the blast deals 1d6 fire damage to the target's allies within 5 feet.</content>
+  <content contentuid="hc6028cc9gd9f3g503dgaceagd037929926d4" version="1">Forgefired Blast</content>
+  <content contentuid="h69b8e864ga0c6g53caga9bbg3bdce990e063" version="1">An explosion bursts from this creature.</content>
+  <content contentuid="hf305f7c1g2189g5501gb74ag83e11286a659" version="1">Scorched</content>
+  <content contentuid="ha6c1a366g240bg5a8dg9180g0ec523d6a798" version="1">Caught in a forgefired blast.</content>
+  <content contentuid="h01d83838ga169g5ebcgb771gf518420af8aa" version="1">Superheated Weapons</content>
+  <content contentuid="h3022e667g0267g599dg820dg28bbbe0364e6" version="1">Plunge your weapon into your forge for 10 minutes: your next melee weapon hit deals an extra 1d6 fire damage.</content>
+  <content contentuid="h7ba01bb2g09c8g5de4g8f2eg7f592b7a0680" version="1">Superheated Weapon</content>
+  <content contentuid="hb34e27d8ga9c0g55dfgbcaag55d23b6f0c8b" version="1">Your next melee weapon attack deals an extra 1d6 fire damage.</content>
+  <content contentuid="h459c068bg3757g5df9g8d41g4a46ea32f23d" version="1">Fire Burst</content>
+  <content contentuid="h1d8e6153gf352g5077g9082g61d17f4eae9e" version="1">Release your forge's heat in a colossal burst: each creature within 20 feet makes a Dexterity saving throw against your Masterwork save DC, taking 8d6 fire damage on a failure or half on a success. You take no damage. Once per short rest.</content>
+  <content contentuid="h40a58f0fg895dg50cag8e3dgfd8ae10e255f" version="1">Forge Plate</content>
+  <content contentuid="ha977faa3g1b60g5a3dga6d0g72c79c4d6e96" version="1">A miniature furnace in your armor: you're immune to fire damage.</content>
+  <content contentuid="hc6352287ga5dcg5b81g94edg06c3b50f2d5f" version="1">Forgeknight's Guild</content>
+  <content contentuid="h7239ce51gea7dg596egbd03gbc35a113ca4a" version="1">Wields a portable forge to heat their weapons and armor to explosive limits. (Valda's Spire of Secrets)</content>
+  <content contentuid="h0b759a14gff7dg54d6ga9e8gb12fb9582d2c" version="1">Charge Points</content>
+  <content contentuid="h1a4b7f67gd611g5899g93efgcd4e74c27f44" version="1">Electrical energy stored in your power cell. Regained on a short or long rest.</content>
+  <content contentuid="ha7fa7beeg93f6g5477gb393gc510605c751c" version="1">Power Cell: Discharge</content>
+  <content contentuid="h0969d6d3g682dg50d5ga416ga0ee566b788d" version="1">Spend 1 charge point: the creature you hit takes an extra 1d6 lightning damage.</content>
+  <content contentuid="h7a0e00b8g5d25g5637ga76ega46dae859ed4" version="1">Power Cell: Overcharge</content>
+  <content contentuid="hfa8da816gd92cg58a4gbbf7gb0d51fa48038" version="1">Spend 2 charge points: the creature you hit takes an extra 2d6 lightning damage.</content>
+  <content contentuid="h418fccc3g19acg5388g9c64g0b809a7f71ab" version="1">Power Cell: Jolt</content>
+  <content contentuid="h6a1c9bc8g2f23g5cb6gbc13g2dff4e0ba7e0" version="1">Spend 1 charge point: the creature you hit can't take reactions until the start of your next turn.</content>
+  <content contentuid="h2f1c840cgb017g5452gad70g45fa7f192985" version="1">Power Cell</content>
+  <content contentuid="h7237624fgddf5g578fgaebfgee580b1c51b3" version="1">Once per turn when you hit with a melee attack, spend charge points to Discharge (+1d6 lightning per point, up to 2) or Jolt (no reactions). Charge points equal half your craftsman level, regained on a short rest.</content>
+  <content contentuid="h99bb7578gdaf6g5d55g8172g14a6526c2f5c" version="1">Lightning Rod</content>
+  <content contentuid="h7619db4dg9429g5c5egb829g07b828047f10" version="1">You have resistance to lightning damage.</content>
+  <content contentuid="h5437bb7cg63edg5364g9b5ag652f3018a0d5" version="1">Static Charge</content>
+  <content contentuid="h5eb2fe48ge3c8g536aga688gb1296f048b22" version="1">Store a charge in your weapon and armor for 10 minutes: your next weapon hit deals an extra 1d6 lightning damage, and the next time you're hit in melee you can use your reaction to deal 1d8 lightning damage to the attacker. Once per short rest.</content>
+  <content contentuid="heaeb783bg4761g50ecgad98g429a5b3107c1" version="1">Charged Weapon</content>
+  <content contentuid="h46d8e943g44b6g59bfg8537g4bb30f58c97a" version="1">Your next weapon hit deals an extra 1d6 lightning damage.</content>
+  <content contentuid="hfd9db4fag30ebg551cga758g741fe3457567" version="1">Charged Armor</content>
+  <content contentuid="h5e0d72ffgb84fg51beg9a72gd4d416e2c85f" version="1">When hit in melee, you can discharge 1d8 lightning damage into the attacker.</content>
+  <content contentuid="h19390a9dgdbb1g51c4g9f2agd4e34b49fbe4" version="1">Charged Armor</content>
+  <content contentuid="h43f480cag9d5cg5e56g935bg10780b903d95" version="1">Discharge your armor: the creature that hit you takes 1d8 lightning damage.</content>
+  <content contentuid="h76a24dbeg5030g5293g9b06gd83bb5dbf4e3" version="1">Charged Armor</content>
+  <content contentuid="h97d9b209g6e7dg554cgb5a4gb4133161cbab" version="1">1d8 lightning damage to a melee attacker.</content>
+  <content contentuid="ha127593eg505cg5a5ega3f5g625cbbee8c93" version="1">High Voltage</content>
+  <content contentuid="h244834a1g9654g5badg8726g21eb37967f5f" version="1">Spend 5 charge points to cast Lightning Bolt without a spell slot, using your Masterwork save DC.</content>
+  <content contentuid="h11d57d3fg597dg5255gb37cgadb4c39223de" version="1">Electroshock</content>
+  <content contentuid="h5c2a4b65gcdcag5a54g91a7g755597caa4be" version="1">Strike with your weapon and expend its built-in power cell: on a hit, the target makes a Constitution saving throw against your Masterwork save DC or is stunned until the end of your next turn. Once per short rest.</content>
+  <content contentuid="hd71a5075g848bg553fg8b09ga4ff31570c81" version="1">Thunderlords' Guild</content>
+  <content contentuid="hb8f21669g0c68g597fg9e09g2aef50eef62a" version="1">An electric innovator that uses lightning-charged equipment. (Valda's Spire of Secrets)</content>
+  <content contentuid="hb2fe04c2g528dg5818g8a1bgae8d12453d0d" version="1">Craftsman</content>
+  <content contentuid="h1a74c3c5g45efg5033g94fbgb5b6c558c510" version="1">A master of forge and workshop who builds masterwork arms and armor and fights with them. Masterwork properties are chosen as you level. (Valda's Spire of Secrets)</content>
+  <content contentuid="h0f281a97gfe59g5402g84a6g63e1937f2f16" version="1">Cover of Darkness</content>
+  <content contentuid="h12d17300g501ag5f6ag8448gde682d789b36" version="1">Channel Divinity. As a bonus action, create a 15-foot-radius sphere of magical darkness at a point within 30 feet for 1 minute. You can see through darkness you create.</content>
+  <content contentuid="hb1dd76bfgdde4g5949ga7bbgf09e1dd5ff27" version="1">Shrouded Armor</content>
+  <content contentuid="heb421a4cgc431g5706g8602gc475e28134c7" version="1">Channel Divinity. Imbue your armor with shadowstuff for 8 hours: add your Charisma modifier to Stealth checks, and your armor no longer imposes disadvantage on Stealth.</content>
+  <content contentuid="h47d2796fgfcb9g5a1ag9b57g99a00d87a5b3" version="1">Shrouded Armor</content>
+  <content contentuid="h8853ffd3g0965g5667ga44ege755168ededf" version="1">Your armor reflects no light. Stealth checks gain your Charisma modifier, and armor doesn't impose disadvantage on them.</content>
+  <content contentuid="hfa6fe743g351bg5805gaa9eg52765ca7e29f" version="1">Raven's Sight</content>
+  <content contentuid="h0cfd72b6g189fg599eg821egf37a4f88424c" version="1">You can see through magical darkness.</content>
+  <content contentuid="h84591fb1gedadg5f3bg879eg692fdf13bec5" version="1">Slip into the Shadows</content>
+  <content contentuid="h1e42410dg7055g5153gb120gdca3a7f02857" version="1">Aura (10 ft). You and friendly creatures within it can take the Hide action as a bonus action.</content>
+  <content contentuid="h2458611cgb54eg558ag9cdcg10a002f98e70" version="1">Slip into the Shadows</content>
+  <content contentuid="h1bdc60b0g5bc6g56b8g9751g0df8dfc5fc66" version="1">Aura (10 ft). You and friendly creatures within it can take the Hide action as a bonus action.</content>
+  <content contentuid="h2e532080g903fg594bgb4c3g630affe8d704" version="1">Slip into the Shadows</content>
+  <content contentuid="ha38d6e76gff4fg54a1gb0b0g1f6941704823" version="1">Aura (10 ft). You and friendly creatures within it can take the Hide action as a bonus action.</content>
+  <content contentuid="h968031c0g5eacg5f89gbf4ag90a13aa4bcac" version="1">Cloak of Night</content>
+  <content contentuid="h2fa7f8cdgef82g5728gad87gf52d6aa41b91" version="1">When you take damage, use your reaction to shed flakes of darkness: the next attack roll against you before the start of your next turn has disadvantage.</content>
+  <content contentuid="h68065568gb95dg5401g82d4g15671af46ef1" version="1">Cloak of Night</content>
+  <content contentuid="he565df51g15ecg5cfeg96fegc90a8371f663" version="1">Use your reaction: the next attack roll against you before your next turn has disadvantage.</content>
+  <content contentuid="h31245e5cg8c87g5bc8g8e25ga4b3e48180bb" version="1">Cloak of Night</content>
+  <content contentuid="hc475eae6ge805g59d3g9a65g07b092eca5bd" version="1">The next attack roll against you has disadvantage.</content>
+  <content contentuid="hf46439e8g11cdg5baeg96f4ge5bf40d5bca0" version="1">Shadow Form</content>
+  <content contentuid="h4ae8d638gc215g5064g9a2cgdfeee63f294d" version="1">Become a tenebrous stalker for 1 hour. In dim light or darkness: advantage on Strength, Dexterity and Constitution checks; a bonus-action teleport of 60 feet into dim light or darkness; and once per turn your melee weapon hits deal an extra 3d6 necrotic damage. Once per long rest.</content>
+  <content contentuid="h14628e6egde1cg50c7g915fgadb7eb6b4bbb" version="1">Shadow Form</content>
+  <content contentuid="h162a23e6g493dg5d24g8a92ge1e5098f1b94" version="1">In dim light or darkness you have advantage on Strength, Dexterity and Constitution checks, can teleport through the dark, and deal extra necrotic damage once per turn.</content>
+  <content contentuid="hdcacf66cg15c3g55c3gbfe0g8f4895cb0618" version="1">Shadow Step</content>
+  <content contentuid="h498f8e74gda5eg5ef8gb788g688c8cd6615d" version="1">Teleport up to 60 feet to an unoccupied space in dim light or darkness. You must be in dim light or darkness.</content>
+  <content contentuid="hac435ecag0a2dg5801gb2a4gd178dd2eb720" version="1">Shadow Form: Necrotic Strike</content>
+  <content contentuid="h20c5acbdg4ba1g5d56gb34dg430e196c7b7c" version="1">Once per turn while in Shadow Form and in dim light or darkness, a melee weapon hit deals an extra 3d6 necrotic damage.</content>
+  <content contentuid="h17c4beeag8618g569bg8f57gc0794d6a3fa0" version="1">Oath of Eternal Night</content>
+  <content contentuid="h524ae51ag4e03g5029g8a0egf76d21316f61" version="1">A stealthy, brooding vigilante who metes out justice under cover of night. (Valda's Spire of Secrets)</content>
+  <content contentuid="hb4e08291g81b1g570eg93begca4d9f2cef9d" version="1">Deafened</content>
+  <content contentuid="h4bf469eag3d85g5f3cg8f63g8958babda959" version="1">Can't hear. Disadvantage on Perception checks.</content>
+  <content contentuid="hb11f8138g7a6eg5bc9gbfecg156676145ca6" version="1">Blaspheme</content>
+  <content contentuid="h76bce3e7gcb8bg5b1egbc9eg9768cd16eaae" version="1">Channel Divinity. Speak profound, heretical words. Each enemy within 30 feet makes a Wisdom saving throw, taking 2d6 psychic damage per point of your proficiency bonus and becoming deafened for 1 minute on a failure, or half damage on a success.</content>
+  <content contentuid="h4d84a690g6271g5eedga608g511c1bb2e122" version="1">Turn the Holy</content>
+  <content contentuid="h7e47a58cg891ag50b4g981dgefdfcd249f5b" version="1">Channel Divinity. Celestials within 30 feet must make a Wisdom saving throw or be turned for 1 minute or until they take damage.</content>
+  <content contentuid="h9bb63fd3gec62g5936gb264ge362d6b1c5c9" version="1">Godless Aura</content>
+  <content contentuid="h486db5b2g9145g58fag9f56g70cf65bb4915" version="1">Use your reaction to counter a spell cast within 10 feet of you, without a spell slot (as a 3rd-level Counterspell).</content>
+  <content contentuid="ha7c55d36gd536g56efgb421g2e895afe82e9" version="1">Godless Aura: Counterspell</content>
+  <content contentuid="h739d73bbgf015g5915ga67cg4251b1c09a64" version="1">Counter a spell being cast within 10 feet of you, without a spell slot.</content>
+  <content contentuid="h105fca65g12deg5246g9d5dgb74e67cd3ee6" version="1">Implacable Will</content>
+  <content contentuid="hbfac51dag5a85g5dd7gb986g336c13556406" version="1">Reroll a failed saving throw. Once per long rest.</content>
+  <content contentuid="hfc1c9da9g4b2bg55e8gb94cga451e1907583" version="1">Implacable Will</content>
+  <content contentuid="h457080fega55cg5d25gb78ag8c5b233453b0" version="1">When you fail a saving throw, you can reroll it. Once per long rest.</content>
+  <content contentuid="h1af5cbe5g132ag54e5g84c6ga506a8843aeb" version="1">Implacable Will</content>
+  <content contentuid="h0f231e25g0e58g5751gbde7g6f0c8ad44f11" version="1">Reroll the failed saving throw.</content>
+  <content contentuid="h9ebbaeadgdb7dg5ba4g84bdg1973c75bcf5e" version="1">Apostate</content>
+  <content contentuid="hba0e6f1eg2f02g5a44g9fb4g503dd9bbacd7" version="1">Assume an anti-apotheosis for 1 minute: you can Blaspheme as a bonus action without Channel Divinity (4d6 psychic, half on a save), and you gain 20 temporary hit points at the start of each of your turns. Once per long rest.</content>
+  <content contentuid="ha79d2471gd94fg5ef7g8acdg416d25a32b5f" version="1">Apostate</content>
+  <content contentuid="hd096b2dcg81c2g5318gbd61g37d0dcf3828b" version="1">You can Blaspheme as a bonus action and gain 20 temporary hit points at the start of each turn.</content>
+  <content contentuid="h2807bc5cge1dag5c2fg8b42gb98f6d4ad1d8" version="1">Apostate's Defiance</content>
+  <content contentuid="h50dc02a0g3837g5d8bgada3g86ca1bfb5d9e" version="1">Temporary hit points from Apostate.</content>
+  <content contentuid="h0a91eefcged92g5715gb68bg02b6dcd21a85" version="1">Blaspheme (Apostate)</content>
+  <content contentuid="hefe03f9agc584g5b2cg85a0g9ce41b7d2f5a" version="1">Bonus action. Each enemy within 30 feet makes a Wisdom saving throw: 4d6 psychic damage and deafened on a failure, half damage on a success.</content>
+  <content contentuid="hf6d24025g54beg50cega56dgf19dfe78cb71" version="1">Oath of Heresy</content>
+  <content contentuid="hee7975ebg5bd1g56e9ga96eg29b99fe2b406" version="1">A blasphemer and revolutionary who has turned their back on their faith. (Valda's Spire of Secrets)</content>
+  <content contentuid="h9625d1cfg5236g51b7ga4d3g857420043438" version="1">Conjure Drink</content>
+  <content contentuid="hf1667a28g74a5g5f12g8da7g3895d0f1c864" version="1">Channel Divinity. Summon a frothy heavenly ale for up to three creatures: each has advantage on saving throws for the next minute.</content>
+  <content contentuid="hff13befag946cg5616ga86cg070a134bca8d" version="1">Heavenly Ale</content>
+  <content contentuid="h7c9f07a3g5f38g522bg9fe0g82495d6f736d" version="1">Advantage on saving throws.</content>
+  <content contentuid="h9a10999dg3226g5f12gb168g539ec8264090" version="1">Song and Dance</content>
+  <content contentuid="h34901c0dgdc6ag5b99g8674gef2fd5b405c7" version="1">Channel Divinity. Dance a catchy jig: each enemy within 15 feet makes a Wisdom saving throw or joins in, spending its movement dancing in place, with disadvantage on attack rolls and Dexterity saving throws. It repeats the save at the end of each of its turns.</content>
+  <content contentuid="hd54c05d9g3d5ag5e29g860fgc52cf08b219b" version="1">Dancing</content>
+  <content contentuid="h27e050ceg3e9cg5897g95d9g83fbc53abdd7" version="1">Can't leave its space. Disadvantage on attack rolls and Dexterity saving throws. Repeats the Wisdom save at the end of each turn.</content>
+  <content contentuid="h59f27221g9d64g57d4gb89ag93efd2c49b5d" version="1">Aura of Fraternity</content>
+  <content contentuid="ha00980e5ge7c4g55e6gbc14ga13c7f019117" version="1">Aura (5 ft). You and allies within it deal an extra 1d4 damage on melee weapon attacks.</content>
+  <content contentuid="h6876d7c9g0518g5daagae5dge3c4b9984bd1" version="1">Aura of Fraternity</content>
+  <content contentuid="ha4cfb939gf3d8g5daagbed6g26b58b313f0c" version="1">Aura (5 ft). You and allies within it deal an extra 1d4 damage on melee weapon attacks.</content>
+  <content contentuid="hb976f379g1363g5491gae45gca815dfae56a" version="1">Aura of Fraternity</content>
+  <content contentuid="hf153ec69g07f6g564dgbcbfgafaf55d823a2" version="1">Aura (5 ft). You and allies within it deal an extra 1d4 damage on melee weapon attacks.</content>
+  <content contentuid="h9266af54gfa6eg52edg844cgc245522998c4" version="1">Merrymaker</content>
+  <content contentuid="h1d43e454g4d8fg59ddg9a82ge523300b4e46" version="1">Grant advantage to an ally's checks and saves. 3 per long rest.</content>
+  <content contentuid="hd5f79141g9a31g50fega079gdd6fb54e4d12" version="1">Merrymaker</content>
+  <content contentuid="hd582f40dga316g5d89gaf67gcb47f3aea5c4" version="1">Three times per long rest, give yourself or a friendly creature within 30 feet advantage on its ability checks and saving throws until the start of your next turn.</content>
+  <content contentuid="h409edf98g3fbeg519fga670g979ed1984db2" version="1">Merrymaker</content>
+  <content contentuid="ha96b05f9ga919g58b1g91f8g4ee061dc96d2" version="1">Give yourself or a friendly creature within 30 feet advantage on ability checks and saving throws until the start of your next turn. No action required.</content>
+  <content contentuid="h2aa5af17g0381g5867g9587g4951a7a8feb1" version="1">Merrymaker</content>
+  <content contentuid="h5e98ccfbg5a40g503cgbf26g5656e89916a5" version="1">Advantage on ability checks and saving throws.</content>
+  <content contentuid="hd49206c1gd5ccg52b0g90c1g4d93f36c03d9" version="1">Party Animal</content>
+  <content contentuid="h9838824dgf22dg5173gbfc6gf7440c370a38" version="1">Become an embodiment of partying for 1 minute, emanating a 30-foot aura: you and allies in it can't be blinded, deafened or poisoned, and regain 10 hit points at the start of each of their turns. Once per long rest.</content>
+  <content contentuid="h228d5787g514bg5f48gac49g04c117a5322b" version="1">Party Animal</content>
+  <content contentuid="hc8d6fe2egcac0g59d2g9f01gadd1fc2b36f9" version="1">Can't be blinded, deafened or poisoned. Regain 10 hit points at the start of each turn.</content>
+  <content contentuid="h56c9d77ag6b1dg5229ga072gac8ae5e2a9df" version="1">Party Animal</content>
+  <content contentuid="hd1d3616dg5d60g5553gbd81ga24b49a9f76e" version="1">A 30-foot aura of gaiety.</content>
+  <content contentuid="hcc8ad3bfga3b3g58d1g8ddeg3e9867cc5938" version="1">Oath of Revelry</content>
+  <content contentuid="hd91e82eegfc15g585ag832bg4c4defbfedec" version="1">A party-paladin who keeps their allies dancing no matter what. (Valda's Spire of Secrets)</content>
+  <content contentuid="h907043e8g987dg5a46gaaf1ge26aa314e878" version="1">Glorious Radiance</content>
+  <content contentuid="h97640475g2976g5c2eg8e97g66413d266ac0" version="1">Channel Divinity. Radiate sunlight for 1 hour: gain temporary hit points equal to your paladin level + Charisma modifier. While they last, you can use your reaction when hit by a melee attack to deal 5 radiant damage to the attacker (10 at paladin level 11, 15 at 17).</content>
+  <content contentuid="hcdcdd624g68aeg5070ga87fgce00d4a42630" version="1">Glorious Radiance</content>
+  <content contentuid="hf86e3d43gc29dg5034gb542ga7f296de9ab5" version="1">Temporary hit points from the sun; you can retaliate with radiant damage against melee attackers.</content>
+  <content contentuid="hc0f75a9eg44cbg5372g8051ge8450fefc96b" version="1">Glorious Radiance</content>
+  <content contentuid="hea98ff47g9040g5b39g8804gfd3ca801f0b7" version="1">Deal radiant damage to the creature that hit you.</content>
+  <content contentuid="h3c4a8869ge41bg5e13gb773g9a22859f52fc" version="1">Radiant Retort</content>
+  <content contentuid="h5c522148gbbe5g5580g93b2g4fb0f06038f6" version="1">Radiant damage to a melee attacker.</content>
+  <content contentuid="he3a2a887g33dbg515dg8ca6g4a2396994f58" version="1">Solar Flare</content>
+  <content contentuid="hee21f7c8g5eaeg56begac03gc666da588ac3" version="1">Channel Divinity. Emit a blinding flash: each enemy within 20 feet makes a Constitution saving throw or is blinded for 1 minute, repeating the save at the end of each of its turns.</content>
+  <content contentuid="hdb1a0415g64d5g506dga991g0cdcf236a0a6" version="1">Blinded by the Sun</content>
+  <content contentuid="h719081f0ge8b4g5960g8cdbg42876f49b324" version="1">Blinded. Repeats the Constitution save at the end of each turn.</content>
+  <content contentuid="ha58939acge617g568bg80d9g55cecfd393c6" version="1">Sun's Warmth</content>
+  <content contentuid="hdb45f948gd635g528cg8400g3edf9e3a5069" version="1">Aura (10 ft). You and allies within it have resistance to cold and fire damage.</content>
+  <content contentuid="h786bd6dag8a52g5a41gba99g86404d17c196" version="1">Sun's Warmth</content>
+  <content contentuid="hd5046eaeg05c0g5226ga169g1c6f6662d9c0" version="1">Aura (10 ft). You and allies within it have resistance to cold and fire damage.</content>
+  <content contentuid="h71e1fe60gf2d2g5df9gbbedg4677411da8fe" version="1">Sun's Warmth</content>
+  <content contentuid="h2ddd156cg94f2g5212g9926g4a79f2816093" version="1">Aura (10 ft). You and allies within it have resistance to cold and fire damage.</content>
+  <content contentuid="h66f5aadbg334bg5d95gbe5cg6aa9f663514e" version="1">Incandescent Fury</content>
+  <content contentuid="hd04f11cdgb7ecg5d4fg9852gf55417cebf4a" version="1">Your melee weapon attacks deal 1 extra radiant damage (approximating Improved Divine Smite's die becoming a d10).</content>
+  <content contentuid="hd5ea42cag7024g5dc0gbc75g571d944daffb" version="1">Zenith</content>
+  <content contentuid="h7f3e19bag72c5g5905ga6fbg24ed3e08c0dc" version="1">Fill yourself with the sun's wrath for 1 minute: cast Sunbeam without a spell slot, and at the start of each of your turns regain hit points equal to your Charisma modifier while at half health or below. Once per long rest.</content>
+  <content contentuid="h5ef916a6ga407g55feg88fdgb0d2c8243415" version="1">Zenith</content>
+  <content contentuid="hb0181a61geed3g5025gb76fg64570a16d75d" version="1">You can cast Sunbeam without a slot and regain hit points each turn while at half health or below.</content>
+  <content contentuid="h1815ef94gf24ag535bgbd1dg41b067e87493" version="1">Sunbeam (Zenith)</content>
+  <content contentuid="ha779a10agd754g5804g96f4gd94a3aae8c8d" version="1">Cast Sunbeam without a spell slot.</content>
+  <content contentuid="hd9a25312gc8a6g512egacebgde539dd8eb40" version="1">Oath of the Sun</content>
+  <content contentuid="he2df29e9gbe90g553dg9954gdbd190dfcdcb" version="1">A devotee of sunlight worship, bearing scorching rhetoric and spells. (Valda's Spire of Secrets)</content>
+  <content contentuid="hb37936f0gbd79g5378gb857g8d3236bbad4e" version="1">Ice Armor</content>
+  <content contentuid="h895487f6g6f85g51f8g82c1g537762b3e0c5" version="1">Channel Divinity. As a bonus action, wreath your armor in ice: gain temporary hit points equal to twice your paladin level + your Charisma modifier.</content>
+  <content contentuid="h28de085agfc57g5e73g8650g7298243f1388" version="1">Ice Armor</content>
+  <content contentuid="h9e3eb3ffgc498g55a0gab6ag8bf0b792354b" version="1">Temporary hit points from a layer of protective ice.</content>
+  <content contentuid="he45770e2g0f3cg517ega44dg1f0e34f2b20f" version="1">North Wind</content>
+  <content contentuid="h15e4f436g736bg5bccg8177g95130ee82358" version="1">Channel Divinity. Breathe a hoary wind in a 30-foot cone. Each creature makes a Constitution saving throw: 2d6 cold damage per point of your proficiency bonus and speed halved until your next turn on a failure, half damage on a success.</content>
+  <content contentuid="h134d7d61g70adg5ea5gb8ffg83abe11ddcee" version="1">Chilled</content>
+  <content contentuid="h0e2e0696gbde5g5c05g8d5cgeada19ce8775" version="1">Speed halved.</content>
+  <content contentuid="hacbc2845gb8d8g5314ga9ccg7cd17e1d8596" version="1">Frigid Aura</content>
+  <content contentuid="h0e2ddd47g2ccfg5690g843egc56026309858" version="1">Aura (10 ft). You and allies within it have resistance to cold and fire damage.</content>
+  <content contentuid="ha606cf24g01f4g5c85g9102gd139631f6378" version="1">Frigid Aura</content>
+  <content contentuid="hc9f1b52fg0e19g56a0gace6g5727887494f6" version="1">Aura (10 ft). You and allies within it have resistance to cold and fire damage.</content>
+  <content contentuid="hbd8e904dg3ed3g55d3gb848gce4535391689" version="1">Frigid Aura</content>
+  <content contentuid="he464aeb6g9dedg5110g9e9fg2b21fb6fca80" version="1">Aura (10 ft). You and allies within it have resistance to cold and fire damage.</content>
+  <content contentuid="h5c7f41efgfa16g51deg9813gfff94eb4a5ba" version="1">Iceflesh</content>
+  <content contentuid="he4d77fc6gac07g5107g9badg4c3379e19540" version="1">When you're hit, use your reaction to freeze the blood in your veins: you take only half damage from that attack.</content>
+  <content contentuid="h4c504875gaa74g5d37g8093g152536205525" version="1">Iceflesh</content>
+  <content contentuid="h36190e45g742fg5045g9dc9g3f715046ed3c" version="1">Use your reaction to halve the damage of this hit.</content>
+  <content contentuid="h3dbbe02eg61b9g59d9g945fge936af68e7d9" version="1">Iceflesh</content>
+  <content contentuid="h9ce88361g3b48g576ag8d3eg1bde3e0d32bb" version="1">Damage taken is halved.</content>
+  <content contentuid="hbcfce74cg8eefg5d75gb404gb24dc82cf843" version="1">Father Winter</content>
+  <content contentuid="h497b0dcag901ag5356g8624ge1c5597b5bfc" version="1">Become an effigy of Father Winter for 1 hour: immune to cold damage, creatures that damage you in melee take 2d10 cold damage, and enemies within 10 feet are slowed by frozen ground. Once per long rest.</content>
+  <content contentuid="heee2e1e9g8b7bg5f20g9822g59bbfa8a58d6" version="1">Father Winter</content>
+  <content contentuid="h4eef1cb9gbbc3g54b7gbb9agb466ad150cfb" version="1">Immune to cold. Melee attackers take 2d10 cold damage. Enemies within 10 feet are slowed.</content>
+  <content contentuid="hbf6e687fg8698g578cga736g0d5f01cde4ae" version="1">Father Winter: Frostbite</content>
+  <content contentuid="hde096a4bgce3eg5977gbd49g23ff1f1ec833" version="1">While you are Father Winter, a creature that damages you with a melee attack takes 2d10 cold damage.</content>
+  <content contentuid="h6e30e43eg3dcag54c2ga4dfg139553c07acc" version="1">Oath of Winter</content>
+  <content contentuid="h29fda3e8g2f68g5f79g8d6cg61b8e05ec250" version="1">Keeper of a frigid oath, imbued with powers of elemental ice. (Valda's Spire of Secrets)</content>
+</contentList>

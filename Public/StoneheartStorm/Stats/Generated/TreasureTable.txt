@@ -1,0 +1,42 @@
+new treasuretable "SSTORM_BackpackContents"
+MinLevel "-20"
+MaxLevel "20"
+IgnoreLevelDiff 1
+new subtable "1,1"
+StartLevel "1"
+object category "I_SSTORM_WPN_AssassinsBlade",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_SSTORM_WPN_BastardSword",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_SSTORM_WPN_ElvenFoil",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_SSTORM_WPN_HookSword",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_SSTORM_WPN_ParryingDagger",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_SSTORM_WPN_Dervish",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_SSTORM_WPN_Zweihander",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_SSTORM_WPN_VindrScimitar",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_SSTORM_WPN_MountainCleaver",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_SSTORM_WPN_PortableBallista",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_SSTORM_ARM_ReverberatingShield",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_SSTORM_ARM_Brigandine_Body",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_SSTORM_ARM_BandedPlate_Body",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_SSTORM_ARM_HeroPlate_Body",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_SSTORM_ARM_Lamellar_Body",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_SSTORM_ARM_MountainPlate_Body",1,0,0,0,0,0,0,0
+
+new treasuretable "TUT_Chest_Potions"
+CanMerge 1
+new subtable "1,1"
+object category "I_SSTORM_OBJ_Backpack",1,0,0,0,0,0,0,0

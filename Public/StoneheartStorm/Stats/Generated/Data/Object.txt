@@ -1,0 +1,5 @@
+new entry "SSTORM_OBJ_Backpack"
+type "Object"
+using "OBJ_Backpack_CampSupplies"
+data "RootTemplate" "75e4aeac-ca7e-4468-b474-2b2f8bb9a145"
+data "Weight" "0.1"

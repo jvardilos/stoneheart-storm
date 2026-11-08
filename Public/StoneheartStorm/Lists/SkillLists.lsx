@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<save>
+    <version major="4" minor="7" revision="1" build="1" />
+    <region id="SkillLists">
+        <node id="root">
+            <children>
+                <node id="SkillList">
+                    <attribute id="Name" type="FixedString" value="Craftsman Skill List" />
+                    <attribute id="Skills" type="LSString" value="Arcana, Athletics, History, Investigation, Medicine, Perception, Persuasion" />
+                    <attribute id="UUID" type="guid" value="31c93257-637b-5215-90f3-3492a30508a7" />
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

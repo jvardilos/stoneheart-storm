@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="0" lslib_meta="v1,bswap_guids" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="ContainerAutoAddOnPickup" type="bool" value="False" />
+					<attribute id="Description" type="TranslatedString" handle="hSSTORMbackpackDESC" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hSSTORMbackpackNAME" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_CONT_GEN_CampSupplySack" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="75e4aeac-ca7e-4468-b474-2b2f8bb9a145" />
+					<attribute id="Name" type="LSString" value="SSTORM_Vindr_Backpack" />
+					<attribute id="ParentTemplateId" type="FixedString" value="efcb70b7-868b-4214-968a-e23f6ad586bc" />
+					<attribute id="Stats" type="FixedString" value="SSTORM_OBJ_Backpack" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<children>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="SSTORM_BackpackContents" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

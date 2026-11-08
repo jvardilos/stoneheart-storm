@@ -1,0 +1,14 @@
+# Extracted game data and book text (Larian / third-party content: never commit)
+.cache/
+
+# Third-party toolchain, rebuilt by tools/setup_divine.sh
+tools/lslib-src/
+tools/divine/
+
+# Build output and scratch
+dist/
+.stage/
+.check/
+__pycache__/
+*.pyc
+.DS_Store
