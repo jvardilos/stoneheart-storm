@@ -1,53 +1,53 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <save>
-    <version major="4" minor="7" revision="1" build="1" />
+    <version major="4" minor="7" revision="1" build="1"/>
     <region id="PassiveLists">
         <node id="root">
             <children>
                 <node id="PassiveList">
-                    <attribute id="Name" type="FixedString" value="Warden Sentinel's Stand" />
-                    <attribute id="Passives" type="LSString" value="SSTORM_Stand_HeavyArmor,SSTORM_Stand_PrimalToughness,SSTORM_Stand_StalwartDex,SSTORM_Stand_StalwartInt,SSTORM_Stand_StalwartWis,SSTORM_Stand_StalwartCha" />
-                    <attribute id="UUID" type="guid" value="e70774ae-fa59-4496-9313-e686c2dbd234" />
+                    <attribute id="Name" type="FixedString" value="Warden Sentinel&apos;s Stand"/>
+                    <attribute id="Passives" type="LSString" value="SSTORM_Stand_HeavyArmor,SSTORM_Stand_PrimalToughness,SSTORM_Stand_StalwartDex,SSTORM_Stand_StalwartInt,SSTORM_Stand_StalwartWis,SSTORM_Stand_StalwartCha"/>
+                    <attribute id="UUID" type="guid" value="e70774ae-fa59-4496-9313-e686c2dbd234"/>
                 </node>
                 <node id="PassiveList">
-                    <attribute id="Name" type="FixedString" value="Warden Sentinel's Step" />
-                    <attribute id="Passives" type="LSString" value="SSTORM_Step_Earthstrength,SSTORM_Step_ThunderingCharge,SSTORM_Step_Wildblood" />
-                    <attribute id="UUID" type="guid" value="4bb507e6-75ea-422e-b217-c699de9d2980" />
+                    <attribute id="Name" type="FixedString" value="Warden Sentinel&apos;s Step"/>
+                    <attribute id="Passives" type="LSString" value="SSTORM_Step_Earthstrength,SSTORM_Step_ThunderingCharge,SSTORM_Step_Wildblood"/>
+                    <attribute id="UUID" type="guid" value="4bb507e6-75ea-422e-b217-c699de9d2980"/>
                 </node>
                 <node id="PassiveList">
-                    <attribute id="Name" type="FixedString" value="Warden Fighting Styles" />
-                    <attribute id="Passives" type="LSString" value="SSTORM_Crippling,FightingStyle_GreatWeaponFighting,FightingStyle_Protection,SSTORM_Interception" />
-                    <attribute id="UUID" type="guid" value="3c3958ff-e43e-4017-af09-5c4e14c0996d" />
+                    <attribute id="Name" type="FixedString" value="Warden Fighting Styles"/>
+                    <attribute id="Passives" type="LSString" value="SSTORM_Crippling,FightingStyle_GreatWeaponFighting,FightingStyle_Protection,SSTORM_Interception"/>
+                    <attribute id="UUID" type="guid" value="3c3958ff-e43e-4017-af09-5c4e14c0996d"/>
                 </node>
                 <node id="PassiveList">
-                    <attribute id="Name" type="FixedString" value="Craftsman masterwork apprentice" />
-                    <attribute id="Passives" type="LSString" value="SSTORM_MW_Parrying,SSTORM_MW_Scaled,SSTORM_MW_Integrated,SSTORM_MW_Trip" />
-                    <attribute id="UUID" type="guid" value="ce8d52b6-015a-526c-a630-860f6d6aa7ee" />
+                    <attribute id="Name" type="FixedString" value="Craftsman masterwork apprentice"/>
+                    <attribute id="Passives" type="LSString" value="SSTORM_MW_Parrying,SSTORM_MW_Scaled,SSTORM_MW_Integrated,SSTORM_MW_Trip"/>
+                    <attribute id="UUID" type="guid" value="ce8d52b6-015a-526c-a630-860f6d6aa7ee"/>
                 </node>
                 <node id="PassiveList">
-                    <attribute id="Name" type="FixedString" value="Craftsman masterwork journeyman" />
-                    <attribute id="Passives" type="LSString" value="SSTORM_MW_Magical1,SSTORM_MW_AdamantineArmor,SSTORM_MW_MithralArmor,SSTORM_MW_ResistFire,SSTORM_MW_ResistCold,SSTORM_MW_ResistLightning,SSTORM_MW_ResistThunder,SSTORM_MW_ResistAcid,SSTORM_MW_ResistPoison,SSTORM_MW_ResistNecrotic,SSTORM_MW_ResistRadiant" />
-                    <attribute id="UUID" type="guid" value="1e98ae38-36fd-569c-a109-54d07f07cb8a" />
+                    <attribute id="Name" type="FixedString" value="Craftsman masterwork journeyman"/>
+                    <attribute id="Passives" type="LSString" value="SSTORM_MW_Magical1,SSTORM_MW_AdamantineArmor,SSTORM_MW_MithralArmor,SSTORM_MW_ResistFire,SSTORM_MW_ResistCold,SSTORM_MW_ResistLightning,SSTORM_MW_ResistThunder,SSTORM_MW_ResistAcid,SSTORM_MW_ResistPoison,SSTORM_MW_ResistNecrotic,SSTORM_MW_ResistRadiant"/>
+                    <attribute id="UUID" type="guid" value="1e98ae38-36fd-569c-a109-54d07f07cb8a"/>
                 </node>
                 <node id="PassiveList">
-                    <attribute id="Name" type="FixedString" value="Craftsman masterwork master" />
-                    <attribute id="Passives" type="LSString" value="SSTORM_MW_Keen,SSTORM_MW_Venom,SSTORM_MW_Blessed,SSTORM_MW_Magical2,SSTORM_MW_Trollskin,SSTORM_MW_Winged,SSTORM_MW_ElementalFire,SSTORM_MW_ElementalCold,SSTORM_MW_ElementalLightning,SSTORM_MW_ElementalThunder,SSTORM_MW_ElementalAcid,SSTORM_MW_SlayingUndead,SSTORM_MW_SlayingFiends,SSTORM_MW_SlayingDragons,SSTORM_MW_SlayingAberrations" />
-                    <attribute id="UUID" type="guid" value="978e3e11-6853-55f0-b526-e0a0c88c1437" />
+                    <attribute id="Name" type="FixedString" value="Craftsman masterwork master"/>
+                    <attribute id="Passives" type="LSString" value="SSTORM_MW_Keen,SSTORM_MW_Venom,SSTORM_MW_Blessed,SSTORM_MW_Magical2,SSTORM_MW_Trollskin,SSTORM_MW_Winged,SSTORM_MW_ElementalFire,SSTORM_MW_ElementalCold,SSTORM_MW_ElementalLightning,SSTORM_MW_ElementalThunder,SSTORM_MW_ElementalAcid,SSTORM_MW_SlayingUndead,SSTORM_MW_SlayingFiends,SSTORM_MW_SlayingDragons,SSTORM_MW_SlayingAberrations"/>
+                    <attribute id="UUID" type="guid" value="978e3e11-6853-55f0-b526-e0a0c88c1437"/>
                 </node>
                 <node id="PassiveList">
-                    <attribute id="Name" type="FixedString" value="Craftsman masterwork legendary" />
-                    <attribute id="Passives" type="LSString" value="SSTORM_MW_Magical3,SSTORM_MW_Vorpal,SSTORM_MW_Fleet,SSTORM_MW_Immortal,SSTORM_MW_Mirrored" />
-                    <attribute id="UUID" type="guid" value="6e016c1d-bd06-5448-ac1f-52308f69331b" />
+                    <attribute id="Name" type="FixedString" value="Craftsman masterwork legendary"/>
+                    <attribute id="Passives" type="LSString" value="SSTORM_MW_Magical3,SSTORM_MW_Vorpal,SSTORM_MW_Fleet,SSTORM_MW_Immortal,SSTORM_MW_Mirrored"/>
+                    <attribute id="UUID" type="guid" value="6e016c1d-bd06-5448-ac1f-52308f69331b"/>
                 </node>
                 <node id="PassiveList">
-                    <attribute id="Name" type="FixedString" value="Armigers' Guild fighting styles" />
-                    <attribute id="Passives" type="LSString" value="FightingStyle_Defense,FightingStyle_Protection" />
-                    <attribute id="UUID" type="guid" value="ba6c5cad-bbac-58c6-960b-36e0f7fafd61" />
+                    <attribute id="Name" type="FixedString" value="Armigers&apos; Guild fighting styles"/>
+                    <attribute id="Passives" type="LSString" value="FightingStyle_Defense,FightingStyle_Protection"/>
+                    <attribute id="UUID" type="guid" value="ba6c5cad-bbac-58c6-960b-36e0f7fafd61"/>
                 </node>
                 <node id="PassiveList">
-                    <attribute id="Name" type="FixedString" value="Bladeworkers' Guild fighting styles" />
-                    <attribute id="Passives" type="LSString" value="FightingStyle_Dueling,FightingStyle_GreatWeaponFighting,FightingStyle_TwoWeaponFighting" />
-                    <attribute id="UUID" type="guid" value="5b8eb584-f507-5259-ac41-eac9c15b9ffc" />
+                    <attribute id="Name" type="FixedString" value="Bladeworkers&apos; Guild fighting styles"/>
+                    <attribute id="Passives" type="LSString" value="FightingStyle_Dueling,FightingStyle_GreatWeaponFighting,FightingStyle_TwoWeaponFighting"/>
+                    <attribute id="UUID" type="guid" value="5b8eb584-f507-5259-ac41-eac9c15b9ffc"/>
                 </node>
             </children>
         </node>

@@ -15,7 +15,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from gen_common import (ENEMIES, SAVE, TARGET_ANIM, entry, names, passive, reaction, resource, rows,  # noqa: E402
                         shout, spell_list, status, subclass, target, write, self_aura)
-from modlib import PUB, attr, uid  # noqa: E402
+from modlib import PUB, attr, uid, write_larian_xml  # noqa: E402
 
 WARDEN = "060452bd-db39-4f43-b6b4-c9debcd5199e"
 WARDEN_L1_ROW = "9def7643-cd45-4149-ae83-9dd230094175"
@@ -352,8 +352,7 @@ mc_attrs += [("ProgressionType", "uint8", "0"),
 for i, t, v in mc_attrs:
     ET.SubElement(mc, "attribute", {"id": i, "type": t, "value": v})
 set_subclasses(mc)
-ET.indent(tree, space="    ")
-tree.write(path, encoding="UTF-8", xml_declaration=True)
+write_larian_xml(tree, path)
 
 # verify subclass lists
 check = ET.parse(path).getroot().find("region").find("node").find("children")

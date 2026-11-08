@@ -30,7 +30,7 @@ LAYERS = [
 ]
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from modlib import PALADIN_OATH_NAMES, uid  # noqa: E402
+from modlib import PALADIN_OATH_NAMES, uid, write_larian_xml  # noqa: E402
 
 PALADIN_OATHS = [
     "6c4d2d14-976e-43eb-922f-320e015cb248",  # Oath of Storms
@@ -95,8 +95,7 @@ def do_lists():
         attr.set("value", ";".join(have + [s for s in extra if s not in have]))
         our_rows.append(node)
         print(f"{desc}: from {where.relative_to(CACHE)}: {len(have)} vanilla + {len(extra)} ours")
-    ET.indent(ours, space="    ")
-    ours.write(OUR_LISTS, encoding="UTF-8", xml_declaration=True)
+    write_larian_xml(ours, OUR_LISTS)
     check = rows(ET.parse(OUR_LISTS))
     for uuid, (desc, extra) in LIST_OVERRIDES.items():
         hits = [n for n in check if row_uuid(n) == uuid]
@@ -155,8 +154,7 @@ def main():
                 ET.SubElement(n, "attribute", {"id": "Object", "type": "guid", "value": sub})
         our_rows.append(node)
         print(f"{desc}: from {where.relative_to(CACHE)}: {len(have)} vanilla + {len(extra)} ours")
-    ET.indent(ours, space="    ")
-    ours.write(OURS, encoding="UTF-8", xml_declaration=True)
+    write_larian_xml(ours, OURS)
 
     # verify
     check = rows(ET.parse(OURS))

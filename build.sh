@@ -9,6 +9,12 @@ STAGE="$HERE/.stage"
 OUT="$HERE/dist/StoneheartStorm.pak"
 
 [ -f "$DIVINE" ] || { echo "divine not found at $DIVINE (run tools/setup_divine.sh)"; exit 1; }
+# XML must be in the game's style (see write_larian_xml in tools/modlib.py)
+# (RootTemplates/*.lsx are exempt: they're converted to binary .lsf below and never read as text)
+BAD="$(grep -rlE -e "<[?]xml version='" -e '" />' --exclude-dir=RootTemplates \
+        "$HERE/Mods" "$HERE/Public" "$HERE/Localization" --include='*.lsx' --include='*.xml' || true)"
+[ -z "$BAD" ] || { echo "XML not in the game's format (single-quoted declaration or '\" />'):"; echo "$BAD"; exit 1; }
+
 if [ -d "$HERE/.cache" ]; then
   python3 -I "$HERE/tools/check_refs.py"
 else

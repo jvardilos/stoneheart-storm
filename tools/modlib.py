@@ -18,6 +18,17 @@ PALADIN = "ff4d9497-023c-434a-bd14-82fc367e991c"
 PALADIN_OATH_NAMES = ["OathOfEternalNight", "OathOfHeresy", "OathOfRevelry", "OathOfTheSun", "OathOfWinter"]
 
 
+def write_larian_xml(tree, path, indent="    "):
+    """Write XML exactly in the game's style: double-quoted declaration and `"/>` with no space.
+
+    ElementTree's default output (`<?xml version='1.0'...?>`, `" />`) got modsettings.lsx reset by the
+    game, so every XML file this project writes goes through here.
+    """
+    ET.indent(tree, space=indent)
+    body = ET.tostring(tree.getroot(), encoding="unicode").replace(" />", "/>").replace("'", "&apos;")
+    Path(path).write_text('<?xml version="1.0" encoding="UTF-8"?>\n' + body + "\n", encoding="utf-8")
+
+
 def uid(key):
     return str(uuid.uuid5(NS, key))
 
@@ -84,8 +95,7 @@ def upsert_lsx(path, node_xmls, region=None, node_id=None):
             rows.remove(n)
     for n in new:
         rows.append(n)
-    ET.indent(tree, space="    ")
-    tree.write(path, encoding="UTF-8", xml_declaration=True)
+    write_larian_xml(tree, path)
 
 
 def upsert_loca(entries):
@@ -98,8 +108,7 @@ def upsert_loca(entries):
     for k, v in entries.items():
         e = ET.SubElement(root, "content", {"contentuid": k, "version": "1"})
         e.text = v
-    ET.indent(tree, space="  ")
-    tree.write(LOCA, encoding="utf-8", xml_declaration=True)
+    write_larian_xml(tree, LOCA, indent="  ")
 
 
 def attr(id_, type_, value):

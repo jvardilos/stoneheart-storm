@@ -1,378 +1,378 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <save>
-    <version major="4" minor="7" revision="1" build="1" />
+    <version major="4" minor="7" revision="1" build="1"/>
     <region id="SpellLists">
         <node id="root">
             <children>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Warden level 1 spells" />
-                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_WardensGrasp;Target_SSTORM_PhantomGrapnel" />
-                    <attribute id="UUID" type="guid" value="f4e71cf2-e049-4f75-b842-d7bb41d5fd4b" />
+                    <attribute id="Name" type="FixedString" value="Warden level 1 spells"/>
+                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_WardensGrasp;Target_SSTORM_PhantomGrapnel"/>
+                    <attribute id="UUID" type="guid" value="f4e71cf2-e049-4f75-b842-d7bb41d5fd4b"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Warden level 2 spells" />
-                    <attribute id="Spells" type="LSString" value="Target_SSTORM_WardensMark" />
-                    <attribute id="UUID" type="guid" value="c4e440b0-d3e9-46b0-978f-0ef20c17de39" />
+                    <attribute id="Name" type="FixedString" value="Warden level 2 spells"/>
+                    <attribute id="Spells" type="LSString" value="Target_SSTORM_WardensMark"/>
+                    <attribute id="UUID" type="guid" value="c4e440b0-d3e9-46b0-978f-0ef20c17de39"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Paladin Storms Spells level 3" />
-                    <attribute id="Spells" type="LSString" value="Target_FogCloud;Zone_Thunderwave" />
-                    <attribute id="UUID" type="guid" value="fd74b073-57b0-4cfe-8be3-364ee61b73c1" />
+                    <attribute id="Name" type="FixedString" value="Paladin Storms Spells level 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_FogCloud;Zone_Thunderwave"/>
+                    <attribute id="UUID" type="guid" value="fd74b073-57b0-4cfe-8be3-364ee61b73c1"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Paladin Storms Spells level 5" />
-                    <attribute id="Spells" type="LSString" value="Zone_GustOfWind;Target_HoldPerson" />
-                    <attribute id="UUID" type="guid" value="d1628475-3d1c-4294-8fc8-e36bc794e10d" />
+                    <attribute id="Name" type="FixedString" value="Paladin Storms Spells level 5"/>
+                    <attribute id="Spells" type="LSString" value="Zone_GustOfWind;Target_HoldPerson"/>
+                    <attribute id="UUID" type="guid" value="d1628475-3d1c-4294-8fc8-e36bc794e10d"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Paladin Storms Spells level 9" />
-                    <attribute id="Spells" type="LSString" value="Target_CallLightning" />
-                    <attribute id="UUID" type="guid" value="45ff4360-b16b-4b0a-9445-c3bd0c1adc59" />
+                    <attribute id="Name" type="FixedString" value="Paladin Storms Spells level 9"/>
+                    <attribute id="Spells" type="LSString" value="Target_CallLightning"/>
+                    <attribute id="UUID" type="guid" value="45ff4360-b16b-4b0a-9445-c3bd0c1adc59"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Paladin, Storms spell scroll list" />
-                    <attribute id="Spells" type="LSString" value="Target_FogCloud;Zone_GustOfWind" />
-                    <attribute id="UUID" type="guid" value="7138e67e-682a-4649-ad5a-ff3d4a39a93c" />
+                    <attribute id="Name" type="FixedString" value="Paladin, Storms spell scroll list"/>
+                    <attribute id="Spells" type="LSString" value="Target_FogCloud;Zone_GustOfWind"/>
+                    <attribute id="UUID" type="guid" value="7138e67e-682a-4649-ad5a-ff3d4a39a93c"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Boogie Woogie level 3 spells" />
-                    <attribute id="Spells" type="LSString" value="Target_SSTORM_BoogieWoogie" />
-                    <attribute id="UUID" type="guid" value="9b70e16f-70ba-46aa-ab3b-b25275af73d8" />
+                    <attribute id="Name" type="FixedString" value="Boogie Woogie level 3 spells"/>
+                    <attribute id="Spells" type="LSString" value="Target_SSTORM_BoogieWoogie"/>
+                    <attribute id="UUID" type="guid" value="9b70e16f-70ba-46aa-ab3b-b25275af73d8"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Paladin Storms Spells level 13" />
-                    <attribute id="Spells" type="LSString" value="Target_IceStorm" />
-                    <attribute id="UUID" type="guid" value="54fff764-3ad9-4505-8c8c-234c04a8d058" />
+                    <attribute id="Name" type="FixedString" value="Paladin Storms Spells level 13"/>
+                    <attribute id="Spells" type="LSString" value="Target_IceStorm"/>
+                    <attribute id="UUID" type="guid" value="54fff764-3ad9-4505-8c8c-234c04a8d058"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Paladin Storms Spells level 17" />
-                    <attribute id="Spells" type="LSString" value="Target_HoldMonster" />
-                    <attribute id="UUID" type="guid" value="bb8e9ecf-b195-44e2-a96a-11182d1455b1" />
+                    <attribute id="Name" type="FixedString" value="Paladin Storms Spells level 17"/>
+                    <attribute id="Spells" type="LSString" value="Target_HoldMonster"/>
+                    <attribute id="UUID" type="guid" value="bb8e9ecf-b195-44e2-a96a-11182d1455b1"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Bloodwrath Guardian features level 3" />
-                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_BG_FeralTrance" />
-                    <attribute id="UUID" type="guid" value="0b36d4bc-c6f6-5725-a488-6882ddea88ff" />
+                    <attribute id="Name" type="FixedString" value="Oath of Eternal Night oath spells level 3"/>
+                    <attribute id="Spells" type="LSString" value="Shout_FeatherFall;Target_Longstrider"/>
+                    <attribute id="UUID" type="guid" value="462e2685-dd8d-5281-a3c5-c9b99d48e43c"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Bloodwrath Guardian features level 20" />
-                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_BG_PrimalBeast" />
-                    <attribute id="UUID" type="guid" value="19ca7b91-d438-5c68-a3c9-c444faa7e5d3" />
+                    <attribute id="Name" type="FixedString" value="Oath of Eternal Night features level 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_SSTORM_EN_CoverOfDarkness;Shout_SSTORM_EN_ShroudedArmor"/>
+                    <attribute id="UUID" type="guid" value="2c952454-00cd-5e01-a352-2e9d357fd35c"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Grey Watchman features level 3" />
-                    <attribute id="Spells" type="LSString" value="Target_SSTORM_GW_BullRush;Target_SSTORM_GW_Bulwark;Shout_SSTORM_GW_RecklessAssault;Target_SSTORM_GW_StaggeringStrike" />
-                    <attribute id="UUID" type="guid" value="dda0cb25-0345-5adb-82e8-aa03f230984d" />
+                    <attribute id="Name" type="FixedString" value="Oath of Eternal Night oath spells level 5"/>
+                    <attribute id="Spells" type="LSString" value="Shout_FindSteed;Target_MistyStep"/>
+                    <attribute id="UUID" type="guid" value="d81fda1f-8ce6-5ae6-8ed9-68347c63295c"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Grey Watchman features level 20" />
-                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_GW_UnbreakableSentinel" />
-                    <attribute id="UUID" type="guid" value="a1dd8b81-c43e-5813-811f-65b1bcfd6643" />
+                    <attribute id="Name" type="FixedString" value="Oath of Eternal Night features level 7"/>
+                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_EN_SLIP_Aura"/>
+                    <attribute id="UUID" type="guid" value="50e73b7a-56ae-5642-8df0-9dddc3c7f9fd"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Nightgaunt features level 20" />
-                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_NG_Gravelord" />
-                    <attribute id="UUID" type="guid" value="7e7de312-5968-5ae6-a6bc-dec7d6e9229d" />
+                    <attribute id="Name" type="FixedString" value="Oath of Eternal Night oath spells level 9"/>
+                    <attribute id="Spells" type="LSString" value="Target_Fly;Target_Haste"/>
+                    <attribute id="UUID" type="guid" value="b055ac02-3304-51cf-9e15-ca1ced424d35"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Soulblood Shaman druid spells up to level 1" />
-                    <attribute id="Spells" type="LSString" value="Target_AnimalFriendship;Target_CharmPerson;Target_CreateDestroyWater;Target_CureWounds;Target_Entangle;Target_FaerieFire;Target_FogCloud;Target_Goodberry;Target_HealingWord;Projectile_IceKnife;Target_Jump;Target_Longstrider;Shout_SpeakWithAnimals;Zone_Thunderwave" />
-                    <attribute id="UUID" type="guid" value="1f9b11fe-b9a0-5f0d-89f3-8b47840bf666" />
+                    <attribute id="Name" type="FixedString" value="Oath of Eternal Night oath spells level 13"/>
+                    <attribute id="Spells" type="LSString" value="Teleportation_DimensionDoor;Target_FreedomOfMovement"/>
+                    <attribute id="UUID" type="guid" value="96a0f579-18b7-543f-ab63-f6942931e4f9"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Soulblood Shaman druid spells up to level 2" />
-                    <attribute id="Spells" type="LSString" value="Target_AnimalFriendship;Target_CharmPerson;Target_CreateDestroyWater;Target_CureWounds;Target_Entangle;Target_FaerieFire;Target_FogCloud;Target_Goodberry;Target_HealingWord;Projectile_IceKnife;Target_Jump;Target_Longstrider;Shout_SpeakWithAnimals;Zone_Thunderwave;Target_Barkskin;Target_Darkvision;Target_EnhanceAbility;Shout_FlameBlade;Target_FlamingSphere;Zone_GustOfWind;Target_HeatMetal;Target_HoldPerson;Target_LesserRestoration;Target_Moonbeam;Shout_PassWithoutTrace;Target_ProtectionFromPoison;Target_SpikeGrowth" />
-                    <attribute id="UUID" type="guid" value="bf77dd64-64f9-5337-9d71-500ac0b0456a" />
+                    <attribute id="Name" type="FixedString" value="Oath of Eternal Night features level 20"/>
+                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_EN_ShadowForm"/>
+                    <attribute id="UUID" type="guid" value="2232770d-7a9b-5607-9a89-c63a675fab0f"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Soulblood Shaman druid spells up to level 3" />
-                    <attribute id="Spells" type="LSString" value="Target_AnimalFriendship;Target_CharmPerson;Target_CreateDestroyWater;Target_CureWounds;Target_Entangle;Target_FaerieFire;Target_FogCloud;Target_Goodberry;Target_HealingWord;Projectile_IceKnife;Target_Jump;Target_Longstrider;Shout_SpeakWithAnimals;Zone_Thunderwave;Target_Barkskin;Target_Darkvision;Target_EnhanceAbility;Shout_FlameBlade;Target_FlamingSphere;Zone_GustOfWind;Target_HeatMetal;Target_HoldPerson;Target_LesserRestoration;Target_Moonbeam;Shout_PassWithoutTrace;Target_ProtectionFromPoison;Target_SpikeGrowth;Target_CallLightning;Target_ProtectionFromEnergy;Target_PlantGrowth;Target_SleetStorm;Target_Daylight_Container;Target_FeignDeath" />
-                    <attribute id="UUID" type="guid" value="281d78c2-5b2b-568a-b55b-70bd88304f61" />
+                    <attribute id="Name" type="FixedString" value="Oath of Heresy oath spells level 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_ProtectionFromEvilAndGood"/>
+                    <attribute id="UUID" type="guid" value="f55b45be-eae6-5fc8-bad8-62832278b935"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Soulblood Shaman druid spells up to level 4" />
-                    <attribute id="Spells" type="LSString" value="Target_AnimalFriendship;Target_CharmPerson;Target_CreateDestroyWater;Target_CureWounds;Target_Entangle;Target_FaerieFire;Target_FogCloud;Target_Goodberry;Target_HealingWord;Projectile_IceKnife;Target_Jump;Target_Longstrider;Shout_SpeakWithAnimals;Zone_Thunderwave;Target_Barkskin;Target_Darkvision;Target_EnhanceAbility;Shout_FlameBlade;Target_FlamingSphere;Zone_GustOfWind;Target_HeatMetal;Target_HoldPerson;Target_LesserRestoration;Target_Moonbeam;Shout_PassWithoutTrace;Target_ProtectionFromPoison;Target_SpikeGrowth;Target_CallLightning;Target_ProtectionFromEnergy;Target_PlantGrowth;Target_SleetStorm;Target_Daylight_Container;Target_FeignDeath;Target_Blight;Target_Confusion;Target_ConjureElementals_Minor_Container;Target_ConjureWoodlandBeings;Target_DominateBeast;Target_FreedomOfMovement;Target_GraspingVine;Target_IceStorm;Target_Polymorph;Target_Stoneskin;Wall_WallOfFire" />
-                    <attribute id="UUID" type="guid" value="b7e246f2-a2a3-50ae-9524-3b14bf4dc8d0" />
+                    <attribute id="Name" type="FixedString" value="Oath of Heresy features level 3"/>
+                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_HE_Blaspheme;Shout_SSTORM_HE_TurnTheHoly"/>
+                    <attribute id="UUID" type="guid" value="24a33d6b-74e5-5ed6-a9bc-816028fda445"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Soulblood Shaman features level 20" />
-                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_SB_EtherealWatcher" />
-                    <attribute id="UUID" type="guid" value="44f6455a-9bdc-56cc-be7d-02513551db21" />
+                    <attribute id="Name" type="FixedString" value="Oath of Heresy oath spells level 5"/>
+                    <attribute id="Spells" type="LSString" value="Target_MagicWeapon"/>
+                    <attribute id="UUID" type="guid" value="b639aa04-fd48-5a6d-9c0d-c6544bb14eab"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Storm Sentinel features level 20" />
-                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_SS_Stormlord" />
-                    <attribute id="UUID" type="guid" value="b16e10d3-58e4-5689-ad58-33f902b9b8bc" />
+                    <attribute id="Name" type="FixedString" value="Oath of Heresy oath spells level 9"/>
+                    <attribute id="Spells" type="LSString" value="Target_DispelMagic;Target_SpeakWithDead"/>
+                    <attribute id="UUID" type="guid" value="ffc58619-8396-568d-8052-ac7874f0e2c4"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Verdant Protector features level 6" />
-                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_VP_VerdantSkin" />
-                    <attribute id="UUID" type="guid" value="5a08007f-214d-550a-80cc-5efad51273ab" />
+                    <attribute id="Name" type="FixedString" value="Oath of Heresy oath spells level 13"/>
+                    <attribute id="Spells" type="LSString" value="Target_Banishment"/>
+                    <attribute id="UUID" type="guid" value="2bccbac5-7aa8-5d4a-be02-907405766c7b"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Verdant Protector features level 20" />
-                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_VP_OakSentinel" />
-                    <attribute id="UUID" type="guid" value="b5654e6c-7e12-599e-aed4-dc7adb4b13d8" />
+                    <attribute id="Name" type="FixedString" value="Oath of Heresy oath spells level 17"/>
+                    <attribute id="Spells" type="LSString" value="Shout_DispelEvilAndGood"/>
+                    <attribute id="UUID" type="guid" value="d76a37f3-80cc-5051-940a-bae8cd8ff832"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Stoneheart Defender features level 20" />
-                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_SH_ImmortalMountain" />
-                    <attribute id="UUID" type="guid" value="566f7184-2bd2-5dc0-84e4-6c85fd1a9ac1" />
+                    <attribute id="Name" type="FixedString" value="Oath of Heresy features level 20"/>
+                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_HE_Apostate"/>
+                    <attribute id="UUID" type="guid" value="80a9fc41-12c3-53d8-97e2-f96d7c6f4f89"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Armigers' Guild features level 7" />
-                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_AR_ShiningSteel" />
-                    <attribute id="UUID" type="guid" value="d1a2760d-72e2-5e0a-9501-23aba5869da4" />
+                    <attribute id="Name" type="FixedString" value="Oath of Revelry oath spells level 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_CharmPerson;Target_HideousLaughter"/>
+                    <attribute id="UUID" type="guid" value="2473d1a7-6a9c-55fe-8bc3-4de1af4d5009"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Armigers' Guild features level 10" />
-                    <attribute id="Spells" type="LSString" value="Target_SSTORM_AR_Banded;Target_SSTORM_AR_Adamant" />
-                    <attribute id="UUID" type="guid" value="e452ef17-26e9-511e-9209-47987717351d" />
+                    <attribute id="Name" type="FixedString" value="Oath of Revelry features level 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_SSTORM_RE_ConjureDrink;Shout_SSTORM_RE_SongAndDance"/>
+                    <attribute id="UUID" type="guid" value="56dd725d-6a2f-5452-ba15-da6a3a4b70c7"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Armigers' Guild features level 14" />
-                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_AR_Fortify" />
-                    <attribute id="UUID" type="guid" value="a9b1e22f-62ef-5d0a-913b-0067ba292aba" />
+                    <attribute id="Name" type="FixedString" value="Oath of Revelry oath spells level 5"/>
+                    <attribute id="Spells" type="LSString" value="Target_CalmEmotions;Target_EnhanceAbility"/>
+                    <attribute id="UUID" type="guid" value="753f00b6-ebad-5b40-9c26-dce998a38c90"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Bladeworkers' Guild features level 7" />
-                    <attribute id="Spells" type="LSString" value="Target_SSTORM_BW_Disarm;Target_SSTORM_BW_Sunder" />
-                    <attribute id="UUID" type="guid" value="155230f0-8bf5-5d05-bac3-490af84ba734" />
+                    <attribute id="Name" type="FixedString" value="Oath of Revelry features level 7"/>
+                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_RE_FRATERNITY_Aura"/>
+                    <attribute id="UUID" type="guid" value="dc5758d5-a9d4-568e-b3aa-c9e2b2ef76d4"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Bladeworkers' Guild features level 10" />
-                    <attribute id="Spells" type="LSString" value="Target_SSTORM_BW_Honed;Target_SSTORM_BW_Sharpened" />
-                    <attribute id="UUID" type="guid" value="445c47ed-371d-5cf1-8c23-df3779687408" />
+                    <attribute id="Name" type="FixedString" value="Oath of Revelry oath spells level 9"/>
+                    <attribute id="Spells" type="LSString" value="Target_HypnoticPattern"/>
+                    <attribute id="UUID" type="guid" value="6a7ebde9-dbbc-5278-9234-efc2c87240aa"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Bladeworkers' Guild features level 14" />
-                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_BW_VersatileStrike" />
-                    <attribute id="UUID" type="guid" value="d7f0ab0f-6e9e-5e27-962e-8781b426b143" />
+                    <attribute id="Name" type="FixedString" value="Oath of Revelry oath spells level 13"/>
+                    <attribute id="Spells" type="LSString" value="Target_FreedomOfMovement"/>
+                    <attribute id="UUID" type="guid" value="e3097bfd-a66c-5666-b615-fdc6eeef6557"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Forgeknight's Guild features level 3" />
-                    <attribute id="Spells" type="LSString" value="Shout_ProduceFlame" />
-                    <attribute id="UUID" type="guid" value="bf3995af-1596-52a5-b6bd-cc55d4b40c5c" />
+                    <attribute id="Name" type="FixedString" value="Oath of Revelry features level 15"/>
+                    <attribute id="Spells" type="LSString" value="Target_SSTORM_RE_Merrymaker"/>
+                    <attribute id="UUID" type="guid" value="628453dc-3580-5979-b5ff-4f39a94e1ad9"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Forgeknight's Guild features level 10" />
-                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_FK_Superheat" />
-                    <attribute id="UUID" type="guid" value="5945b244-cadd-5a1d-98e8-9a10f1839e4c" />
+                    <attribute id="Name" type="FixedString" value="Oath of Revelry features level 20"/>
+                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_RE_PartyAnimal"/>
+                    <attribute id="UUID" type="guid" value="e467f174-bb8b-58c9-9f3b-2cca0f03dc73"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Forgeknight's Guild features level 14" />
-                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_FK_FireBurst" />
-                    <attribute id="UUID" type="guid" value="c0aac167-deb3-5afd-bf81-f64319e1b317" />
+                    <attribute id="Name" type="FixedString" value="Oath of the Sun oath spells level 3"/>
+                    <attribute id="Spells" type="LSString" value="Zone_BurningHands;Projectile_GuidingBolt"/>
+                    <attribute id="UUID" type="guid" value="5ae15e93-ffbb-5838-9868-b04a74a1a898"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Thunderlords' Guild features level 3" />
-                    <attribute id="Spells" type="LSString" value="Target_ShockingGrasp" />
-                    <attribute id="UUID" type="guid" value="653ba9fb-190d-5cc4-b3f6-9e7239f37152" />
+                    <attribute id="Name" type="FixedString" value="Oath of the Sun features level 3"/>
+                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_SU_GloriousRadiance;Shout_SSTORM_SU_SolarFlare"/>
+                    <attribute id="UUID" type="guid" value="72df5293-55b7-5fa5-9c8f-8f3488042004"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Thunderlords' Guild features level 10" />
-                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_TL_StaticCharge" />
-                    <attribute id="UUID" type="guid" value="984a734e-b86f-50e5-8a50-8dabe9451ca6" />
+                    <attribute id="Name" type="FixedString" value="Oath of the Sun oath spells level 5"/>
+                    <attribute id="Spells" type="LSString" value="Target_Darkvision;Projectile_ScorchingRay"/>
+                    <attribute id="UUID" type="guid" value="9f8f5b05-86e8-5a56-a723-e53feaf47392"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Thunderlords' Guild features level 14" />
-                    <attribute id="Spells" type="LSString" value="Zone_SSTORM_TL_HighVoltage" />
-                    <attribute id="UUID" type="guid" value="1c2e697a-7a8b-5247-a626-b89f47b1e81b" />
+                    <attribute id="Name" type="FixedString" value="Oath of the Sun features level 7"/>
+                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_SU_WARMTH_Aura"/>
+                    <attribute id="UUID" type="guid" value="514d1668-7444-5f6e-8361-2b0bc01c0340"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Thunderlords' Guild features level 18" />
-                    <attribute id="Spells" type="LSString" value="Target_SSTORM_TL_Electroshock" />
-                    <attribute id="UUID" type="guid" value="3519c142-1c3d-5191-abd2-6f8ca345a7a3" />
+                    <attribute id="Name" type="FixedString" value="Oath of the Sun oath spells level 9"/>
+                    <attribute id="Spells" type="LSString" value="Target_Daylight;Shout_SpiritGuardians"/>
+                    <attribute id="UUID" type="guid" value="dd0daa65-4cc2-5a4a-ac86-e28447a65b7b"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Oath of Eternal Night oath spells level 3" />
-                    <attribute id="Spells" type="LSString" value="Shout_FeatherFall;Target_Longstrider" />
-                    <attribute id="UUID" type="guid" value="462e2685-dd8d-5281-a3c5-c9b99d48e43c" />
+                    <attribute id="Name" type="FixedString" value="Oath of the Sun oath spells level 13"/>
+                    <attribute id="Spells" type="LSString" value="Shout_FireShield;Wall_WallOfFire"/>
+                    <attribute id="UUID" type="guid" value="81b39d0e-c9e6-58de-906c-72cd465e7d6c"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Oath of Eternal Night features level 3" />
-                    <attribute id="Spells" type="LSString" value="Target_SSTORM_EN_CoverOfDarkness;Shout_SSTORM_EN_ShroudedArmor" />
-                    <attribute id="UUID" type="guid" value="2c952454-00cd-5e01-a352-2e9d357fd35c" />
+                    <attribute id="Name" type="FixedString" value="Oath of the Sun oath spells level 17"/>
+                    <attribute id="Spells" type="LSString" value="Target_FlameStrike"/>
+                    <attribute id="UUID" type="guid" value="3105e6c2-471e-58c7-918c-d189d518ad8f"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Oath of Eternal Night oath spells level 5" />
-                    <attribute id="Spells" type="LSString" value="Shout_FindSteed;Target_MistyStep" />
-                    <attribute id="UUID" type="guid" value="d81fda1f-8ce6-5ae6-8ed9-68347c63295c" />
+                    <attribute id="Name" type="FixedString" value="Oath of the Sun features level 20"/>
+                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_SU_Zenith"/>
+                    <attribute id="UUID" type="guid" value="d5c76f52-cfbe-5c87-b61d-e10536d7c411"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Oath of Eternal Night features level 7" />
-                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_EN_SLIP_Aura" />
-                    <attribute id="UUID" type="guid" value="50e73b7a-56ae-5642-8df0-9dddc3c7f9fd" />
+                    <attribute id="Name" type="FixedString" value="Oath of Winter oath spells level 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_FogCloud;Target_CreateWater"/>
+                    <attribute id="UUID" type="guid" value="0ae797ca-75ce-55a9-8e6b-41073cdecc30"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Oath of Eternal Night oath spells level 9" />
-                    <attribute id="Spells" type="LSString" value="Target_Fly;Target_Haste" />
-                    <attribute id="UUID" type="guid" value="b055ac02-3304-51cf-9e15-ca1ced424d35" />
+                    <attribute id="Name" type="FixedString" value="Oath of Winter features level 3"/>
+                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_WI_IceArmor;Zone_SSTORM_WI_NorthWind"/>
+                    <attribute id="UUID" type="guid" value="a0ba2aff-31f9-57d4-9746-a9c503c9148b"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Oath of Eternal Night oath spells level 13" />
-                    <attribute id="Spells" type="LSString" value="Teleportation_DimensionDoor;Target_FreedomOfMovement" />
-                    <attribute id="UUID" type="guid" value="96a0f579-18b7-543f-ab63-f6942931e4f9" />
+                    <attribute id="Name" type="FixedString" value="Oath of Winter oath spells level 5"/>
+                    <attribute id="Spells" type="LSString" value="Target_HoldPerson;Target_Shatter"/>
+                    <attribute id="UUID" type="guid" value="32ef3cff-b954-5452-8861-7d68ce714d7b"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Oath of Eternal Night features level 20" />
-                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_EN_ShadowForm" />
-                    <attribute id="UUID" type="guid" value="2232770d-7a9b-5607-9a89-c63a675fab0f" />
+                    <attribute id="Name" type="FixedString" value="Oath of Winter features level 7"/>
+                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_WI_FRIGID_Aura"/>
+                    <attribute id="UUID" type="guid" value="135ef936-41e1-542e-9ca8-f7490a06c283"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Oath of Heresy oath spells level 3" />
-                    <attribute id="Spells" type="LSString" value="Target_ProtectionFromEvilAndGood" />
-                    <attribute id="UUID" type="guid" value="f55b45be-eae6-5fc8-bad8-62832278b935" />
+                    <attribute id="Name" type="FixedString" value="Oath of Winter oath spells level 9"/>
+                    <attribute id="Spells" type="LSString" value="Target_SleetStorm;Target_Slow"/>
+                    <attribute id="UUID" type="guid" value="c61438b4-8468-56f3-95c2-97b1bd5e3dc7"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Oath of Heresy features level 3" />
-                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_HE_Blaspheme;Shout_SSTORM_HE_TurnTheHoly" />
-                    <attribute id="UUID" type="guid" value="24a33d6b-74e5-5ed6-a9bc-816028fda445" />
+                    <attribute id="Name" type="FixedString" value="Oath of Winter oath spells level 13"/>
+                    <attribute id="Spells" type="LSString" value="Shout_FireShield;Target_IceStorm"/>
+                    <attribute id="UUID" type="guid" value="ec9a9581-e02a-5cc7-adc6-58172f8d2a10"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Oath of Heresy oath spells level 5" />
-                    <attribute id="Spells" type="LSString" value="Target_MagicWeapon" />
-                    <attribute id="UUID" type="guid" value="b639aa04-fd48-5a6d-9c0d-c6544bb14eab" />
+                    <attribute id="Name" type="FixedString" value="Oath of Winter oath spells level 17"/>
+                    <attribute id="Spells" type="LSString" value="Zone_ConeOfCold;Target_HoldMonster"/>
+                    <attribute id="UUID" type="guid" value="bd3dea01-ad0e-58b2-a740-c24a65973e23"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Oath of Heresy oath spells level 9" />
-                    <attribute id="Spells" type="LSString" value="Target_DispelMagic;Target_SpeakWithDead" />
-                    <attribute id="UUID" type="guid" value="ffc58619-8396-568d-8052-ac7874f0e2c4" />
+                    <attribute id="Name" type="FixedString" value="Oath of Winter features level 20"/>
+                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_WI_FatherWinter"/>
+                    <attribute id="UUID" type="guid" value="11ebdaef-a74e-52b1-835c-a343bea65bc9"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Oath of Heresy oath spells level 13" />
-                    <attribute id="Spells" type="LSString" value="Target_Banishment" />
-                    <attribute id="UUID" type="guid" value="2bccbac5-7aa8-5d4a-be02-907405766c7b" />
+                    <attribute id="Name" type="FixedString" value="Bloodwrath Guardian features level 3"/>
+                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_BG_FeralTrance"/>
+                    <attribute id="UUID" type="guid" value="0b36d4bc-c6f6-5725-a488-6882ddea88ff"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Oath of Heresy oath spells level 17" />
-                    <attribute id="Spells" type="LSString" value="Shout_DispelEvilAndGood" />
-                    <attribute id="UUID" type="guid" value="d76a37f3-80cc-5051-940a-bae8cd8ff832" />
+                    <attribute id="Name" type="FixedString" value="Bloodwrath Guardian features level 20"/>
+                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_BG_PrimalBeast"/>
+                    <attribute id="UUID" type="guid" value="19ca7b91-d438-5c68-a3c9-c444faa7e5d3"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Oath of Heresy features level 20" />
-                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_HE_Apostate" />
-                    <attribute id="UUID" type="guid" value="80a9fc41-12c3-53d8-97e2-f96d7c6f4f89" />
+                    <attribute id="Name" type="FixedString" value="Grey Watchman features level 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_SSTORM_GW_BullRush;Target_SSTORM_GW_Bulwark;Shout_SSTORM_GW_RecklessAssault;Target_SSTORM_GW_StaggeringStrike"/>
+                    <attribute id="UUID" type="guid" value="dda0cb25-0345-5adb-82e8-aa03f230984d"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Oath of Revelry oath spells level 3" />
-                    <attribute id="Spells" type="LSString" value="Target_CharmPerson;Target_HideousLaughter" />
-                    <attribute id="UUID" type="guid" value="2473d1a7-6a9c-55fe-8bc3-4de1af4d5009" />
+                    <attribute id="Name" type="FixedString" value="Grey Watchman features level 20"/>
+                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_GW_UnbreakableSentinel"/>
+                    <attribute id="UUID" type="guid" value="a1dd8b81-c43e-5813-811f-65b1bcfd6643"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Oath of Revelry features level 3" />
-                    <attribute id="Spells" type="LSString" value="Target_SSTORM_RE_ConjureDrink;Shout_SSTORM_RE_SongAndDance" />
-                    <attribute id="UUID" type="guid" value="56dd725d-6a2f-5452-ba15-da6a3a4b70c7" />
+                    <attribute id="Name" type="FixedString" value="Nightgaunt features level 20"/>
+                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_NG_Gravelord"/>
+                    <attribute id="UUID" type="guid" value="7e7de312-5968-5ae6-a6bc-dec7d6e9229d"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Oath of Revelry oath spells level 5" />
-                    <attribute id="Spells" type="LSString" value="Target_CalmEmotions;Target_EnhanceAbility" />
-                    <attribute id="UUID" type="guid" value="753f00b6-ebad-5b40-9c26-dce998a38c90" />
+                    <attribute id="Name" type="FixedString" value="Soulblood Shaman druid spells up to level 1"/>
+                    <attribute id="Spells" type="LSString" value="Target_AnimalFriendship;Target_CharmPerson;Target_CreateDestroyWater;Target_CureWounds;Target_Entangle;Target_FaerieFire;Target_FogCloud;Target_Goodberry;Target_HealingWord;Projectile_IceKnife;Target_Jump;Target_Longstrider;Shout_SpeakWithAnimals;Zone_Thunderwave"/>
+                    <attribute id="UUID" type="guid" value="1f9b11fe-b9a0-5f0d-89f3-8b47840bf666"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Oath of Revelry features level 7" />
-                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_RE_FRATERNITY_Aura" />
-                    <attribute id="UUID" type="guid" value="dc5758d5-a9d4-568e-b3aa-c9e2b2ef76d4" />
+                    <attribute id="Name" type="FixedString" value="Soulblood Shaman druid spells up to level 2"/>
+                    <attribute id="Spells" type="LSString" value="Target_AnimalFriendship;Target_CharmPerson;Target_CreateDestroyWater;Target_CureWounds;Target_Entangle;Target_FaerieFire;Target_FogCloud;Target_Goodberry;Target_HealingWord;Projectile_IceKnife;Target_Jump;Target_Longstrider;Shout_SpeakWithAnimals;Zone_Thunderwave;Target_Barkskin;Target_Darkvision;Target_EnhanceAbility;Shout_FlameBlade;Target_FlamingSphere;Zone_GustOfWind;Target_HeatMetal;Target_HoldPerson;Target_LesserRestoration;Target_Moonbeam;Shout_PassWithoutTrace;Target_ProtectionFromPoison;Target_SpikeGrowth"/>
+                    <attribute id="UUID" type="guid" value="bf77dd64-64f9-5337-9d71-500ac0b0456a"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Oath of Revelry oath spells level 9" />
-                    <attribute id="Spells" type="LSString" value="Target_HypnoticPattern" />
-                    <attribute id="UUID" type="guid" value="6a7ebde9-dbbc-5278-9234-efc2c87240aa" />
+                    <attribute id="Name" type="FixedString" value="Soulblood Shaman druid spells up to level 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_AnimalFriendship;Target_CharmPerson;Target_CreateDestroyWater;Target_CureWounds;Target_Entangle;Target_FaerieFire;Target_FogCloud;Target_Goodberry;Target_HealingWord;Projectile_IceKnife;Target_Jump;Target_Longstrider;Shout_SpeakWithAnimals;Zone_Thunderwave;Target_Barkskin;Target_Darkvision;Target_EnhanceAbility;Shout_FlameBlade;Target_FlamingSphere;Zone_GustOfWind;Target_HeatMetal;Target_HoldPerson;Target_LesserRestoration;Target_Moonbeam;Shout_PassWithoutTrace;Target_ProtectionFromPoison;Target_SpikeGrowth;Target_CallLightning;Target_ProtectionFromEnergy;Target_PlantGrowth;Target_SleetStorm;Target_Daylight_Container;Target_FeignDeath"/>
+                    <attribute id="UUID" type="guid" value="281d78c2-5b2b-568a-b55b-70bd88304f61"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Oath of Revelry oath spells level 13" />
-                    <attribute id="Spells" type="LSString" value="Target_FreedomOfMovement" />
-                    <attribute id="UUID" type="guid" value="e3097bfd-a66c-5666-b615-fdc6eeef6557" />
+                    <attribute id="Name" type="FixedString" value="Soulblood Shaman druid spells up to level 4"/>
+                    <attribute id="Spells" type="LSString" value="Target_AnimalFriendship;Target_CharmPerson;Target_CreateDestroyWater;Target_CureWounds;Target_Entangle;Target_FaerieFire;Target_FogCloud;Target_Goodberry;Target_HealingWord;Projectile_IceKnife;Target_Jump;Target_Longstrider;Shout_SpeakWithAnimals;Zone_Thunderwave;Target_Barkskin;Target_Darkvision;Target_EnhanceAbility;Shout_FlameBlade;Target_FlamingSphere;Zone_GustOfWind;Target_HeatMetal;Target_HoldPerson;Target_LesserRestoration;Target_Moonbeam;Shout_PassWithoutTrace;Target_ProtectionFromPoison;Target_SpikeGrowth;Target_CallLightning;Target_ProtectionFromEnergy;Target_PlantGrowth;Target_SleetStorm;Target_Daylight_Container;Target_FeignDeath;Target_Blight;Target_Confusion;Target_ConjureElementals_Minor_Container;Target_ConjureWoodlandBeings;Target_DominateBeast;Target_FreedomOfMovement;Target_GraspingVine;Target_IceStorm;Target_Polymorph;Target_Stoneskin;Wall_WallOfFire"/>
+                    <attribute id="UUID" type="guid" value="b7e246f2-a2a3-50ae-9524-3b14bf4dc8d0"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Oath of Revelry features level 15" />
-                    <attribute id="Spells" type="LSString" value="Target_SSTORM_RE_Merrymaker" />
-                    <attribute id="UUID" type="guid" value="628453dc-3580-5979-b5ff-4f39a94e1ad9" />
+                    <attribute id="Name" type="FixedString" value="Soulblood Shaman features level 20"/>
+                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_SB_EtherealWatcher"/>
+                    <attribute id="UUID" type="guid" value="44f6455a-9bdc-56cc-be7d-02513551db21"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Oath of Revelry features level 20" />
-                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_RE_PartyAnimal" />
-                    <attribute id="UUID" type="guid" value="e467f174-bb8b-58c9-9f3b-2cca0f03dc73" />
+                    <attribute id="Name" type="FixedString" value="Storm Sentinel features level 20"/>
+                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_SS_Stormlord"/>
+                    <attribute id="UUID" type="guid" value="b16e10d3-58e4-5689-ad58-33f902b9b8bc"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Oath of the Sun oath spells level 3" />
-                    <attribute id="Spells" type="LSString" value="Zone_BurningHands;Projectile_GuidingBolt" />
-                    <attribute id="UUID" type="guid" value="5ae15e93-ffbb-5838-9868-b04a74a1a898" />
+                    <attribute id="Name" type="FixedString" value="Verdant Protector features level 6"/>
+                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_VP_VerdantSkin"/>
+                    <attribute id="UUID" type="guid" value="5a08007f-214d-550a-80cc-5efad51273ab"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Oath of the Sun features level 3" />
-                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_SU_GloriousRadiance;Shout_SSTORM_SU_SolarFlare" />
-                    <attribute id="UUID" type="guid" value="72df5293-55b7-5fa5-9c8f-8f3488042004" />
+                    <attribute id="Name" type="FixedString" value="Verdant Protector features level 20"/>
+                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_VP_OakSentinel"/>
+                    <attribute id="UUID" type="guid" value="b5654e6c-7e12-599e-aed4-dc7adb4b13d8"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Oath of the Sun oath spells level 5" />
-                    <attribute id="Spells" type="LSString" value="Target_Darkvision;Projectile_ScorchingRay" />
-                    <attribute id="UUID" type="guid" value="9f8f5b05-86e8-5a56-a723-e53feaf47392" />
+                    <attribute id="Name" type="FixedString" value="Stoneheart Defender features level 20"/>
+                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_SH_ImmortalMountain"/>
+                    <attribute id="UUID" type="guid" value="566f7184-2bd2-5dc0-84e4-6c85fd1a9ac1"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Oath of the Sun features level 7" />
-                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_SU_WARMTH_Aura" />
-                    <attribute id="UUID" type="guid" value="514d1668-7444-5f6e-8361-2b0bc01c0340" />
+                    <attribute id="Name" type="FixedString" value="Armigers&apos; Guild features level 7"/>
+                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_AR_ShiningSteel"/>
+                    <attribute id="UUID" type="guid" value="d1a2760d-72e2-5e0a-9501-23aba5869da4"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Oath of the Sun oath spells level 9" />
-                    <attribute id="Spells" type="LSString" value="Target_Daylight;Shout_SpiritGuardians" />
-                    <attribute id="UUID" type="guid" value="dd0daa65-4cc2-5a4a-ac86-e28447a65b7b" />
+                    <attribute id="Name" type="FixedString" value="Armigers&apos; Guild features level 10"/>
+                    <attribute id="Spells" type="LSString" value="Target_SSTORM_AR_Banded;Target_SSTORM_AR_Adamant"/>
+                    <attribute id="UUID" type="guid" value="e452ef17-26e9-511e-9209-47987717351d"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Oath of the Sun oath spells level 13" />
-                    <attribute id="Spells" type="LSString" value="Shout_FireShield;Wall_WallOfFire" />
-                    <attribute id="UUID" type="guid" value="81b39d0e-c9e6-58de-906c-72cd465e7d6c" />
+                    <attribute id="Name" type="FixedString" value="Armigers&apos; Guild features level 14"/>
+                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_AR_Fortify"/>
+                    <attribute id="UUID" type="guid" value="a9b1e22f-62ef-5d0a-913b-0067ba292aba"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Oath of the Sun oath spells level 17" />
-                    <attribute id="Spells" type="LSString" value="Target_FlameStrike" />
-                    <attribute id="UUID" type="guid" value="3105e6c2-471e-58c7-918c-d189d518ad8f" />
+                    <attribute id="Name" type="FixedString" value="Bladeworkers&apos; Guild features level 7"/>
+                    <attribute id="Spells" type="LSString" value="Target_SSTORM_BW_Disarm;Target_SSTORM_BW_Sunder"/>
+                    <attribute id="UUID" type="guid" value="155230f0-8bf5-5d05-bac3-490af84ba734"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Oath of the Sun features level 20" />
-                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_SU_Zenith" />
-                    <attribute id="UUID" type="guid" value="d5c76f52-cfbe-5c87-b61d-e10536d7c411" />
+                    <attribute id="Name" type="FixedString" value="Bladeworkers&apos; Guild features level 10"/>
+                    <attribute id="Spells" type="LSString" value="Target_SSTORM_BW_Honed;Target_SSTORM_BW_Sharpened"/>
+                    <attribute id="UUID" type="guid" value="445c47ed-371d-5cf1-8c23-df3779687408"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Oath of Winter oath spells level 3" />
-                    <attribute id="Spells" type="LSString" value="Target_FogCloud;Target_CreateWater" />
-                    <attribute id="UUID" type="guid" value="0ae797ca-75ce-55a9-8e6b-41073cdecc30" />
+                    <attribute id="Name" type="FixedString" value="Bladeworkers&apos; Guild features level 14"/>
+                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_BW_VersatileStrike"/>
+                    <attribute id="UUID" type="guid" value="d7f0ab0f-6e9e-5e27-962e-8781b426b143"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Oath of Winter features level 3" />
-                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_WI_IceArmor;Zone_SSTORM_WI_NorthWind" />
-                    <attribute id="UUID" type="guid" value="a0ba2aff-31f9-57d4-9746-a9c503c9148b" />
+                    <attribute id="Name" type="FixedString" value="Forgeknight&apos;s Guild features level 3"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ProduceFlame"/>
+                    <attribute id="UUID" type="guid" value="bf3995af-1596-52a5-b6bd-cc55d4b40c5c"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Oath of Winter oath spells level 5" />
-                    <attribute id="Spells" type="LSString" value="Target_HoldPerson;Target_Shatter" />
-                    <attribute id="UUID" type="guid" value="32ef3cff-b954-5452-8861-7d68ce714d7b" />
+                    <attribute id="Name" type="FixedString" value="Forgeknight&apos;s Guild features level 10"/>
+                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_FK_Superheat"/>
+                    <attribute id="UUID" type="guid" value="5945b244-cadd-5a1d-98e8-9a10f1839e4c"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Oath of Winter features level 7" />
-                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_WI_FRIGID_Aura" />
-                    <attribute id="UUID" type="guid" value="135ef936-41e1-542e-9ca8-f7490a06c283" />
+                    <attribute id="Name" type="FixedString" value="Forgeknight&apos;s Guild features level 14"/>
+                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_FK_FireBurst"/>
+                    <attribute id="UUID" type="guid" value="c0aac167-deb3-5afd-bf81-f64319e1b317"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Oath of Winter oath spells level 9" />
-                    <attribute id="Spells" type="LSString" value="Target_SleetStorm;Target_Slow" />
-                    <attribute id="UUID" type="guid" value="c61438b4-8468-56f3-95c2-97b1bd5e3dc7" />
+                    <attribute id="Name" type="FixedString" value="Thunderlords&apos; Guild features level 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_ShockingGrasp"/>
+                    <attribute id="UUID" type="guid" value="653ba9fb-190d-5cc4-b3f6-9e7239f37152"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Oath of Winter oath spells level 13" />
-                    <attribute id="Spells" type="LSString" value="Shout_FireShield;Target_IceStorm" />
-                    <attribute id="UUID" type="guid" value="ec9a9581-e02a-5cc7-adc6-58172f8d2a10" />
+                    <attribute id="Name" type="FixedString" value="Thunderlords&apos; Guild features level 10"/>
+                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_TL_StaticCharge"/>
+                    <attribute id="UUID" type="guid" value="984a734e-b86f-50e5-8a50-8dabe9451ca6"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Oath of Winter oath spells level 17" />
-                    <attribute id="Spells" type="LSString" value="Zone_ConeOfCold;Target_HoldMonster" />
-                    <attribute id="UUID" type="guid" value="bd3dea01-ad0e-58b2-a740-c24a65973e23" />
+                    <attribute id="Name" type="FixedString" value="Thunderlords&apos; Guild features level 14"/>
+                    <attribute id="Spells" type="LSString" value="Zone_SSTORM_TL_HighVoltage"/>
+                    <attribute id="UUID" type="guid" value="1c2e697a-7a8b-5247-a626-b89f47b1e81b"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Oath of Winter features level 20" />
-                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_WI_FatherWinter" />
-                    <attribute id="UUID" type="guid" value="11ebdaef-a74e-52b1-835c-a343bea65bc9" />
+                    <attribute id="Name" type="FixedString" value="Thunderlords&apos; Guild features level 18"/>
+                    <attribute id="Spells" type="LSString" value="Target_SSTORM_TL_Electroshock"/>
+                    <attribute id="UUID" type="guid" value="3519c142-1c3d-5191-abd2-6f8ca345a7a3"/>
                 </node>
             </children>
         </node>

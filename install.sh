@@ -55,8 +55,11 @@ for i, t, v in [("Folder", "LSString", "StoneheartStorm"), ("MD5", "LSString", "
                 ("PublishHandle", "uint64", "0"), ("UUID", "guid", ours), ("Version64", "int64", "36028797018963968")]:
     ET.SubElement(node, "attribute", {"id": i, "type": t, "value": v})
 mods.insert(list(mods).index(dep_node) + 1, node)
+# Write in the game's exact style (double-quoted declaration, `"/>`): ElementTree's default
+# single-quoted output got modsettings.lsx reset by the game.
 ET.indent(tree, space="    ")
-tree.write(path, encoding="UTF-8", xml_declaration=True)
+body = ET.tostring(tree.getroot(), encoding="unicode").replace(" />", "/>").replace("'", "&apos;")
+open(path, "w", encoding="utf-8").write('<?xml version="1.0" encoding="UTF-8"?>\n' + body + "\n")
 order = [uid(n) for n in mods]
 assert order.count(ours) == 1 and order.index(ours) == order.index(dep) + 1, "load order check failed"
 print(f"registered at load position {order.index(ours) + 1} of {len(order)}, directly after 5.5e")

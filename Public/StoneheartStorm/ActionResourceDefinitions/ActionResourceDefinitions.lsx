@@ -1,62 +1,62 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <save>
-    <version major="4" minor="7" revision="1" build="1" />
+    <version major="4" minor="7" revision="1" build="1"/>
     <region id="ActionResourceDefinitions">
         <node id="root">
             <children>
                 <node id="ActionResourceDefinition">
-                    <attribute id="Description" type="TranslatedString" handle="h4a5cc21cg9193g4003g8d58gc0143511df6a" version="1" />
-                    <attribute id="DisplayName" type="TranslatedString" handle="hb69a5232g404bg4ecbg9c2bg40bfe845c4b9" version="1" />
-                    <attribute id="MaxLevel" type="uint32" value="0" />
-                    <attribute id="Name" type="FixedString" value="SSTORM_CursedEnergy" />
-                    <attribute id="ReplenishType" type="FixedString" value="Rest" />
-                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true" />
-                    <attribute id="UUID" type="guid" value="52bb759f-f224-4d1f-8f91-da6d92fc495b" />
+                    <attribute id="Description" type="TranslatedString" handle="h4a5cc21cg9193g4003g8d58gc0143511df6a" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hb69a5232g404bg4ecbg9c2bg40bfe845c4b9" version="1"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="SSTORM_CursedEnergy"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="52bb759f-f224-4d1f-8f91-da6d92fc495b"/>
                 </node>
                 <node id="ActionResourceDefinition">
-                    <attribute id="Description" type="TranslatedString" handle="hbf10ba40g27c2g50bbg82e4gb4bffe8bab65" version="1" />
-                    <attribute id="DisplayName" type="TranslatedString" handle="h200470e8g69f1g501egb49ag2489ed20f537" version="1" />
-                    <attribute id="MaxLevel" type="uint32" value="0" />
-                    <attribute id="Name" type="FixedString" value="SSTORM_Reinforcement" />
-                    <attribute id="ReplenishType" type="FixedString" value="ShortRest" />
-                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true" />
-                    <attribute id="UUID" type="guid" value="6e2650b8-5c9c-5ae4-badc-a9a8b8e83f1d" />
+                    <attribute id="Description" type="TranslatedString" handle="hbfac51dag5a85g5dd7gb986g336c13556406" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h105fca65g12deg5246g9d5dgb74e67cd3ee6" version="1"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="SSTORM_ImplacableWill"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="8b3cb4ac-aac4-50ec-951e-81697ad4bb67"/>
                 </node>
                 <node id="ActionResourceDefinition">
-                    <attribute id="Description" type="TranslatedString" handle="h98d5535bge60dg53ecgab8eg5469a7cd217e" version="1" />
-                    <attribute id="DisplayName" type="TranslatedString" handle="h881ac120gdabdg56e6g96d7g549354df0648" version="1" />
-                    <attribute id="MaxLevel" type="uint32" value="0" />
-                    <attribute id="Name" type="FixedString" value="SSTORM_Honing" />
-                    <attribute id="ReplenishType" type="FixedString" value="ShortRest" />
-                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true" />
-                    <attribute id="UUID" type="guid" value="f289b8ad-669b-5f5f-93d7-20e7b8b7d05a" />
+                    <attribute id="Description" type="TranslatedString" handle="h1d43e454g4d8fg59ddg9a82ge523300b4e46" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h9266af54gfa6eg52edg844cgc245522998c4" version="1"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="SSTORM_Merrymaker"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="cc15b5c8-d666-590a-b6f7-bf7f5c86e6f1"/>
                 </node>
                 <node id="ActionResourceDefinition">
-                    <attribute id="Description" type="TranslatedString" handle="h1a4b7f67gd611g5899g93efgcd4e74c27f44" version="1" />
-                    <attribute id="DisplayName" type="TranslatedString" handle="h0b759a14gff7dg54d6ga9e8gb12fb9582d2c" version="1" />
-                    <attribute id="MaxLevel" type="uint32" value="0" />
-                    <attribute id="Name" type="FixedString" value="SSTORM_ChargePoint" />
-                    <attribute id="ReplenishType" type="FixedString" value="ShortRest" />
-                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true" />
-                    <attribute id="UUID" type="guid" value="cad5e17f-5445-56dc-a666-e2610f2cc7d2" />
+                    <attribute id="Description" type="TranslatedString" handle="hbf10ba40g27c2g50bbg82e4gb4bffe8bab65" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h200470e8g69f1g501egb49ag2489ed20f537" version="1"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="SSTORM_Reinforcement"/>
+                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="6e2650b8-5c9c-5ae4-badc-a9a8b8e83f1d"/>
                 </node>
                 <node id="ActionResourceDefinition">
-                    <attribute id="Description" type="TranslatedString" handle="hbfac51dag5a85g5dd7gb986g336c13556406" version="1" />
-                    <attribute id="DisplayName" type="TranslatedString" handle="h105fca65g12deg5246g9d5dgb74e67cd3ee6" version="1" />
-                    <attribute id="MaxLevel" type="uint32" value="0" />
-                    <attribute id="Name" type="FixedString" value="SSTORM_ImplacableWill" />
-                    <attribute id="ReplenishType" type="FixedString" value="Rest" />
-                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true" />
-                    <attribute id="UUID" type="guid" value="8b3cb4ac-aac4-50ec-951e-81697ad4bb67" />
+                    <attribute id="Description" type="TranslatedString" handle="h98d5535bge60dg53ecgab8eg5469a7cd217e" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h881ac120gdabdg56e6g96d7g549354df0648" version="1"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="SSTORM_Honing"/>
+                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="f289b8ad-669b-5f5f-93d7-20e7b8b7d05a"/>
                 </node>
                 <node id="ActionResourceDefinition">
-                    <attribute id="Description" type="TranslatedString" handle="h1d43e454g4d8fg59ddg9a82ge523300b4e46" version="1" />
-                    <attribute id="DisplayName" type="TranslatedString" handle="h9266af54gfa6eg52edg844cgc245522998c4" version="1" />
-                    <attribute id="MaxLevel" type="uint32" value="0" />
-                    <attribute id="Name" type="FixedString" value="SSTORM_Merrymaker" />
-                    <attribute id="ReplenishType" type="FixedString" value="Rest" />
-                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true" />
-                    <attribute id="UUID" type="guid" value="cc15b5c8-d666-590a-b6f7-bf7f5c86e6f1" />
+                    <attribute id="Description" type="TranslatedString" handle="h1a4b7f67gd611g5899g93efgcd4e74c27f44" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h0b759a14gff7dg54d6ga9e8gb12fb9582d2c" version="1"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="SSTORM_ChargePoint"/>
+                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="cad5e17f-5445-56dc-a666-e2610f2cc7d2"/>
                 </node>
             </children>
         </node>
