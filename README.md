@@ -30,6 +30,10 @@ tools/setup_divine.sh        # once: builds a pack/unpack tool (LSLib "divine") 
 Quit BG3 before installing (the game rewrites `modsettings.lsx` on exit). `install.sh` backs up
 `modsettings.lsx` first and refuses if 5.5e isn't installed and enabled.
 
+The 5.5e dependency is enforced by `install.sh`, **not declared in `Mods/StoneheartStorm/meta.lsx`**:
+declaring it made the game silently drop this mod from the load order (5.5e itself depends on
+ImprovedUI, which may be the reason). Only add it back if every 5.5e dependency is installed.
+
 Game/user paths are detected per OS in `tools/paths.sh`; override with `BG3_DATA=...` (the game's
 `Data` folder) and `BG3_USER=...` (the `Larian Studios/Baldur's Gate 3` folder).
 
