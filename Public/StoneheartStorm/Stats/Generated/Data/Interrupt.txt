@@ -234,3 +234,93 @@ data "Stack" "Interrupt_SSTORM_TL_ChargedArmor"
 data "InterruptDefaultValue" "Ask;Enabled"
 data "EnableCondition" "not HasStatus('SG_Incapacitated')"
 data "EnableContext" "OnStatusApplied;OnStatusRemoved"
+
+new entry "Interrupt_Smite_Divine"
+type "InterruptData"
+using "Interrupt_Smite_Divine"
+data "Conditions" "IsAbleToReact(context.Observer) and not Self() and not Item() and IsMeleeAttack() and not IsDivineSmite() and Self(context.Source,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and not IsSpellAttack() and not IsCritical() and not IsKillingBlow() and not AnyEntityIsItem() and HasActionResource('BonusActionPoint', 1, 0, false, false, context.Source);"
+
+new entry "Interrupt_Smite_Divine_2"
+type "InterruptData"
+using "Interrupt_Smite_Divine_2"
+data "Conditions" "IsAbleToReact(context.Observer) and not Self() and not Item() and IsMeleeAttack() and not IsDivineSmite() and Self(context.Source,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and not IsSpellAttack() and not IsCritical() and not IsKillingBlow() and not AnyEntityIsItem() and HasActionResource('BonusActionPoint', 1, 0, false, false, context.Source);"
+
+new entry "Interrupt_Smite_Divine_3"
+type "InterruptData"
+using "Interrupt_Smite_Divine_3"
+data "Conditions" "IsAbleToReact(context.Observer) and not Self() and not Item() and IsMeleeAttack() and not IsDivineSmite() and Self(context.Source,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and not IsSpellAttack() and not IsCritical() and not IsKillingBlow() and not AnyEntityIsItem() and HasActionResource('BonusActionPoint', 1, 0, false, false, context.Source);"
+
+new entry "Interrupt_Smite_Divine_4"
+type "InterruptData"
+using "Interrupt_Smite_Divine_4"
+data "Conditions" "IsAbleToReact(context.Observer) and not Self() and not Item() and IsMeleeAttack() and not IsDivineSmite() and Self(context.Source,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and not IsSpellAttack() and not IsCritical() and not IsKillingBlow() and not AnyEntityIsItem() and HasActionResource('BonusActionPoint', 1, 0, false, false, context.Source);"
+
+new entry "Interrupt_Smite_Divine_5"
+type "InterruptData"
+using "Interrupt_Smite_Divine_5"
+data "Conditions" "IsAbleToReact(context.Observer) and not Self() and not Item() and IsMeleeAttack() and not IsDivineSmite() and Self(context.Source,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and not IsSpellAttack() and not IsCritical() and not IsKillingBlow() and not AnyEntityIsItem() and HasActionResource('BonusActionPoint', 1, 0, false, false, context.Source);"
+
+new entry "Interrupt_Smite_Divine_6"
+type "InterruptData"
+using "Interrupt_Smite_Divine_6"
+data "Conditions" "IsAbleToReact(context.Observer) and not Self() and not Item() and IsMeleeAttack() and not IsDivineSmite() and Self(context.Source,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and not IsSpellAttack() and not IsCritical() and not IsKillingBlow() and not AnyEntityIsItem() and HasActionResource('BonusActionPoint', 1, 0, false, false, context.Source);"
+
+new entry "Interrupt_Smite_Divine_Critical"
+type "InterruptData"
+using "Interrupt_Smite_Divine_Critical"
+data "Conditions" "IsAbleToReact(context.Observer) and not Self() and not Item() and IsMeleeAttack() and not IsDivineSmite() and Self(context.Source,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and not IsSpellAttack() and IsCritical() and not IsKillingBlow() and not AnyEntityIsItem() and HasActionResource('BonusActionPoint', 1, 0, false, false, context.Source);"
+
+new entry "Interrupt_Smite_Divine_Critical_2"
+type "InterruptData"
+using "Interrupt_Smite_Divine_Critical_2"
+data "Conditions" "IsAbleToReact(context.Observer) and not Self() and not Item() and IsMeleeAttack() and not IsDivineSmite() and Self(context.Source,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and not IsSpellAttack() and IsCritical() and not IsKillingBlow() and not AnyEntityIsItem() and HasActionResource('BonusActionPoint', 1, 0, false, false, context.Source);"
+
+new entry "Interrupt_Smite_Divine_Critical_3"
+type "InterruptData"
+using "Interrupt_Smite_Divine_Critical_3"
+data "Conditions" "IsAbleToReact(context.Observer) and not Self() and not Item() and IsMeleeAttack() and not IsDivineSmite() and Self(context.Source,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and not IsSpellAttack() and IsCritical() and not IsKillingBlow() and not AnyEntityIsItem() and HasActionResource('BonusActionPoint', 1, 0, false, false, context.Source);"
+
+new entry "Interrupt_Smite_Divine_Critical_4"
+type "InterruptData"
+using "Interrupt_Smite_Divine_Critical_4"
+data "Conditions" "IsAbleToReact(context.Observer) and not Self() and not Item() and IsMeleeAttack() and not IsDivineSmite() and Self(context.Source,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and not IsSpellAttack() and IsCritical() and not IsKillingBlow() and not AnyEntityIsItem() and HasActionResource('BonusActionPoint', 1, 0, false, false, context.Source);"
+
+new entry "Interrupt_Smite_Divine_Critical_5"
+type "InterruptData"
+using "Interrupt_Smite_Divine_Critical_5"
+data "Conditions" "IsAbleToReact(context.Observer) and not Self() and not Item() and IsMeleeAttack() and not IsDivineSmite() and Self(context.Source,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and not IsSpellAttack() and IsCritical() and not IsKillingBlow() and not AnyEntityIsItem() and HasActionResource('BonusActionPoint', 1, 0, false, false, context.Source);"
+
+new entry "Interrupt_Smite_Divine_Critical_6"
+type "InterruptData"
+using "Interrupt_Smite_Divine_Critical_6"
+data "Conditions" "IsAbleToReact(context.Observer) and not Self() and not Item() and IsMeleeAttack() and not IsDivineSmite() and Self(context.Source,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and not IsSpellAttack() and IsCritical() and not IsKillingBlow() and not AnyEntityIsItem() and HasActionResource('BonusActionPoint', 1, 0, false, false, context.Source);"
+
+new entry "Interrupt_Smite_Eldritch_3"
+type "InterruptData"
+using "Interrupt_Smite_Eldritch_3"
+data "Conditions" "IsAbleToReact(context.Observer) and not Self() and not Item() and IsMeleeAttack() and not IsDivineSmite() and Self(context.Source,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and not IsSpellAttack() and not IsCritical() and not IsKillingBlow() and not AnyEntityIsItem() and HasStatus('PACT_BLADE', GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand, context.Source)) and HasActionResource('BonusActionPoint', 1, 0, false, false, context.Source);"
+
+new entry "Interrupt_Smite_Eldritch_4"
+type "InterruptData"
+using "Interrupt_Smite_Eldritch_4"
+data "Conditions" "IsAbleToReact(context.Observer) and not Self() and not Item() and IsMeleeAttack() and not IsDivineSmite() and Self(context.Source,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and not IsSpellAttack() and not IsCritical() and not IsKillingBlow() and not AnyEntityIsItem() and HasStatus('PACT_BLADE', GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand, context.Source)) and HasActionResource('BonusActionPoint', 1, 0, false, false, context.Source);"
+
+new entry "Interrupt_Smite_Eldritch_5"
+type "InterruptData"
+using "Interrupt_Smite_Eldritch_5"
+data "Conditions" "IsAbleToReact(context.Observer) and not Self() and not Item() and IsMeleeAttack() and not IsDivineSmite() and Self(context.Source,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and not IsSpellAttack() and not IsCritical() and not IsKillingBlow() and not AnyEntityIsItem() and HasStatus('PACT_BLADE', GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand, context.Source)) and HasActionResource('BonusActionPoint', 1, 0, false, false, context.Source);"
+
+new entry "Interrupt_Smite_Eldritch_Critical_3"
+type "InterruptData"
+using "Interrupt_Smite_Eldritch_Critical_3"
+data "Conditions" "IsAbleToReact(context.Observer) and not Self() and not Item() and IsMeleeAttack() and not IsDivineSmite() and Self(context.Source,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and not IsSpellAttack() and IsCritical() and not IsKillingBlow() and not AnyEntityIsItem() and HasStatus('PACT_BLADE', GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand, context.Source)) and HasActionResource('BonusActionPoint', 1, 0, false, false, context.Source);"
+
+new entry "Interrupt_Smite_Eldritch_Critical_4"
+type "InterruptData"
+using "Interrupt_Smite_Eldritch_Critical_4"
+data "Conditions" "IsAbleToReact(context.Observer) and not Self() and not Item() and IsMeleeAttack() and not IsDivineSmite() and Self(context.Source,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and not IsSpellAttack() and IsCritical() and not IsKillingBlow() and not AnyEntityIsItem() and HasStatus('PACT_BLADE', GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand, context.Source)) and HasActionResource('BonusActionPoint', 1, 0, false, false, context.Source);"
+
+new entry "Interrupt_Smite_Eldritch_Critical_5"
+type "InterruptData"
+using "Interrupt_Smite_Eldritch_Critical_5"
+data "Conditions" "IsAbleToReact(context.Observer) and not Self() and not Item() and IsMeleeAttack() and not IsDivineSmite() and Self(context.Source,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and not IsSpellAttack() and IsCritical() and not IsKillingBlow() and not AnyEntityIsItem() and HasStatus('PACT_BLADE', GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand, context.Source)) and HasActionResource('BonusActionPoint', 1, 0, false, false, context.Source);"

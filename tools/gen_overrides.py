@@ -10,6 +10,7 @@ Needs the game's progression files extracted into .cache/ (see tools/extract_gam
 Verifies the result and exits non-zero on any problem.
 Run: python3 -I tools/gen_overrides.py
 """
+import re
 import sys
 import xml.etree.ElementTree as ET
 from pathlib import Path
@@ -30,7 +31,7 @@ LAYERS = [
 ]
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from modlib import PALADIN_OATH_NAMES, uid, write_larian_xml  # noqa: E402
+from modlib import DATA, PALADIN_OATH_NAMES, uid, upsert_stats, write_larian_xml  # noqa: E402
 
 PALADIN_OATHS = [
     "6c4d2d14-976e-43eb-922f-320e015cb248",  # Oath of Storms
@@ -107,6 +108,53 @@ def do_lists():
             sys.exit(f"FAIL {desc}: {got}")
 
 
+DND55_INTERRUPTS = CACHE / "DnD2024/Public/DnD2024_897914ef-5c96-053c-44af-0be823f895fe/Stats/Generated/Data/Interrupt.txt"
+# 5.5e makes Divine/Eldritch Smite cost a bonus action (2024 rules) but its Conditions only check the
+# reaction (IsAbleToReact), so the prompt still fired after Warden's Grasp had spent the bonus action.
+# We re-declare each such interrupt with the same Conditions plus this check.
+BA_GUARD = "HasActionResource('BonusActionPoint', 1, 0, false, false, context.Source)"
+STATS_ENTRY_RE = re.compile(r'new entry "([^"]+)"\n((?:(?!new entry ").*(?:\n|$))*)')
+
+
+def bonus_action_interrupts():
+    """{name: 5.5e Conditions} for every 5.5e interrupt that costs a bonus action and has Conditions."""
+    if not DND55_INTERRUPTS.exists():
+        sys.exit(f"missing {DND55_INTERRUPTS} (run tools/extract_game_data.sh)")
+    out = {}
+    for m in STATS_ENTRY_RE.finditer(DND55_INTERRUPTS.read_text(encoding="utf-8")):
+        body = m.group(2)
+        cost = re.search(r'data "Cost" "([^"]*)"', body)
+        cond = re.search(r'data "Conditions" "([^"]*)"', body)
+        if cost and "BonusActionPoint" in cost.group(1) and cond:
+            out[m.group(1)] = cond.group(1)
+    if not out:
+        sys.exit("no bonus-action interrupts found in 5.5e: its data changed, re-check this override")
+    return out
+
+
+def guarded(cond):
+    return cond.rstrip().rstrip(";") + f" and {BA_GUARD};"
+
+
+def do_bonus_action_interrupts():
+    blocks = [f'new entry "{n}"\ntype "InterruptData"\nusing "{n}"\ndata "Conditions" "{guarded(c)}"'
+              for n, c in bonus_action_interrupts().items()]
+    upsert_stats("Interrupt.txt", blocks)
+    verify_bonus_action_interrupts()
+    print(f"bonus-action interrupts guarded: {len(blocks)}")
+
+
+def verify_bonus_action_interrupts():
+    ours = {m.group(1): m.group(2) for m in STATS_ENTRY_RE.finditer((DATA / "Interrupt.txt").read_text(encoding="utf-8"))}
+    for name, cond in bonus_action_interrupts().items():
+        body = ours.get(name)
+        if body is None:
+            sys.exit(f"FAIL {name}: not overridden")
+        got = re.search(r'data "Conditions" "([^"]*)"', body)
+        if f'using "{name}"' not in body or not got or got.group(1) != guarded(cond):
+            sys.exit(f"FAIL {name}: Conditions lack the bonus-action check or drifted from 5.5e")
+
+
 def row_uuid(node):
     for a in node.findall("attribute"):
         if a.get("id") == "UUID":
@@ -168,6 +216,7 @@ def main():
         if sorted(set(got)) != sorted(set(want)):
             sys.exit(f"FAIL {desc}: subclasses {got} != {want}")
     do_lists()
+    do_bonus_action_interrupts()
     print("OVERRIDES_OK")
 
 
