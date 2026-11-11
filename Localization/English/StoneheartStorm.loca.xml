@@ -29,7 +29,7 @@
   <content contentuid="hSSTORMrootsNAME" version="1">Roots of Rock</content>
   <content contentuid="hSSTORMrootsDESC" version="1">+2 Armor Class. You can&apos;t be shoved or knocked prone. You have advantage on Strength saving throws.</content>
   <content contentuid="hSSTORMearthshatterpassiveNAME" version="1">Earthshatter</content>
-  <content contentuid="hSSTORMearthshatterpassiveDESC" version="1">You can use Warden&apos;s Grasp as an action. Each creature affected must make a Strength saving throw or be knocked prone.</content>
+  <content contentuid="hSSTORMearthshatterpassiveDESC" version="1">You can use Warden&apos;s Grasp as an action. Each creature affected must make a Strength saving throw or be knocked prone. 3 uses (your Strength modifier) per long rest.</content>
   <content contentuid="hSSTORMearthshatterNAME" version="1">Earthshatter</content>
   <content contentuid="hSSTORMearthshatterDESC" version="1">Use Warden&apos;s Grasp as an action. Each creature affected must succeed on a Strength saving throw or be knocked prone.</content>
   <content contentuid="hSSTORMshieldmasteryNAME" version="1">Shield Mastery</content>
@@ -289,130 +289,6 @@
   <content contentuid="hde096a4bgce3eg5977gbd49g23ff1f1ec833" version="1">While you are Father Winter, a creature that damages you with a melee attack takes 2d10 cold damage.</content>
   <content contentuid="h6e30e43eg3dcag54c2ga4dfg139553c07acc" version="1">Oath of Winter</content>
   <content contentuid="h29fda3e8g2f68g5f79g8d6cg61b8e05ec250" version="1">Keeper of a frigid oath, imbued with powers of elemental ice. (Valda&apos;s Spire of Secrets)</content>
-  <content contentuid="hc2a9200dgff40g562fgbe06g07e9dcae6b08" version="1">Mettle</content>
-  <content contentuid="h182b5a4dg4438g550ag881fg4f099a43a0db" version="1">Your determination lets you shrug off effects: you have advantage on Constitution saving throws (approximating &apos;no damage on a successful Constitution save for half&apos;).</content>
-  <content contentuid="ha6dbd175g06dbg5e7dga4efgdcf44b2df966" version="1">Warden&apos;s Mark</content>
-  <content contentuid="h940038f7g7d14g556dgaff3g3146f930e830" version="1">Mark a creature you can see within 30 feet. While it is within 5 feet of you, it has disadvantage on attack rolls that don&apos;t target you. Lasts 1 minute or until you mark another creature.</content>
-  <content contentuid="h864c8df3ge56dg5a4eg96a6gbac3e1d6bd9d" version="1">Feral Trance</content>
-  <content contentuid="h21ed99cag9e93g5e1bg9d71g8aa6321d68b0" version="1">Bonus action. Fall into a primal battle trance for 1 minute: advantage on Strength checks and saves, +10 ft speed, advantage on melee weapon attacks against a creature you&apos;ve marked, but attack rolls against you have advantage. Once per short rest.</content>
-  <content contentuid="hdd656de3g2632g5021g9491gad076cc1304f" version="1">Feral Trance</content>
-  <content contentuid="h6ea7bfa7g276dg57abga452g51126b1a3e3c" version="1">Advantage on Strength checks and saves, +10 ft speed, advantage on melee attacks against your mark; attacks against you have advantage.</content>
-  <content contentuid="h6e1d35edgc437g5f9eg8ce4ga1c380fe5ac7" version="1">Predator&apos;s Scent</content>
-  <content contentuid="h6d1bba1agf390g56dcgaa49g5d5084d970aa" version="1">Your Warden&apos;s Mark lasts far longer (until you mark another creature), and you have advantage on Survival checks.</content>
-  <content contentuid="he6fb92e4gc65eg5b3ag8ecegf9102542b6ce" version="1">Form of the Primal Beast</content>
-  <content contentuid="h7a411e0bg7c30g5326gb396ga5c252e0413e" version="1">Become an echo of the Primal Beast for 1 minute: you gain the benefits of Feral Trance and 40 temporary hit points, and your melee weapon hits give targets a bleeding wound (1d8 damage at the start of each of their turns; constructs, oozes and undead are immune). Once per long rest.</content>
-  <content contentuid="hda18f7fcg4f1fg5137gb0f0g8ad9f48d0fc7" version="1">Form of the Primal Beast</content>
-  <content contentuid="h1981bcdcg1ecdg57f4gae95gbbe3b3b7f13e" version="1">Feral Trance benefits, 40 temporary hit points, and bleeding wounds on melee hits.</content>
-  <content contentuid="h79dc0ef5g416bg549cga4efg038342c43306" version="1">Primal Beast: Bleeding Wounds</content>
-  <content contentuid="h96cbd04cg14f6g516cg9089g97e1bba20f77" version="1">While in the Form of the Primal Beast, your melee weapon hits inflict a bleeding wound.</content>
-  <content contentuid="h63d6f5f6g1a2dg5da6g9eb4g0131a6f01e20" version="1">Bleeding Wound</content>
-  <content contentuid="ha64fa107gd7e7g5894g85adge050059e2c93" version="1">Takes 1d8 damage at the start of each turn.</content>
-  <content contentuid="h7c6c0163g4787g5970ga937g56a801bc99f4" version="1">Bloodwrath Guardian</content>
-  <content contentuid="h80475b2eg2ce4g5bbbgb834g2652acbe2b38" version="1">Enters a trance to channel the primal ferocity of beasts. (Valda&apos;s Spire of Secrets)</content>
-  <content contentuid="h0583aa2agd908g59fcgb9a3gc3f9b182d176" version="1">Bull Rush</content>
-  <content contentuid="h5e5b74b5g03d0g59b8g9facg9c0229b5848e" version="1">Maneuver. Bonus action: expend a battle die and shove a creature, knocking it prone on a success.</content>
-  <content contentuid="h82f1a051ge3d7g533agb873g4bb998172122" version="1">Bulwark</content>
-  <content contentuid="hd68f38begd4ddg5f9dgba73gbc9d8692d2e2" version="1">Maneuver. Bonus action: expend a battle die to brace against a creature&apos;s counterattack. The next damage you take before your next turn is reduced by 5.</content>
-  <content contentuid="h530db73dg11ecg5de6g85c0g3c8eaa777711" version="1">Bulwark</content>
-  <content contentuid="h9337edabgd151g530ag84b6gb4592a02640a" version="1">The next damage you take is reduced by 5.</content>
-  <content contentuid="h4de70788gbb40g55a9g993egd453ced1b8bb" version="1">Reckless Assault</content>
-  <content contentuid="h7f76da09g6629g5c9cga5c6gb224bbee2766" version="1">Maneuver. Expend a battle die (no action): advantage on your attack rolls this turn, but attack rolls against you have advantage until the start of your next turn.</content>
-  <content contentuid="h05a98c34g8d4fg5586gb6cbgbca80822b1a7" version="1">Reckless Assault</content>
-  <content contentuid="h5bf83e5eg52e2g514dg8128g67412087b3c0" version="1">Advantage on attacks; attacks against you have advantage.</content>
-  <content contentuid="hf090877fg81c4g506cg9654g47fafe76c20b" version="1">Staggering Strike</content>
-  <content contentuid="he38ba393g24b1g5941gad92g1ecdda583aef" version="1">Maneuver. Bonus action: expend a battle die and strike. On a hit against a humanoid, it must make a Constitution saving throw or be incapacitated until the start of your next turn.</content>
-  <content contentuid="h5aa7d8e9g496dg5537g9bcegb7425f121aa3" version="1">Staggered</content>
-  <content contentuid="habdae38dgf4feg5203g9780g83772ea05a54" version="1">Incapacitated: can&apos;t take actions, bonus actions or reactions.</content>
-  <content contentuid="h960110dbga738g5242ga4eag8779fd81b45d" version="1">Hold the Line</content>
-  <content contentuid="hea5cfa3cg6894g5822ga2cfgb7efd2c0b65c" version="1">When you use Warden&apos;s Grasp, allies within 5 feet gain +1 AC and +1 to saving throws until the start of your next turn.</content>
-  <content contentuid="h9ae97d00gebb2g5024g97f3gfd9d6d6738da" version="1">Hold the Line</content>
-  <content contentuid="hfc449246g0b6ag5e4agadb9g85fd7507b979" version="1">When you use Warden&apos;s Grasp, allies within 5 feet gain +1 AC and +1 to saving throws until the start of your next turn.</content>
-  <content contentuid="h32491f7eg3065g5f63g9eb7g9fb3fcda1b41" version="1">Hold the Line</content>
-  <content contentuid="h2bb0fe61g3d83g559eg9006g130225addf73" version="1">+1 AC and +1 to saving throws.</content>
-  <content contentuid="ha398bbb4g16eag5995gbb61gc7eb642cc4a0" version="1">Fortification Expert</content>
-  <content contentuid="h49a0230egea36g5ad2gb79cgd0b8a41db1c7" version="1">Your experience manning battlements gives you advantage on Athletics and Investigation checks.</content>
-  <content contentuid="h7cf7bf74g3a49g54f3g9e2bg7c610bae0073" version="1">Unbreakable Sentinel</content>
-  <content contentuid="he9d77a81g4734g5f10ga02cg71c5dcb13cb6" version="1">Become a paragon of battle for 1 minute: +2 AC, an additional reaction each round, and hitting a creature you&apos;ve marked restores a battle die. Once per long rest.</content>
-  <content contentuid="h66de20fdg2581g51e2g92eagc098d21d1375" version="1">Unbreakable Sentinel</content>
-  <content contentuid="hdbb9d9acgefcag5c30g855dgb0ccc2f63cad" version="1">+2 AC and an extra reaction; hitting your mark restores a battle die.</content>
-  <content contentuid="h85a7137ag3b4dg5b73g9166g72dd68bb38ea" version="1">Unbreakable Sentinel: Second Wind</content>
-  <content contentuid="hf45f2bb3g93a9g548fg9b44gba210ccd883d" version="1">While Unbreakable Sentinel is active, hitting a creature you&apos;ve marked restores a battle die.</content>
-  <content contentuid="ha213d1d3gff7fg540egab48g326cce13cde3" version="1">Grey Watchman</content>
-  <content contentuid="h062bac69gd36fg543fgb047g254173513fde" version="1">A maneuver-trained guard that repels invaders from cities. (Valda&apos;s Spire of Secrets)</content>
-  <content contentuid="h1e86e8afg9e9eg5a9cg8e11gfcf099f802a2" version="1">Nightgaunt Darkvision</content>
-  <content contentuid="hdd69ef8fgf226g586agaa1dg30ca4de1a896" version="1">You can see in darkness within 60 feet.</content>
-  <content contentuid="h59839a5bgee06g5756g8e3cgc8fe08b0a388" version="1">Marked for Death</content>
-  <content contentuid="h71190712g0f2ag5924ga430g37837a656b1b" version="1">Your mark beckons death: when your melee weapon hit leaves a creature you&apos;ve marked at 20% of its hit points or fewer, it drops to 0 hit points instead (approximating &apos;if its remaining hit points are lower than the damage you dealt&apos;).</content>
-  <content contentuid="h44041e17g5f08g5fa2g9fa5g524b45beda47" version="1">Undead Empathy</content>
-  <content contentuid="h5772b349g96a5g5f32gbb19g36a7d69c18eb" version="1">Undead struggle to strike you: they have disadvantage on attack rolls against you.</content>
-  <content contentuid="ha14831b9g606bg532aga4a1g1d331f633f2f" version="1">Gravelord</content>
-  <content contentuid="h2335c812gf813g5967g9afdg6555e4a5ba3a" version="1">Divorce yourself from life for 1 minute: immune to poison damage and the poisoned condition, and once per turn your melee weapon hits deal an extra 4d6 necrotic damage and grant you temporary hit points. Once per long rest.</content>
-  <content contentuid="h95d0f363g808cg5776gb88ag6b9671dcbd59" version="1">Gravelord</content>
-  <content contentuid="hbe23d822g3fc3g5b93g909fg0777b71a72ad" version="1">Immune to poison; melee hits deal extra necrotic damage once per turn.</content>
-  <content contentuid="hf44c31bag86c7g5b51g9f20gf7732f65eef3" version="1">Gravelord: Necrotic Strike</content>
-  <content contentuid="h70634b89g08b3g5627g81ccg7e0c5185dc36" version="1">Once per turn while Gravelord is active, a melee weapon hit deals an extra 4d6 necrotic damage and gives you 14 temporary hit points.</content>
-  <content contentuid="hecd5f66fg633eg5f0dga9ebgcc65f09c4bcf" version="1">Grave Vigor</content>
-  <content contentuid="hc10d6ffeg27b1g59e1g85b5g4406e17d4285" version="1">Temporary hit points from Gravelord.</content>
-  <content contentuid="ha3e3dacfg6af7g501ag9a97gd4fc33f0b18e" version="1">Nightgaunt</content>
-  <content contentuid="h378a3aa0g38a6g57e4g823fge97d1bca22be" version="1">An ally of the undead, suffused with necromantic energies. (Valda&apos;s Spire of Secrets)</content>
-  <content contentuid="hd55bb517gee85g5f75g9938g131ea72845b2" version="1">Whispers of Beyond</content>
-  <content contentuid="h3fa704e4g0d78g54ffg8b2ag94e99c35a3ad" version="1">Ancestor spirits guide you: advantage on History, Religion and Insight checks.</content>
-  <content contentuid="h60640b18g1033g5845g9e40g989086671b4c" version="1">Soulblood</content>
-  <content contentuid="h62ea2507g2223g586dgb473gad8441358a96" version="1">When a creature within 5 feet damages you, you can use your reaction to mark it.</content>
-  <content contentuid="h211dcaedgeec5g5af7g803ag26d6ab8625fe" version="1">Soulblood</content>
-  <content contentuid="h2d0e7018gb1eeg5fb2g9b4ag71c5b44b4109" version="1">Use your reaction to mark the creature that damaged you.</content>
-  <content contentuid="he881dee0g4e5fg5377gb533g8a07e553bdab" version="1">Ethereal Watcher</content>
-  <content contentuid="h2ac774b0g6282g5c3ag925cg0d6ab0012b9e" version="1">Shrug off your mortal form for 1 minute: gain an extra 1st- and 2nd-level spell slot, and as a bonus action you can tear yourself back through the planes, dealing 4d6 force damage to enemies within 10 feet. Once per long rest.</content>
-  <content contentuid="h239e6fc3g4080g5b6cg8d2cg7bff4d4585c3" version="1">Ethereal Watcher</content>
-  <content contentuid="h7263724bg3bd5g590egab67gb1dae22d19f4" version="1">Extra spell slots; you can release a burst of force as a bonus action.</content>
-  <content contentuid="hbce7f1c2g30ffg5acfgad82g0692768e9682" version="1">Ethereal Return</content>
-  <content contentuid="h19010df3g59aag5d0fgad66g5d39444dff9b" version="1">Bonus action. Each enemy within 10 feet is pulled partially between the planes and takes 4d6 force damage.</content>
-  <content contentuid="ha1a51225g83fbg5fa8g8846ga472785f8960" version="1">Soulblood Shaman</content>
-  <content contentuid="hd05967c4g9e8eg59c4g9ceag8784b75a8319" version="1">Manipulates their own soul to conjure long-forgotten magic. Casts druid spells with Wisdom. (Valda&apos;s Spire of Secrets)</content>
-  <content contentuid="h21575448g7273g56eag8340g2eaadbdd290c" version="1">Thunderblast</content>
-  <content contentuid="hb85b90e5gda0cg5f97gb472g98b210064312" version="1">When you hit a creature you&apos;ve marked with a melee weapon attack, lightning arcs to its allies within 5 feet, dealing 1d8 lightning damage to each.</content>
-  <content contentuid="hf9647fc9g19feg5419g9d66gd738efe79c4a" version="1">Thunderblast</content>
-  <content contentuid="ha5bd0bb5gac05g54bag80a0g528c4966b23d" version="1">Lightning arcs from this creature.</content>
-  <content contentuid="h687ba575g9470g5446ga9e6g8237b546df1b" version="1">Thunderblast</content>
-  <content contentuid="h334d12b0g4e50g5244ga4b4gbfa1d4b733f7" version="1">Struck by arcing lightning.</content>
-  <content contentuid="h6e0bd91bgab1cg5580g8eb6g0f512b3d8b5b" version="1">Static Burst</content>
-  <content contentuid="h500f0d98ga082g5e77gba23gbd04ccfee9cd" version="1">When you use Warden&apos;s Grasp, enemies within 5 feet can&apos;t take reactions until the start of your next turn.</content>
-  <content contentuid="h1346614eg2c69g5f2egafbcg154dbb01bd55" version="1">Static Burst</content>
-  <content contentuid="h22577d50g8ba1g51c0gb530g3697430d967e" version="1">When you use Warden&apos;s Grasp, enemies within 5 feet can&apos;t take reactions until the start of your next turn.</content>
-  <content contentuid="h21a2b66bg209cg51ccg8729g6cf83701ec66" version="1">Static Burst</content>
-  <content contentuid="ha664d28bg931dg575egbb6bg7f0b630df50d" version="1">Can&apos;t take reactions.</content>
-  <content contentuid="hb2ae5d1cg8537g50c4gb4d0ge06fdda59ee7" version="1">Stormlord</content>
-  <content contentuid="hea25e350g629eg5299ga185gc1f20c3ec5bd" version="1">You have a flying speed.</content>
-  <content contentuid="he174465dgc5cfg5307ga1cdg081c38af0bfd" version="1">Stormlord</content>
-  <content contentuid="h58d60d0bgb3abg529bga95egc6e0b2a5b20c" version="1">Call a bolt of lightning down upon yourself for 1 minute: cast Call Lightning as a bonus action without a spell slot, and call down its bolts as a bonus action on later turns. Once per long rest.</content>
-  <content contentuid="h34f57badg03f6g55a7ga1d3g28d51830e006" version="1">Stormlord</content>
-  <content contentuid="h89470a2fgac1eg5e02g97cagf98ddc7eee64" version="1">Cast Call Lightning and its bolts as bonus actions without a slot.</content>
-  <content contentuid="h8b25ec97g403cg599fgb5b5g6f968174d359" version="1">Call Lightning (Stormlord)</content>
-  <content contentuid="hfaeb3ecagcc2fg51f4gb1b6g8bff739eff2c" version="1">Call Lightning as a bonus action without a spell slot.</content>
-  <content contentuid="h8dc20346g81d3g5d6bga84fg13fa07c102be" version="1">Lightning Bolt (Stormlord)</content>
-  <content contentuid="h22bb1d0fg3062g5a16gaa5eg8f33ee7d278e" version="1">Call down another bolt as a bonus action.</content>
-  <content contentuid="h6ca1f5e8g95e1g53e3ga945ga78c48a4cc8c" version="1">Storm Sentinel</content>
-  <content contentuid="ha666eb27g9e7bg54b9gaf1eg260e6bb7b318" version="1">Channels the fury of thunderstorms to protect the weak. (Valda&apos;s Spire of Secrets)</content>
-  <content contentuid="h9ae6ab85g8f70g5849g86a6g78c55014e47b" version="1">Green Mark</content>
-  <content contentuid="h9ac69e10g611cg51f9gb47cgfb9bd5ebb52a" version="1">When you mark a creature, plants rise to hinder it: its movement is halved while the mark lasts.</content>
-  <content contentuid="hf667888eg7f04g52d8gaee9g419e07d1a75f" version="1">Green Mark</content>
-  <content contentuid="h92f5d4c0g59ddg5a14g9982gc2848045970a" version="1">The ground hinders its movement: speed halved.</content>
-  <content contentuid="h83592899g4720g5e73gb2d3g0960597ff1d1" version="1">Verdant Skin</content>
-  <content contentuid="h5b148610g0ba5g5c4cg86ecg48dd110c2f62" version="1">You are proficient in Stealth.</content>
-  <content contentuid="h8331ad6fg46fdg5b7cg8335ge99358924b8d" version="1">Verdant Skin</content>
-  <content contentuid="h8f8a7b58gde8eg5c84gab6cga98b84664797" version="1">Draw vines and leaves around you: advantage on Stealth checks until you move.</content>
-  <content contentuid="h332b3b29gbeb9g575bgb6b3gedf7189d0d83" version="1">Verdant Skin</content>
-  <content contentuid="h115ac8c0ga21cg5be6ga58fge04731d077e2" version="1">Advantage on Stealth checks until you move.</content>
-  <content contentuid="hf7faacc1ga850g5f76gb7e4gcd7855898acf" version="1">Form of the Oak Sentinel</content>
-  <content contentuid="h704719d4ga3e3g5cdfg9464g2491c85b8d5e" version="1">Transform into a bark-covered titan for 1 minute: your Armor Class becomes 20. Once per long rest.</content>
-  <content contentuid="h411aa743g37fcg51d9g9799g4f8e9600d5f3" version="1">Form of the Oak Sentinel</content>
-  <content contentuid="h2c5539bbgc745g5242gb000ge0784617da5a" version="1">Armor Class 20.</content>
-  <content contentuid="h64a2074bg995cg5ba4g8179gbe205d093db3" version="1">Verdant Protector</content>
-  <content contentuid="he4aafa19g7be9g5ab9gb89fgb7e312ac561b" version="1">Imbued with the power of the forests and pledged to defend them. (Valda&apos;s Spire of Secrets)</content>
-  <content contentuid="h00612d62g6d39g537bgb858g6981a9764fce" version="1">Immortal Mountain</content>
-  <content contentuid="h6a0d8753gc369g5fe0g9624geadab0c95f01" version="1">Encase yourself in stone for 1 minute: bludgeoning, piercing and slashing damage you take is reduced by 5, and you keep the benefits of Roots of Rock the whole time. Once per long rest.</content>
-  <content contentuid="hd405da06g12f3g521fgac5eg9828326b98e3" version="1">Immortal Mountain</content>
-  <content contentuid="h2e61358fg8c04g5fcfg90a7g05e22e78a380" version="1">Physical damage reduced by 5; Roots of Rock for the duration.</content>
   <content contentuid="h349837d8g5efeg5571ga19bg1382eb1fcaf2" version="1">Masterwork: Parrying</content>
   <content contentuid="h49cf8509g0707g5efdg98afg2674dc0246fd" version="1">While you aren&apos;t wielding a shield, you have +1 AC.</content>
   <content contentuid="h2fb36df3g7fddg5c64gb596g869706f81de5" version="1">Masterwork: Scaled</content>
@@ -581,6 +457,206 @@
   <content contentuid="h5c2a4b65gcdcag5a54g91a7g755597caa4be" version="1">Strike with your weapon and expend its built-in power cell: on a hit, the target makes a Constitution saving throw against your Masterwork save DC or is stunned until the end of your next turn. Once per short rest.</content>
   <content contentuid="hd71a5075g848bg553fg8b09ga4ff31570c81" version="1">Thunderlords&apos; Guild</content>
   <content contentuid="hb8f21669g0c68g597fg9e09g2aef50eef62a" version="1">An electric innovator that uses lightning-charged equipment. (Valda&apos;s Spire of Secrets)</content>
+  <content contentuid="h990cb0fcgce7ag587cg805dgb7ce0c1418cc" version="1">Enchanted Weapon</content>
+  <content contentuid="hb122b0feg65c0g5051g869eg155bfdaaf1be" version="1">This weapon is magical and uses its wielder&apos;s Intelligence for attack and damage rolls.</content>
+  <content contentuid="h682f41e1g7c09g59adga096g723cef3f9624" version="1">Enchanted Weapon</content>
+  <content contentuid="h3d809ea3g39a9g56d4g9a8cg7a2ba2b8474d" version="1">Weave enchantments into the weapon in your main hand: it becomes magical and you use Intelligence for its attack and damage rolls. Recast after switching weapons.</content>
+  <content contentuid="h34eb833ag58cbg5885gaf42gd04637d002f9" version="1">Goggles of Night</content>
+  <content contentuid="had12db98g6caag5256g9023gaadb01dc0440" version="1">You crafted goggles of night: you have darkvision out to 12m (40 ft).</content>
+  <content contentuid="he4f82277g1061g5445g8051gc711b5e5e60a" version="1">Lantern of Revealing</content>
+  <content contentuid="h508e268eg2887g5949g896ag94b2c9c27a56" version="1">Your lantern of revealing shows invisible creatures: cast See Invisibility without a spell slot. Once per long rest.</content>
+  <content contentuid="h7435d401gf58fg5dcegb586gcdd037b5cc63" version="1">Wand of Magic Missiles</content>
+  <content contentuid="hf1ca46b6g5f38g50f2ga1ebg207d64f8df58" version="1">Cast Magic Missile from your wand without a spell slot. Once per short rest.</content>
+  <content contentuid="heba57c57g9d6ag5590ga4e6g91947ba3df74" version="1">Circlet of Blasting</content>
+  <content contentuid="hf8b8a68dg87ceg5642g8937g1707404f5a9e" version="1">Cast Scorching Ray from your circlet without a spell slot. Once per long rest.</content>
+  <content contentuid="h13ace88ag2adbg5be4gbd56gdff75caaf5bd" version="1">Ephemeral Enchantment</content>
+  <content contentuid="hcced9c50gf608g5610g9a85g23617fc052ad" version="1">This weapon counts as magical.</content>
+  <content contentuid="hb4e1b112gdaa2g5602g8c77gcf7660c4dfd7" version="1">Ephemeral Enchantment</content>
+  <content contentuid="hcef9c2e8g3a9bg5a43g8fd9g140e50b21d71" version="1">Lay an enchantment on an ally&apos;s main-hand weapon (or your own): it counts as magical for overcoming resistance and immunity.</content>
+  <content contentuid="h740ecbefgc03dg5ab1g9ca7gd3653dc9ce62" version="1">Winged Boots</content>
+  <content contentuid="ha821fdcdgb83bg5a85g902egb08652259631" version="1">Your winged boots let you cast Fly on yourself without a spell slot. Once per long rest.</content>
+  <content contentuid="h2ae18959g744bg5346ga6d1gd2839ea817dd" version="1">Severed Connection</content>
+  <content contentuid="hdf862d60g3915g58aeg8f89g2b7678902a90" version="1">+4 AC and your Intelligence modifier to saving throws until the start of your next turn.</content>
+  <content contentuid="h0c7a1d00gea67g5cf6gbdddgc466fcdf9c66" version="1">Sever Connection</content>
+  <content contentuid="h0aaa8ffbg26d6g5674g963dgf50d4827bc57" version="1">When you&apos;re hit, break your bond with a magic item and repurpose its magic: +4 AC (possibly turning the hit into a miss) and your Intelligence modifier to saving throws until the start of your next turn. Once per short rest.</content>
+  <content contentuid="h0e6d64a0gf8ddg5596ga1bbgf948bff9196f" version="1">Sever Connection</content>
+  <content contentuid="heb42bc29g7576g539fgb875g1b0d260c610d" version="1">Reaction when hit: +4 AC and Intelligence to saves until your next turn. Once per short rest.</content>
+  <content contentuid="hd31a7b10g6a5bg50f4g9f1bgd1927e32164a" version="1">Boots of Speed</content>
+  <content contentuid="he30a6835geb5eg568cg8d0eg7d146d10153e" version="1">Your movement speed is doubled.</content>
+  <content contentuid="h120d7b46gbaf9g52fcg88acg124e27982f63" version="1">Boots of Speed</content>
+  <content contentuid="h3670b46bg22a5g5643g9c59gf6612ee4bb1b" version="1">Bonus action: click your heels together to double your movement speed for 10 turns. Once per long rest.</content>
+  <content contentuid="hd2fae3d5g99ccg5a89g867bg1910ef60db37" version="1">Arcane Maesters&apos; Guild</content>
+  <content contentuid="hae22af48gda40g5e70gae36g914bffee78a7" version="1">Magical craftsmen that forge mundane steel into magic items. (Valda&apos;s Spire of Secrets)</content>
+  <content contentuid="hd0652209g3e6bg5b3cg995dgb4449370195b" version="1">Trap Deployments</content>
+  <content contentuid="h75a82834gd4f1g5b65gb051gc6b391fc2383" version="1">Traps you can deploy. Regained on a short or long rest.</content>
+  <content contentuid="h5438f84cg4f15g5d58g9af0g27a689f237f4" version="1">Caught in a Man-Trap</content>
+  <content contentuid="h52e4c58bgf502g5b9bgb77bg2390023042f8" version="1">Clamped in a hunting trap: can&apos;t move.</content>
+  <content contentuid="hd0346af8g06c5g59b0gaec6gc1ca9c998691" version="1">Man-Trap</content>
+  <content contentuid="h91830a8bgbe26g51fega53bg5befc9638424" version="1">A man-trap snapped shut on this creature.</content>
+  <content contentuid="hd125728dg7dd2g53b1g88f4g50aa1ffca146" version="1">Man-Trap</content>
+  <content contentuid="he8972491g0363g5740gb242g892b88af8486" version="1">An oversized hunting trap, armed.</content>
+  <content contentuid="h06603d16g7202g5b18gaff0g8a5baf0efac8" version="1">Spent Trap</content>
+  <content contentuid="h09049563g5bd8g5135g91e8g8b065eaca7da" version="1">This trap has gone off.</content>
+  <content contentuid="he40d5668g2ddbg5e9cgbe3fgafe65ce6d7a3" version="1">Trap: Man-Trap</content>
+  <content contentuid="h59a816c9g963cg510dg811bg1a38b81d4e4c" version="1">Set an oversized hunting trap on the ground nearby. The first creature to step on it makes a Dexterity saving throw against your Masterwork save DC: on a failure it takes 2d8 slashing damage and is trapped, unable to move, for 2 turns; on a success it takes half damage. Your allies don&apos;t trigger it.</content>
+  <content contentuid="hae1b0ea9g02c9g5592ga9dcg01e1a198a50f" version="1">Trigger Bomb</content>
+  <content contentuid="h367aad2bg11d5g5283gb1f7g7cfd0699cf03" version="1">Set off a trigger bomb.</content>
+  <content contentuid="hb60e6680g117fg5e20gbf1eg340dc2bdb1f6" version="1">Trigger Bomb</content>
+  <content contentuid="h1c812f36g288ag54e6g8286g58bd34005652" version="1">An explosive device, armed.</content>
+  <content contentuid="h66485cd4ga324g5c9dgb043g7d7a0b152696" version="1">Detonating</content>
+  <content contentuid="h8a57b4e9gd4dbg5f78g8957g4112269abd24" version="1">This bomb explodes.</content>
+  <content contentuid="hc0b1e809g8793g5bfcgbecbg6030b29b4768" version="1">Trap: Trigger Bomb</content>
+  <content contentuid="h32f547f2gc7e2g516dgaca7gbf5dce0924d7" version="1">Toss an explosive device up to 9m away. When a creature other than your allies comes within 1.5m of it, it explodes: each creature within 1.5m makes a Dexterity saving throw against your Masterwork save DC, taking 2d6 fire damage on a failure or half on a success.</content>
+  <content contentuid="hf164b792g5802g5f1egb712g9f2c4204043d" version="1">Ballista Trap</content>
+  <content contentuid="hcab689c0gbe45g5369gbc7eg914f6a148e68" version="1">Shot by a ballista trap.</content>
+  <content contentuid="h305fbef7gb32ag5e51g847dg91b785020ea2" version="1">Ballista Trap</content>
+  <content contentuid="h6f201edag8534g5d56ga7aag6a56f9a28a12" version="1">A compact ballista, loaded and aimed.</content>
+  <content contentuid="h7bccf33bg9932g5ce7g82c0g51c358c371fb" version="1">Trap: Ballista Trap</content>
+  <content contentuid="hd6d1ec70g0c58g575cgade9gc2aff296ada6" version="1">Set up a compact ballista nearby. Each time a creature other than your allies comes within 6m of it, it fires: the creature makes a Dexterity saving throw against your Masterwork save DC or takes 2d8 piercing damage. Lasts 10 minutes.</content>
+  <content contentuid="h91bd4704g62b9g5379gb559ge13662022e88" version="1">Trap: Razor Wire</content>
+  <content contentuid="h9863b22ege43cg59d4g8276ga682c61b025b" version="1">Spread a tangle of razor wire nearby: the area becomes difficult terrain, and a creature moving through it takes 2d4 piercing damage for every 1.5m it travels. Razor wire can&apos;t be recovered.</content>
+  <content contentuid="hfe6016deg2a43g50bagb949gd1c78f420d7f" version="1">Booby Trap</content>
+  <content contentuid="h4ba7efb6gbd88g58f1gbbfdgf4cd1ffd9401" version="1">Your traps are hard to spot: a trap that goes off against a creature that isn&apos;t in combat yet deals twice as many damage dice.</content>
+  <content contentuid="h14f7e117g4819g5531g9440g1cea21cc5433" version="1">Hair-Trigger</content>
+  <content contentuid="hb11cfa3fg7c6dg55caga678g177b24f3a488" version="1">Advantage on your next ranged weapon attack.</content>
+  <content contentuid="h7d19d4b2g62d8g5644g8a5fg5715d9c9aaea" version="1">Ambush Modification</content>
+  <content contentuid="h6ecf53a5g18c1g57abg828fg958abe466d72" version="1">Your ranged weapons have hair-triggers: when combat starts, your first ranged weapon attack has advantage.</content>
+  <content contentuid="h97b717cdged5eg5da5ga981g4546d5235685" version="1">Rapid Setup</content>
+  <content contentuid="ha81d47edga37fg5683g92e7ge1892d9343c4" version="1">Deploying traps costs no bonus action this turn.</content>
+  <content contentuid="hb69793b3gba30g5869gad1cgbaf4a42d73b9" version="1">Rapid Setup</content>
+  <content contentuid="h1405f540gdd33g5bc6g8faeg02dc7c8628e5" version="1">For the rest of this turn, deploying traps doesn&apos;t cost a bonus action (each still uses a deployment), so you can lay out several at once. Once per short rest.</content>
+  <content contentuid="hc718073bgb822g5389gaa40gf02524971226" version="1">Netted</content>
+  <content contentuid="hc75b3234g09f1g5f15g9744g097371e2ac31" version="1">Tangled in a net: can&apos;t move, attacks against it have advantage and its attacks have disadvantage.</content>
+  <content contentuid="hfab3344dg4e27g5563g85d3g0c8db21b1bde" version="1">Net (Legendary property)</content>
+  <content contentuid="h8bda6f45gc875g5f3cg911bgd21e45e4c818" version="1">Once per turn, when you hit a creature with a ranged weapon attack, a net deploys and entangles it until the end of its next turn.</content>
+  <content contentuid="hf19143aeg9bd3g5226gb94dg32ae42831687" version="1">Trappers&apos; Guild</content>
+  <content contentuid="h3cb1075bgaec8g5d1eg9568gc935a5a2eda3" version="1">A mechanical tinkerer that deploys lethal booby traps during combat. (Valda&apos;s Spire of Secrets)</content>
   <content contentuid="hb2fe04c2g528dg5818g8a1bgae8d12453d0d" version="1">Craftsman</content>
   <content contentuid="h1a74c3c5g45efg5033g94fbgb5b6c558c510" version="1">A master of forge and workshop who builds masterwork arms and armor and fights with them. Masterwork properties are chosen as you level. (Valda&apos;s Spire of Secrets)</content>
+  <content contentuid="hc2a9200dgff40g562fgbe06g07e9dcae6b08" version="1">Mettle</content>
+  <content contentuid="h182b5a4dg4438g550ag881fg4f099a43a0db" version="1">Your determination lets you shrug off effects: you have advantage on Constitution saving throws (approximating &apos;no damage on a successful Constitution save for half&apos;).</content>
+  <content contentuid="ha6dbd175g06dbg5e7dga4efgdcf44b2df966" version="1">Warden&apos;s Mark</content>
+  <content contentuid="h940038f7g7d14g556dgaff3g3146f930e830" version="1">Mark a creature you can see within 30 feet. While it is within 5 feet of you, it has disadvantage on attack rolls that don&apos;t target you. Lasts 1 minute or until you mark another creature.</content>
+  <content contentuid="h864c8df3ge56dg5a4eg96a6gbac3e1d6bd9d" version="1">Feral Trance</content>
+  <content contentuid="h21ed99cag9e93g5e1bg9d71g8aa6321d68b0" version="1">Bonus action. Fall into a primal battle trance for 1 minute: advantage on Strength checks and saves, +10 ft speed, advantage on melee weapon attacks against a creature you&apos;ve marked, but attack rolls against you have advantage. Once per short rest.</content>
+  <content contentuid="hdd656de3g2632g5021g9491gad076cc1304f" version="1">Feral Trance</content>
+  <content contentuid="h6ea7bfa7g276dg57abga452g51126b1a3e3c" version="1">Advantage on Strength checks and saves, +10 ft speed, advantage on melee attacks against your mark; attacks against you have advantage.</content>
+  <content contentuid="h6e1d35edgc437g5f9eg8ce4ga1c380fe5ac7" version="1">Predator&apos;s Scent</content>
+  <content contentuid="h6d1bba1agf390g56dcgaa49g5d5084d970aa" version="1">Your Warden&apos;s Mark lasts far longer (until you mark another creature), and you have advantage on Survival checks.</content>
+  <content contentuid="he6fb92e4gc65eg5b3ag8ecegf9102542b6ce" version="1">Form of the Primal Beast</content>
+  <content contentuid="h7a411e0bg7c30g5326gb396ga5c252e0413e" version="1">Become an echo of the Primal Beast for 1 minute: you gain the benefits of Feral Trance and 40 temporary hit points, and your melee weapon hits give targets a bleeding wound (1d8 damage at the start of each of their turns; constructs, oozes and undead are immune). Once per long rest.</content>
+  <content contentuid="hda18f7fcg4f1fg5137gb0f0g8ad9f48d0fc7" version="1">Form of the Primal Beast</content>
+  <content contentuid="h1981bcdcg1ecdg57f4gae95gbbe3b3b7f13e" version="1">Feral Trance benefits, 40 temporary hit points, and bleeding wounds on melee hits.</content>
+  <content contentuid="h79dc0ef5g416bg549cga4efg038342c43306" version="1">Primal Beast: Bleeding Wounds</content>
+  <content contentuid="h96cbd04cg14f6g516cg9089g97e1bba20f77" version="1">While in the Form of the Primal Beast, your melee weapon hits inflict a bleeding wound.</content>
+  <content contentuid="h63d6f5f6g1a2dg5da6g9eb4g0131a6f01e20" version="1">Bleeding Wound</content>
+  <content contentuid="ha64fa107gd7e7g5894g85adge050059e2c93" version="1">Takes 1d8 damage at the start of each turn.</content>
+  <content contentuid="h7c6c0163g4787g5970ga937g56a801bc99f4" version="1">Bloodwrath Guardian</content>
+  <content contentuid="h80475b2eg2ce4g5bbbgb834g2652acbe2b38" version="1">Enters a trance to channel the primal ferocity of beasts. (Valda&apos;s Spire of Secrets)</content>
+  <content contentuid="h0583aa2agd908g59fcgb9a3gc3f9b182d176" version="1">Bull Rush</content>
+  <content contentuid="h5e5b74b5g03d0g59b8g9facg9c0229b5848e" version="1">Maneuver. Bonus action: expend a battle die and shove a creature, knocking it prone on a success.</content>
+  <content contentuid="h82f1a051ge3d7g533agb873g4bb998172122" version="1">Bulwark</content>
+  <content contentuid="hd68f38begd4ddg5f9dgba73gbc9d8692d2e2" version="1">Maneuver. Bonus action: expend a battle die to brace against a creature&apos;s counterattack. The next damage you take before your next turn is reduced by 5.</content>
+  <content contentuid="h530db73dg11ecg5de6g85c0g3c8eaa777711" version="1">Bulwark</content>
+  <content contentuid="h9337edabgd151g530ag84b6gb4592a02640a" version="1">The next damage you take is reduced by 5.</content>
+  <content contentuid="h4de70788gbb40g55a9g993egd453ced1b8bb" version="1">Reckless Assault</content>
+  <content contentuid="h7f76da09g6629g5c9cga5c6gb224bbee2766" version="1">Maneuver. Expend a battle die (no action): advantage on your attack rolls this turn, but attack rolls against you have advantage until the start of your next turn.</content>
+  <content contentuid="h05a98c34g8d4fg5586gb6cbgbca80822b1a7" version="1">Reckless Assault</content>
+  <content contentuid="h5bf83e5eg52e2g514dg8128g67412087b3c0" version="1">Advantage on attacks; attacks against you have advantage.</content>
+  <content contentuid="hf090877fg81c4g506cg9654g47fafe76c20b" version="1">Staggering Strike</content>
+  <content contentuid="he38ba393g24b1g5941gad92g1ecdda583aef" version="1">Maneuver. Bonus action: expend a battle die and strike. On a hit against a humanoid, it must make a Constitution saving throw or be incapacitated until the start of your next turn.</content>
+  <content contentuid="h5aa7d8e9g496dg5537g9bcegb7425f121aa3" version="1">Staggered</content>
+  <content contentuid="habdae38dgf4feg5203g9780g83772ea05a54" version="1">Incapacitated: can&apos;t take actions, bonus actions or reactions.</content>
+  <content contentuid="h960110dbga738g5242ga4eag8779fd81b45d" version="1">Hold the Line</content>
+  <content contentuid="hea5cfa3cg6894g5822ga2cfgb7efd2c0b65c" version="1">When you use Warden&apos;s Grasp, allies within 5 feet gain +1 AC and +1 to saving throws until the start of your next turn.</content>
+  <content contentuid="h9ae97d00gebb2g5024g97f3gfd9d6d6738da" version="1">Hold the Line</content>
+  <content contentuid="hfc449246g0b6ag5e4agadb9g85fd7507b979" version="1">When you use Warden&apos;s Grasp, allies within 5 feet gain +1 AC and +1 to saving throws until the start of your next turn.</content>
+  <content contentuid="h32491f7eg3065g5f63g9eb7g9fb3fcda1b41" version="1">Hold the Line</content>
+  <content contentuid="h2bb0fe61g3d83g559eg9006g130225addf73" version="1">+1 AC and +1 to saving throws.</content>
+  <content contentuid="ha398bbb4g16eag5995gbb61gc7eb642cc4a0" version="1">Fortification Expert</content>
+  <content contentuid="h49a0230egea36g5ad2gb79cgd0b8a41db1c7" version="1">Your experience manning battlements gives you advantage on Athletics and Investigation checks.</content>
+  <content contentuid="h7cf7bf74g3a49g54f3g9e2bg7c610bae0073" version="1">Unbreakable Sentinel</content>
+  <content contentuid="he9d77a81g4734g5f10ga02cg71c5dcb13cb6" version="1">Become a paragon of battle for 1 minute: +2 AC, an additional reaction each round, and hitting a creature you&apos;ve marked restores a battle die. Once per long rest.</content>
+  <content contentuid="h66de20fdg2581g51e2g92eagc098d21d1375" version="1">Unbreakable Sentinel</content>
+  <content contentuid="hdbb9d9acgefcag5c30g855dgb0ccc2f63cad" version="1">+2 AC and an extra reaction; hitting your mark restores a battle die.</content>
+  <content contentuid="h85a7137ag3b4dg5b73g9166g72dd68bb38ea" version="1">Unbreakable Sentinel: Second Wind</content>
+  <content contentuid="hf45f2bb3g93a9g548fg9b44gba210ccd883d" version="1">While Unbreakable Sentinel is active, hitting a creature you&apos;ve marked restores a battle die.</content>
+  <content contentuid="ha213d1d3gff7fg540egab48g326cce13cde3" version="1">Grey Watchman</content>
+  <content contentuid="h062bac69gd36fg543fgb047g254173513fde" version="1">A maneuver-trained guard that repels invaders from cities. (Valda&apos;s Spire of Secrets)</content>
+  <content contentuid="h1e86e8afg9e9eg5a9cg8e11gfcf099f802a2" version="1">Nightgaunt Darkvision</content>
+  <content contentuid="hdd69ef8fgf226g586agaa1dg30ca4de1a896" version="1">You can see in darkness within 60 feet.</content>
+  <content contentuid="h59839a5bgee06g5756g8e3cgc8fe08b0a388" version="1">Marked for Death</content>
+  <content contentuid="h71190712g0f2ag5924ga430g37837a656b1b" version="1">Your mark beckons death: when your melee weapon hit leaves a creature you&apos;ve marked at 20% of its hit points or fewer, it drops to 0 hit points instead (approximating &apos;if its remaining hit points are lower than the damage you dealt&apos;).</content>
+  <content contentuid="h44041e17g5f08g5fa2g9fa5g524b45beda47" version="1">Undead Empathy</content>
+  <content contentuid="h5772b349g96a5g5f32gbb19g36a7d69c18eb" version="1">Undead struggle to strike you: they have disadvantage on attack rolls against you.</content>
+  <content contentuid="ha14831b9g606bg532aga4a1g1d331f633f2f" version="1">Gravelord</content>
+  <content contentuid="h2335c812gf813g5967g9afdg6555e4a5ba3a" version="1">Divorce yourself from life for 1 minute: immune to poison damage and the poisoned condition, and once per turn your melee weapon hits deal an extra 4d6 necrotic damage and grant you temporary hit points. Once per long rest.</content>
+  <content contentuid="h95d0f363g808cg5776gb88ag6b9671dcbd59" version="1">Gravelord</content>
+  <content contentuid="hbe23d822g3fc3g5b93g909fg0777b71a72ad" version="1">Immune to poison; melee hits deal extra necrotic damage once per turn.</content>
+  <content contentuid="hf44c31bag86c7g5b51g9f20gf7732f65eef3" version="1">Gravelord: Necrotic Strike</content>
+  <content contentuid="h70634b89g08b3g5627g81ccg7e0c5185dc36" version="1">Once per turn while Gravelord is active, a melee weapon hit deals an extra 4d6 necrotic damage and gives you 14 temporary hit points.</content>
+  <content contentuid="hecd5f66fg633eg5f0dga9ebgcc65f09c4bcf" version="1">Grave Vigor</content>
+  <content contentuid="hc10d6ffeg27b1g59e1g85b5g4406e17d4285" version="1">Temporary hit points from Gravelord.</content>
+  <content contentuid="ha3e3dacfg6af7g501ag9a97gd4fc33f0b18e" version="1">Nightgaunt</content>
+  <content contentuid="h378a3aa0g38a6g57e4g823fge97d1bca22be" version="1">An ally of the undead, suffused with necromantic energies. (Valda&apos;s Spire of Secrets)</content>
+  <content contentuid="hd55bb517gee85g5f75g9938g131ea72845b2" version="1">Whispers of Beyond</content>
+  <content contentuid="h3fa704e4g0d78g54ffg8b2ag94e99c35a3ad" version="1">Ancestor spirits guide you: advantage on History, Religion and Insight checks.</content>
+  <content contentuid="h60640b18g1033g5845g9e40g989086671b4c" version="1">Soulblood</content>
+  <content contentuid="h62ea2507g2223g586dgb473gad8441358a96" version="1">When a creature within 5 feet damages you, you can use your reaction to mark it.</content>
+  <content contentuid="h211dcaedgeec5g5af7g803ag26d6ab8625fe" version="1">Soulblood</content>
+  <content contentuid="h2d0e7018gb1eeg5fb2g9b4ag71c5b44b4109" version="1">Use your reaction to mark the creature that damaged you.</content>
+  <content contentuid="he881dee0g4e5fg5377gb533g8a07e553bdab" version="1">Ethereal Watcher</content>
+  <content contentuid="h2ac774b0g6282g5c3ag925cg0d6ab0012b9e" version="1">Shrug off your mortal form for 1 minute: gain an extra 1st- and 2nd-level spell slot, and as a bonus action you can tear yourself back through the planes, dealing 4d6 force damage to enemies within 10 feet. Once per long rest.</content>
+  <content contentuid="h239e6fc3g4080g5b6cg8d2cg7bff4d4585c3" version="1">Ethereal Watcher</content>
+  <content contentuid="h7263724bg3bd5g590egab67gb1dae22d19f4" version="1">Extra spell slots; you can release a burst of force as a bonus action.</content>
+  <content contentuid="hbce7f1c2g30ffg5acfgad82g0692768e9682" version="1">Ethereal Return</content>
+  <content contentuid="h19010df3g59aag5d0fgad66g5d39444dff9b" version="1">Bonus action. Each enemy within 10 feet is pulled partially between the planes and takes 4d6 force damage.</content>
+  <content contentuid="ha1a51225g83fbg5fa8g8846ga472785f8960" version="1">Soulblood Shaman</content>
+  <content contentuid="hd05967c4g9e8eg59c4g9ceag8784b75a8319" version="1">Manipulates their own soul to conjure long-forgotten magic. Casts druid spells with Wisdom. (Valda&apos;s Spire of Secrets)</content>
+  <content contentuid="h21575448g7273g56eag8340g2eaadbdd290c" version="1">Thunderblast</content>
+  <content contentuid="hb85b90e5gda0cg5f97gb472g98b210064312" version="1">When you hit a creature you&apos;ve marked with a melee weapon attack, lightning arcs to its allies within 5 feet, dealing 1d8 lightning damage to each.</content>
+  <content contentuid="hf9647fc9g19feg5419g9d66gd738efe79c4a" version="1">Thunderblast</content>
+  <content contentuid="ha5bd0bb5gac05g54bag80a0g528c4966b23d" version="1">Lightning arcs from this creature.</content>
+  <content contentuid="h687ba575g9470g5446ga9e6g8237b546df1b" version="1">Thunderblast</content>
+  <content contentuid="h334d12b0g4e50g5244ga4b4gbfa1d4b733f7" version="1">Struck by arcing lightning.</content>
+  <content contentuid="h6e0bd91bgab1cg5580g8eb6g0f512b3d8b5b" version="1">Static Burst</content>
+  <content contentuid="h500f0d98ga082g5e77gba23gbd04ccfee9cd" version="1">When you use Warden&apos;s Grasp, enemies within 5 feet can&apos;t take reactions until the start of your next turn.</content>
+  <content contentuid="h1346614eg2c69g5f2egafbcg154dbb01bd55" version="1">Static Burst</content>
+  <content contentuid="h22577d50g8ba1g51c0gb530g3697430d967e" version="1">When you use Warden&apos;s Grasp, enemies within 5 feet can&apos;t take reactions until the start of your next turn.</content>
+  <content contentuid="h21a2b66bg209cg51ccg8729g6cf83701ec66" version="1">Static Burst</content>
+  <content contentuid="ha664d28bg931dg575egbb6bg7f0b630df50d" version="1">Can&apos;t take reactions.</content>
+  <content contentuid="hb2ae5d1cg8537g50c4gb4d0ge06fdda59ee7" version="1">Stormlord</content>
+  <content contentuid="hea25e350g629eg5299ga185gc1f20c3ec5bd" version="1">You have a flying speed.</content>
+  <content contentuid="he174465dgc5cfg5307ga1cdg081c38af0bfd" version="1">Stormlord</content>
+  <content contentuid="h58d60d0bgb3abg529bga95egc6e0b2a5b20c" version="1">Call a bolt of lightning down upon yourself for 1 minute: cast Call Lightning as a bonus action without a spell slot, and call down its bolts as a bonus action on later turns. Once per long rest.</content>
+  <content contentuid="h34f57badg03f6g55a7ga1d3g28d51830e006" version="1">Stormlord</content>
+  <content contentuid="h89470a2fgac1eg5e02g97cagf98ddc7eee64" version="1">Cast Call Lightning and its bolts as bonus actions without a slot.</content>
+  <content contentuid="h8b25ec97g403cg599fgb5b5g6f968174d359" version="1">Call Lightning (Stormlord)</content>
+  <content contentuid="hfaeb3ecagcc2fg51f4gb1b6g8bff739eff2c" version="1">Call Lightning as a bonus action without a spell slot.</content>
+  <content contentuid="h8dc20346g81d3g5d6bga84fg13fa07c102be" version="1">Lightning Bolt (Stormlord)</content>
+  <content contentuid="h22bb1d0fg3062g5a16gaa5eg8f33ee7d278e" version="1">Call down another bolt as a bonus action.</content>
+  <content contentuid="h6ca1f5e8g95e1g53e3ga945ga78c48a4cc8c" version="1">Storm Sentinel</content>
+  <content contentuid="ha666eb27g9e7bg54b9gaf1eg260e6bb7b318" version="1">Channels the fury of thunderstorms to protect the weak. (Valda&apos;s Spire of Secrets)</content>
+  <content contentuid="h9ae6ab85g8f70g5849g86a6g78c55014e47b" version="1">Green Mark</content>
+  <content contentuid="h9ac69e10g611cg51f9gb47cgfb9bd5ebb52a" version="1">When you mark a creature, plants rise to hinder it: its movement is halved while the mark lasts.</content>
+  <content contentuid="hf667888eg7f04g52d8gaee9g419e07d1a75f" version="1">Green Mark</content>
+  <content contentuid="h92f5d4c0g59ddg5a14g9982gc2848045970a" version="1">The ground hinders its movement: speed halved.</content>
+  <content contentuid="h83592899g4720g5e73gb2d3g0960597ff1d1" version="1">Verdant Skin</content>
+  <content contentuid="h5b148610g0ba5g5c4cg86ecg48dd110c2f62" version="1">You are proficient in Stealth.</content>
+  <content contentuid="h8331ad6fg46fdg5b7cg8335ge99358924b8d" version="1">Verdant Skin</content>
+  <content contentuid="h8f8a7b58gde8eg5c84gab6cga98b84664797" version="1">Draw vines and leaves around you: advantage on Stealth checks until you move.</content>
+  <content contentuid="h332b3b29gbeb9g575bgb6b3gedf7189d0d83" version="1">Verdant Skin</content>
+  <content contentuid="h115ac8c0ga21cg5be6ga58fge04731d077e2" version="1">Advantage on Stealth checks until you move.</content>
+  <content contentuid="hf7faacc1ga850g5f76gb7e4gcd7855898acf" version="1">Form of the Oak Sentinel</content>
+  <content contentuid="h704719d4ga3e3g5cdfg9464g2491c85b8d5e" version="1">Transform into a bark-covered titan for 1 minute: your Armor Class becomes 20. Once per long rest.</content>
+  <content contentuid="h411aa743g37fcg51d9g9799g4f8e9600d5f3" version="1">Form of the Oak Sentinel</content>
+  <content contentuid="h2c5539bbgc745g5242gb000ge0784617da5a" version="1">Armor Class 20.</content>
+  <content contentuid="h64a2074bg995cg5ba4g8179gbe205d093db3" version="1">Verdant Protector</content>
+  <content contentuid="he4aafa19g7be9g5ab9gb89fgb7e312ac561b" version="1">Imbued with the power of the forests and pledged to defend them. (Valda&apos;s Spire of Secrets)</content>
+  <content contentuid="h00612d62g6d39g537bgb858g6981a9764fce" version="1">Immortal Mountain</content>
+  <content contentuid="h6a0d8753gc369g5fe0g9624geadab0c95f01" version="1">Encase yourself in stone for 1 minute: bludgeoning, piercing and slashing damage you take is reduced by 5, and you keep the benefits of Roots of Rock the whole time. Once per long rest.</content>
+  <content contentuid="hd405da06g12f3g521fgac5eg9828326b98e3" version="1">Immortal Mountain</content>
+  <content contentuid="h2e61358fg8c04g5fcfg90a7g05e22e78a380" version="1">Physical damage reduced by 5; Roots of Rock for the duration.</content>
+  <content contentuid="h93bf9ff0g8a73g559dg9293g38ae10199c27" version="1">Earthshatter</content>
+  <content contentuid="h2767927eg7376g5c1cg8d22g67f77a778c1c" version="1">Uses of Earthshatter. Regained on a long rest.</content>
 </contentList>

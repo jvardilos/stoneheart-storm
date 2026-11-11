@@ -22,7 +22,7 @@ def SAVE(ability, dc="SourceSpellDC()"):
     return f"not SavingThrow(Ability.{ability}, {dc})"
 
 
-stats = {"Spell_Shout.txt": [], "Spell_Target.txt": [], "Spell_Zone.txt": [], "Status_BOOST.txt": [],
+stats = {"Spell_Shout.txt": [], "Spell_Target.txt": [], "Spell_Zone.txt": [], "Spell_Projectile.txt": [], "Status_BOOST.txt": [],
          "Passive.txt": [], "Interrupt.txt": []}
 loca = {}
 lists, rows, classes, resources = [], [], [], []
@@ -90,19 +90,19 @@ def passive(name, title, desc, icon, boosts=None, context=None, conditions=None,
            "StatsFunctorContext": context, "Conditions": conditions, "StatsFunctors": functors})
 
 
-def reaction(name, title, desc, icon, context, scope, conditions, props, cost="ReactionActionPoint:1"):
+def reaction(name, title, desc, icon, context, scope, conditions, props, cost="ReactionActionPoint:1", **extra):
     dn, dd = names(name, title, desc)
     entry("Interrupt.txt", name, "InterruptData", {
         "DisplayName": dn, "Description": dd, "Icon": icon, "InterruptContext": context,
         "InterruptContextScope": scope, "Container": "YesNoDecision", "Conditions": conditions,
         "Properties": props, "Cost": cost, "Stack": name, "InterruptDefaultValue": "Ask;Enabled",
-        "EnableCondition": "not HasStatus('SG_Incapacitated')", "EnableContext": "OnStatusApplied;OnStatusRemoved"})
+        "EnableCondition": "not HasStatus('SG_Incapacitated')", "EnableContext": "OnStatusApplied;OnStatusRemoved", **extra})
 
 
-def self_hit_reaction(name, title, desc, icon, props, cost="ReactionActionPoint:1"):
+def self_hit_reaction(name, title, desc, icon, props, cost="ReactionActionPoint:1", **extra):
     reaction(name, title, desc, icon, "OnPostRoll", "Self",
              "IsAbleToReact(context.Observer) and Self(context.Target,context.Observer) and "
-             "HasDamageEffectFlag(DamageFlags.Hit) and not AnyEntityIsItem()", props, cost)
+             "HasDamageEffectFlag(DamageFlags.Hit) and not AnyEntityIsItem()", props, cost, **extra)
 
 
 def self_aura(name, title, desc, icon, radius, aura_statuses, boosts=None, **extra):

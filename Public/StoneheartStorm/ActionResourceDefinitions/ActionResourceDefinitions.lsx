@@ -58,6 +58,24 @@
                     <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
                     <attribute id="UUID" type="guid" value="cad5e17f-5445-56dc-a666-e2610f2cc7d2"/>
                 </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="h75a82834gd4f1g5b65gb051gc6b391fc2383" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hd0652209g3e6bg5b3cg995dgb4449370195b" version="1"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="SSTORM_TrapDeploy"/>
+                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="c5bd63bc-c249-5a6a-89c9-ea3d6b618f29"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="h2767927eg7376g5c1cg8d22g67f77a778c1c" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h93bf9ff0g8a73g559dg9293g38ae10199c27" version="1"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="SSTORM_Earthshatter"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="68882e99-5232-5ed7-959d-4de1939c42ab"/>
+                </node>
             </children>
         </node>
     </region>

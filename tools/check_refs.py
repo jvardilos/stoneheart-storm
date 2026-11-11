@@ -50,6 +50,10 @@ for p in ours:
         ("passive", r'data "PassivesOnEquip" "([^"]+)"'),
         ("spell", r'data "ContainerSpells" "([^"]+)"'),
         ("spell", r'data "RootSpellID" "([^"]+)"'),
+        ("spell", r'CreateExplosion\(([A-Za-z0-9_]+)\)'),
+        ("status", r'ApplyEquipmentStatus\([A-Za-z]+, *([A-Za-z0-9_]+),'),
+        ("status", r'RemoveStatus\(([A-Za-z0-9_]+)\)'),
+        ("status", r'Summon\([0-9a-f-]{36},[^,()]*,[^,()]*,[^,()]*,[^,()]*,([A-Za-z0-9_]+)\)'),
     ]:
         for m in re.finditer(pat, t, re.M):
             for name in m.group(1).split(";"):

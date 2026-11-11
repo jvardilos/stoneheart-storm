@@ -139,6 +139,107 @@
                 </node>
                 <node id="ClassDescription">
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="h609827dbgecf8g52b9g83a3ga571bdb47c4a" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hc5d08e74g4d8ag55e4gab0cgf53c345ec5bc" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="ArmigersGuild"/>
+                    <attribute id="ParentGuid" type="guid" value="5136ebb5-89f2-55b3-be57-6369a0d52418"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="1"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="46fb1138-abc4-56c2-8a00-6b7620124fbb"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Fighter"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="711cc5d5-eba4-52ae-9fd2-dbebe3344e3f"/>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="hf9c8eb7age247g54b7g8909ga6abe8d104c0" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h7373900bg7c33g5c2eg94f1g401754c210c4" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="BladeworkersGuild"/>
+                    <attribute id="ParentGuid" type="guid" value="5136ebb5-89f2-55b3-be57-6369a0d52418"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="1"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="f339b531-c424-5742-8a18-1bcfad9f5308"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Fighter"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="4a65b3b7-3a4e-5acf-a1e4-711b2ac85cc7"/>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="h7239ce51gea7dg596egbd03gbc35a113ca4a" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hc6352287ga5dcg5b81g94edg06c3b50f2d5f" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="ForgeknightsGuild"/>
+                    <attribute id="ParentGuid" type="guid" value="5136ebb5-89f2-55b3-be57-6369a0d52418"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="1"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="029b5aaf-a9c5-5679-b561-df7b65850a3b"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Fighter"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="3bc92a02-eb4f-52c0-aa22-8deec51400a7"/>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="hb8f21669g0c68g597fg9e09g2aef50eef62a" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hd71a5075g848bg553fg8b09ga4ff31570c81" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="ThunderlordsGuild"/>
+                    <attribute id="ParentGuid" type="guid" value="5136ebb5-89f2-55b3-be57-6369a0d52418"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="1"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="d65b12c2-3827-5f65-9b66-7879243c6a58"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Fighter"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="71e94661-2170-5928-903c-512b5acb8ecd"/>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="hae22af48gda40g5e70gae36g914bffee78a7" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hd2fae3d5g99ccg5a89g867bg1910ef60db37" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="ArcaneMaestersGuild"/>
+                    <attribute id="ParentGuid" type="guid" value="5136ebb5-89f2-55b3-be57-6369a0d52418"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="1"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="cf249f46-a84d-5c94-ab72-50230dd4506b"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Fighter"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="075688a8-e735-58bf-b3fe-68f3b5f683ba"/>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="h3cb1075bgaec8g5d1eg9568gc935a5a2eda3" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hf19143aeg9bd3g5226gb94dg32ae42831687" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="TrappersGuild"/>
+                    <attribute id="ParentGuid" type="guid" value="5136ebb5-89f2-55b3-be57-6369a0d52418"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="1"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="2faee3b8-5eee-58cf-bdf6-a3a6fc9e01a9"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Fighter"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="f72f83b3-e9e5-54fc-99ad-ebd8ef0312fe"/>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="10"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="h1a74c3c5g45efg5033g94fbgb5b6c558c510" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hb2fe04c2g528dg5818g8a1bgae8d12453d0d" version="1"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="6"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MulticlassSpellcasterModifier" type="double" value="0"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="Craftsman"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="1"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="3aaf37cf-59f4-5f87-b911-713be0bd7677"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Fighter"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="5136ebb5-89f2-55b3-be57-6369a0d52418"/>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
                     <attribute id="Description" type="TranslatedString" handle="h80475b2eg2ce4g5bbbgb834g2652acbe2b38" version="1"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="h7c6c0163g4787g5970ga937g56a801bc99f4" version="1"/>
                     <attribute id="LearningStrategy" type="uint8" value="1"/>
@@ -222,79 +323,6 @@
                     <attribute id="SoundClassType" type="FixedString" value="Paladin"/>
                     <attribute id="SpellCastingAbility" type="uint8" value="6"/>
                     <attribute id="UUID" type="guid" value="4428314a-5050-5548-84e0-4558902ce568"/>
-                </node>
-                <node id="ClassDescription">
-                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
-                    <attribute id="Description" type="TranslatedString" handle="h609827dbgecf8g52b9g83a3ga571bdb47c4a" version="1"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="hc5d08e74g4d8ag55e4gab0cgf53c345ec5bc" version="1"/>
-                    <attribute id="LearningStrategy" type="uint8" value="1"/>
-                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
-                    <attribute id="Name" type="FixedString" value="ArmigersGuild"/>
-                    <attribute id="ParentGuid" type="guid" value="5136ebb5-89f2-55b3-be57-6369a0d52418"/>
-                    <attribute id="PrimaryAbility" type="uint8" value="1"/>
-                    <attribute id="ProgressionTableUUID" type="guid" value="46fb1138-abc4-56c2-8a00-6b7620124fbb"/>
-                    <attribute id="SoundClassType" type="FixedString" value="Fighter"/>
-                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
-                    <attribute id="UUID" type="guid" value="711cc5d5-eba4-52ae-9fd2-dbebe3344e3f"/>
-                </node>
-                <node id="ClassDescription">
-                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
-                    <attribute id="Description" type="TranslatedString" handle="hf9c8eb7age247g54b7g8909ga6abe8d104c0" version="1"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="h7373900bg7c33g5c2eg94f1g401754c210c4" version="1"/>
-                    <attribute id="LearningStrategy" type="uint8" value="1"/>
-                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
-                    <attribute id="Name" type="FixedString" value="BladeworkersGuild"/>
-                    <attribute id="ParentGuid" type="guid" value="5136ebb5-89f2-55b3-be57-6369a0d52418"/>
-                    <attribute id="PrimaryAbility" type="uint8" value="1"/>
-                    <attribute id="ProgressionTableUUID" type="guid" value="f339b531-c424-5742-8a18-1bcfad9f5308"/>
-                    <attribute id="SoundClassType" type="FixedString" value="Fighter"/>
-                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
-                    <attribute id="UUID" type="guid" value="4a65b3b7-3a4e-5acf-a1e4-711b2ac85cc7"/>
-                </node>
-                <node id="ClassDescription">
-                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
-                    <attribute id="Description" type="TranslatedString" handle="h7239ce51gea7dg596egbd03gbc35a113ca4a" version="1"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="hc6352287ga5dcg5b81g94edg06c3b50f2d5f" version="1"/>
-                    <attribute id="LearningStrategy" type="uint8" value="1"/>
-                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
-                    <attribute id="Name" type="FixedString" value="ForgeknightsGuild"/>
-                    <attribute id="ParentGuid" type="guid" value="5136ebb5-89f2-55b3-be57-6369a0d52418"/>
-                    <attribute id="PrimaryAbility" type="uint8" value="1"/>
-                    <attribute id="ProgressionTableUUID" type="guid" value="029b5aaf-a9c5-5679-b561-df7b65850a3b"/>
-                    <attribute id="SoundClassType" type="FixedString" value="Fighter"/>
-                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
-                    <attribute id="UUID" type="guid" value="3bc92a02-eb4f-52c0-aa22-8deec51400a7"/>
-                </node>
-                <node id="ClassDescription">
-                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
-                    <attribute id="Description" type="TranslatedString" handle="hb8f21669g0c68g597fg9e09g2aef50eef62a" version="1"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="hd71a5075g848bg553fg8b09ga4ff31570c81" version="1"/>
-                    <attribute id="LearningStrategy" type="uint8" value="1"/>
-                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
-                    <attribute id="Name" type="FixedString" value="ThunderlordsGuild"/>
-                    <attribute id="ParentGuid" type="guid" value="5136ebb5-89f2-55b3-be57-6369a0d52418"/>
-                    <attribute id="PrimaryAbility" type="uint8" value="1"/>
-                    <attribute id="ProgressionTableUUID" type="guid" value="d65b12c2-3827-5f65-9b66-7879243c6a58"/>
-                    <attribute id="SoundClassType" type="FixedString" value="Fighter"/>
-                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
-                    <attribute id="UUID" type="guid" value="71e94661-2170-5928-903c-512b5acb8ecd"/>
-                </node>
-                <node id="ClassDescription">
-                    <attribute id="BaseHp" type="int32" value="10"/>
-                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
-                    <attribute id="Description" type="TranslatedString" handle="h1a74c3c5g45efg5033g94fbgb5b6c558c510" version="1"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="hb2fe04c2g528dg5818g8a1bgae8d12453d0d" version="1"/>
-                    <attribute id="HasGod" type="bool" value="false"/>
-                    <attribute id="HpPerLevel" type="int32" value="6"/>
-                    <attribute id="LearningStrategy" type="uint8" value="1"/>
-                    <attribute id="MulticlassSpellcasterModifier" type="double" value="0"/>
-                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
-                    <attribute id="Name" type="FixedString" value="Craftsman"/>
-                    <attribute id="PrimaryAbility" type="uint8" value="1"/>
-                    <attribute id="ProgressionTableUUID" type="guid" value="3aaf37cf-59f4-5f87-b911-713be0bd7677"/>
-                    <attribute id="SoundClassType" type="FixedString" value="Fighter"/>
-                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
-                    <attribute id="UUID" type="guid" value="5136ebb5-89f2-55b3-be57-6369a0d52418"/>
                 </node>
             </children>
         </node>

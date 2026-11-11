@@ -306,6 +306,9 @@ for lvl, extra in [(13, attr("PassivesAdded", "LSString", "SSTORM_Mettle")),
     rows.append('<node id="Progression">' + attr("Level", "uint8", lvl) + attr("Name", "LSString", "StoneheartDefender")
                 + extra + attr("ProgressionType", "uint8", "1") + attr("TableUUID", "guid", STONEHEART_TABLE)
                 + attr("UUID", "guid", uid(f"row:StoneheartDefender:{lvl}")) + "</node>")
+# Earthshatter (Stoneheart 6, hand-written in Spell_Shout/Passive.txt) has uses equal to your Strength modifier
+# per long rest; BG3 resources can't scale with an ability, so it's a fixed 3 (Vindr's Strength 16).
+resource("SSTORM_Earthshatter", "Earthshatter", "Uses of Earthshatter. Regained on a long rest.", replenish="Rest")
 
 write("WARDEN")
 

@@ -240,6 +240,101 @@
                     <attribute id="UUID" type="guid" value="11ebdaef-a74e-52b1-835c-a343bea65bc9"/>
                 </node>
                 <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Armigers&apos; Guild features level 7"/>
+                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_AR_ShiningSteel"/>
+                    <attribute id="UUID" type="guid" value="d1a2760d-72e2-5e0a-9501-23aba5869da4"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Armigers&apos; Guild features level 10"/>
+                    <attribute id="Spells" type="LSString" value="Target_SSTORM_AR_Banded;Target_SSTORM_AR_Adamant"/>
+                    <attribute id="UUID" type="guid" value="e452ef17-26e9-511e-9209-47987717351d"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Armigers&apos; Guild features level 14"/>
+                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_AR_Fortify"/>
+                    <attribute id="UUID" type="guid" value="a9b1e22f-62ef-5d0a-913b-0067ba292aba"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Bladeworkers&apos; Guild features level 7"/>
+                    <attribute id="Spells" type="LSString" value="Target_SSTORM_BW_Disarm;Target_SSTORM_BW_Sunder"/>
+                    <attribute id="UUID" type="guid" value="155230f0-8bf5-5d05-bac3-490af84ba734"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Bladeworkers&apos; Guild features level 10"/>
+                    <attribute id="Spells" type="LSString" value="Target_SSTORM_BW_Honed;Target_SSTORM_BW_Sharpened"/>
+                    <attribute id="UUID" type="guid" value="445c47ed-371d-5cf1-8c23-df3779687408"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Bladeworkers&apos; Guild features level 14"/>
+                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_BW_VersatileStrike"/>
+                    <attribute id="UUID" type="guid" value="d7f0ab0f-6e9e-5e27-962e-8781b426b143"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Forgeknight&apos;s Guild features level 3"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ProduceFlame"/>
+                    <attribute id="UUID" type="guid" value="bf3995af-1596-52a5-b6bd-cc55d4b40c5c"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Forgeknight&apos;s Guild features level 10"/>
+                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_FK_Superheat"/>
+                    <attribute id="UUID" type="guid" value="5945b244-cadd-5a1d-98e8-9a10f1839e4c"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Forgeknight&apos;s Guild features level 14"/>
+                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_FK_FireBurst"/>
+                    <attribute id="UUID" type="guid" value="c0aac167-deb3-5afd-bf81-f64319e1b317"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Thunderlords&apos; Guild features level 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_ShockingGrasp"/>
+                    <attribute id="UUID" type="guid" value="653ba9fb-190d-5cc4-b3f6-9e7239f37152"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Thunderlords&apos; Guild features level 10"/>
+                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_TL_StaticCharge"/>
+                    <attribute id="UUID" type="guid" value="984a734e-b86f-50e5-8a50-8dabe9451ca6"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Thunderlords&apos; Guild features level 14"/>
+                    <attribute id="Spells" type="LSString" value="Zone_SSTORM_TL_HighVoltage"/>
+                    <attribute id="UUID" type="guid" value="1c2e697a-7a8b-5247-a626-b89f47b1e81b"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Thunderlords&apos; Guild features level 18"/>
+                    <attribute id="Spells" type="LSString" value="Target_SSTORM_TL_Electroshock"/>
+                    <attribute id="UUID" type="guid" value="3519c142-1c3d-5191-abd2-6f8ca345a7a3"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Arcane Maesters&apos; Guild features level 3"/>
+                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_AM_Enchant;Shout_SSTORM_AM_Lantern"/>
+                    <attribute id="UUID" type="guid" value="faa68c86-0f42-5a7f-97e4-bb9717ea7c2b"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Arcane Maesters&apos; Guild features level 7"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_SSTORM_AM_Wand;Projectile_SSTORM_AM_Circlet"/>
+                    <attribute id="UUID" type="guid" value="e0eb5225-eb3d-5f1f-a1fe-7910aca2573a"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Arcane Maesters&apos; Guild features level 10"/>
+                    <attribute id="Spells" type="LSString" value="Target_SSTORM_AM_Ephemeral;Projectile_SSTORM_AM_WingedBoots"/>
+                    <attribute id="UUID" type="guid" value="84fed74c-de4c-5ffb-83ba-7b7e7250607a"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Arcane Maesters&apos; Guild features level 14"/>
+                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_AM_BootsOfSpeed"/>
+                    <attribute id="UUID" type="guid" value="af4c5cc8-e125-586a-9dc4-7cf155458b2e"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Trappers&apos; Guild features level 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_SSTORM_TR_ManTrap;Target_SSTORM_TR_TriggerBomb;Target_SSTORM_TR_Ballista;Target_SSTORM_TR_RazorWire"/>
+                    <attribute id="UUID" type="guid" value="591f0fd8-47bc-5385-a144-02287750a231"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Trappers&apos; Guild features level 14"/>
+                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_TR_RapidSetup"/>
+                    <attribute id="UUID" type="guid" value="7637972f-fd6f-5be6-8077-8e5fdf880019"/>
+                </node>
+                <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Bloodwrath Guardian features level 3"/>
                     <attribute id="Spells" type="LSString" value="Shout_SSTORM_BG_FeralTrance"/>
                     <attribute id="UUID" type="guid" value="0b36d4bc-c6f6-5725-a488-6882ddea88ff"/>
@@ -308,71 +403,6 @@
                     <attribute id="Name" type="FixedString" value="Stoneheart Defender features level 20"/>
                     <attribute id="Spells" type="LSString" value="Shout_SSTORM_SH_ImmortalMountain"/>
                     <attribute id="UUID" type="guid" value="566f7184-2bd2-5dc0-84e4-6c85fd1a9ac1"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Armigers&apos; Guild features level 7"/>
-                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_AR_ShiningSteel"/>
-                    <attribute id="UUID" type="guid" value="d1a2760d-72e2-5e0a-9501-23aba5869da4"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Armigers&apos; Guild features level 10"/>
-                    <attribute id="Spells" type="LSString" value="Target_SSTORM_AR_Banded;Target_SSTORM_AR_Adamant"/>
-                    <attribute id="UUID" type="guid" value="e452ef17-26e9-511e-9209-47987717351d"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Armigers&apos; Guild features level 14"/>
-                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_AR_Fortify"/>
-                    <attribute id="UUID" type="guid" value="a9b1e22f-62ef-5d0a-913b-0067ba292aba"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Bladeworkers&apos; Guild features level 7"/>
-                    <attribute id="Spells" type="LSString" value="Target_SSTORM_BW_Disarm;Target_SSTORM_BW_Sunder"/>
-                    <attribute id="UUID" type="guid" value="155230f0-8bf5-5d05-bac3-490af84ba734"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Bladeworkers&apos; Guild features level 10"/>
-                    <attribute id="Spells" type="LSString" value="Target_SSTORM_BW_Honed;Target_SSTORM_BW_Sharpened"/>
-                    <attribute id="UUID" type="guid" value="445c47ed-371d-5cf1-8c23-df3779687408"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Bladeworkers&apos; Guild features level 14"/>
-                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_BW_VersatileStrike"/>
-                    <attribute id="UUID" type="guid" value="d7f0ab0f-6e9e-5e27-962e-8781b426b143"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Forgeknight&apos;s Guild features level 3"/>
-                    <attribute id="Spells" type="LSString" value="Shout_ProduceFlame"/>
-                    <attribute id="UUID" type="guid" value="bf3995af-1596-52a5-b6bd-cc55d4b40c5c"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Forgeknight&apos;s Guild features level 10"/>
-                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_FK_Superheat"/>
-                    <attribute id="UUID" type="guid" value="5945b244-cadd-5a1d-98e8-9a10f1839e4c"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Forgeknight&apos;s Guild features level 14"/>
-                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_FK_FireBurst"/>
-                    <attribute id="UUID" type="guid" value="c0aac167-deb3-5afd-bf81-f64319e1b317"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Thunderlords&apos; Guild features level 3"/>
-                    <attribute id="Spells" type="LSString" value="Target_ShockingGrasp"/>
-                    <attribute id="UUID" type="guid" value="653ba9fb-190d-5cc4-b3f6-9e7239f37152"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Thunderlords&apos; Guild features level 10"/>
-                    <attribute id="Spells" type="LSString" value="Shout_SSTORM_TL_StaticCharge"/>
-                    <attribute id="UUID" type="guid" value="984a734e-b86f-50e5-8a50-8dabe9451ca6"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Thunderlords&apos; Guild features level 14"/>
-                    <attribute id="Spells" type="LSString" value="Zone_SSTORM_TL_HighVoltage"/>
-                    <attribute id="UUID" type="guid" value="1c2e697a-7a8b-5247-a626-b89f47b1e81b"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Thunderlords&apos; Guild features level 18"/>
-                    <attribute id="Spells" type="LSString" value="Target_SSTORM_TL_Electroshock"/>
-                    <attribute id="UUID" type="guid" value="3519c142-1c3d-5191-abd2-6f8ca345a7a3"/>
                 </node>
             </children>
         </node>

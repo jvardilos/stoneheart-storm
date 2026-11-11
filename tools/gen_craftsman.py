@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Generate the Craftsman class (Valda's Spire of Secrets), phase 4a.
+"""Generate the Craftsman class (Valda's Spire of Secrets).
 
 Base class (levels 1-20, Intelligence-based Masterwork save DC), masterwork properties as level-up
-passive picks (Apprentice 2, Journeyman 5, Master 11, Legendary 17), and four Artisans' Guilds:
-Armigers, Bladeworkers, Forgeknight, Thunderlords. Calibarons and Mechanauts are out of scope;
-Arcane Maesters and Trappers are phase 4b. Crafting/out-of-combat features (Active Crafting, Tool Belt,
+passive picks (Apprentice 2, Journeyman 5, Master 11, Legendary 17), and six Artisans' Guilds:
+Arcane Maesters, Armigers, Bladeworkers, Forgeknight, Thunderlords, Trappers. Calibarons and
+Mechanauts are out of scope. Crafting/out-of-combat features (Active Crafting, Tool Belt,
 Folded Steel, Eye for Quality, Flawless Construction, Uncanny Tool Belt, Magnum Opus) are not built.
 
 Run: python3 -I tools/gen_craftsman.py   (then ./build.sh)
@@ -14,7 +14,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from gen_common import (ENEMIES, SAVE, classes, entry, names, passive, reaction, resource, rows,  # noqa: E402
-                        self_aura, shout, status, subclass, target, write)
+                        self_aura, self_hit_reaction, shout, status, subclass, target, write)
 from modlib import PUB, attr, uid, upsert_lsx  # noqa: E402
 
 CRAFTSMAN = uid("class:Craftsman")
@@ -243,8 +243,185 @@ subclass(CRAFTSMAN, "ThunderlordsGuild", "Thunderlords' Guild",
          "An electric innovator that uses lightning-charged equipment. (Valda's Spire of Secrets)", tl,
          sound="Fighter", casting_ability="4")
 
+# ------------------------------------------------------------------ Arcane Maesters' Guild
+# Magic item crafting has no BG3 equivalent; each crafting tier instead grants the use of a few of the
+# book's items as once-per-rest abilities. Instant Attunement and Resonant (18th) depend on attunement,
+# which BG3 doesn't have, so they are not built.
+ICON_AM = "Spell_Evocation_MagicMissile"
+status("SSTORM_AM_ENCHANTED", "Enchanted Weapon", "This weapon is magical and uses its wielder's Intelligence for attack and damage rolls.",
+       ICON_AM, "WeaponProperty(Magical);WeaponAttackRollAbilityOverride(Intelligence)")
+shout("Shout_SSTORM_AM_Enchant", "Enchanted Weapon",
+      "Weave enchantments into the weapon in your main hand: it becomes magical and you use Intelligence for its attack and damage rolls. Recast after switching weapons.",
+      ICON_AM, "ApplyEquipmentStatus(MainHand,SSTORM_AM_ENCHANTED,100,-1)", "ActionPoint:1")
+passive("SSTORM_AM_GogglesOfNight", "Goggles of Night", "You crafted goggles of night: you have darkvision out to 12m (40 ft).",
+        "PassiveFeature_Darkvision", "DarkvisionRangeMin(12)")
+shout("Shout_SSTORM_AM_Lantern", "Lantern of Revealing", "Your lantern of revealing shows invisible creatures: cast See Invisibility without a spell slot. Once per long rest.",
+      None, None, "ActionPoint:1", using="Shout_SeeInvisibility", cooldown="OncePerLongRest", Level="")
+dn, dd = names("Projectile_SSTORM_AM_Wand", "Wand of Magic Missiles", "Cast Magic Missile from your wand without a spell slot. Once per short rest.")
+entry("Spell_Projectile.txt", "Projectile_SSTORM_AM_Wand", "SpellData",
+      {"SpellType": "Projectile", "Level": "", "UseCosts": "ActionPoint:1", "Cooldown": "OncePerShortRest",
+       "DisplayName": dn, "Description": dd}, using="Projectile_MagicMissile")
+dn, dd = names("Projectile_SSTORM_AM_Circlet", "Circlet of Blasting", "Cast Scorching Ray from your circlet without a spell slot. Once per long rest.")
+entry("Spell_Projectile.txt", "Projectile_SSTORM_AM_Circlet", "SpellData",
+      {"SpellType": "Projectile", "Level": "", "UseCosts": "ActionPoint:1", "Cooldown": "OncePerLongRest",
+       "DisplayName": dn, "Description": dd}, using="Projectile_ScorchingRay")
+status("SSTORM_AM_EPHEMERAL", "Ephemeral Enchantment", "This weapon counts as magical.", ICON_AM, "WeaponProperty(Magical)")
+target("Target_SSTORM_AM_Ephemeral", "Ephemeral Enchantment",
+       "Lay an enchantment on an ally's main-hand weapon (or your own): it counts as magical for overcoming resistance and immunity.",
+       ICON_AM, "ApplyEquipmentStatus(MainHand,SSTORM_AM_EPHEMERAL,100,-1)", "ActionPoint:1",
+       "(Ally() or Self()) and not Dead() and Character()", radius="1.5")
+dn, dd = names("Projectile_SSTORM_AM_WingedBoots", "Winged Boots", "Your winged boots let you cast Fly on yourself without a spell slot. Once per long rest.")
+entry("Spell_Projectile.txt", "Projectile_SSTORM_AM_WingedBoots", "SpellData",
+      {"SpellType": "Projectile", "Level": "", "UseCosts": "ActionPoint:1", "Cooldown": "OncePerLongRest",
+       "DisplayName": dn, "Description": dd}, using="Projectile_Fly_Spell")
+status("SSTORM_AM_SEVERED", "Severed Connection", "+4 AC and your Intelligence modifier to saving throws until the start of your next turn.",
+       ICON_AM, "AC(4);RollBonus(SavingThrow,IntelligenceModifier)", TickType="StartTurn")
+self_hit_reaction("Interrupt_SSTORM_AM_SeverConnection", "Sever Connection",
+                  "When you're hit, break your bond with a magic item and repurpose its magic: +4 AC (possibly turning the hit into a miss) and your Intelligence modifier to saving throws until the start of your next turn. Once per short rest.",
+                  ICON_AM, "ApplyStatus(OBSERVER_OBSERVER,SSTORM_AM_SEVERED,100,1)", Cooldown="OncePerShortRest")
+passive("SSTORM_AM_SeverConnection", "Sever Connection", "Reaction when hit: +4 AC and Intelligence to saves until your next turn. Once per short rest.",
+        ICON_AM, "UnlockInterrupt(Interrupt_SSTORM_AM_SeverConnection)")
+status("SSTORM_AM_SPEED", "Boots of Speed", "Your movement speed is doubled.", "Spell_Transmutation_Haste", "ActionResourceMultiplier(Movement,200,0)")
+shout("Shout_SSTORM_AM_BootsOfSpeed", "Boots of Speed", "Bonus action: click your heels together to double your movement speed for 10 turns. Once per long rest.",
+      "Spell_Transmutation_Haste", "ApplyStatus(SSTORM_AM_SPEED,100,10)", "BonusActionPoint:1", cooldown="OncePerLongRest")
+subclass(CRAFTSMAN, "ArcaneMaestersGuild", "Arcane Maesters' Guild",
+         "Magical craftsmen that forge mundane steel into magic items. (Valda's Spire of Secrets)", {
+             3: {"spells": ["Shout_SSTORM_AM_Enchant", "Shout_SSTORM_AM_Lantern"], "ability": INT,
+                 "passives": ["SSTORM_AM_GogglesOfNight"]},
+             7: {"spells": ["Projectile_SSTORM_AM_Wand", "Projectile_SSTORM_AM_Circlet"], "ability": INT},
+             10: {"spells": ["Target_SSTORM_AM_Ephemeral", "Projectile_SSTORM_AM_WingedBoots"], "ability": INT},
+             14: {"spells": ["Shout_SSTORM_AM_BootsOfSpeed"], "ability": INT, "passives": ["SSTORM_AM_SeverConnection"]},
+         }, sound="Fighter", casting_ability="4")
+
+# ------------------------------------------------------------------ Trappers' Guild
+# Traps are summoned invisible helpers (the vanilla Silence spell's helper item) carrying an aura, the way
+# vanilla Moonbeam works; saves use the summoner's Intelligence DC (8 + proficiency + Intelligence), as
+# Moonbeam does. Deploying costs a bonus action (the book: forgo one attack of the Attack action).
+# Man-Trap and Trigger Bomb fire once: the triggering creature's status sets off a small explosion that
+# finds the trap and spends it. Ballista Trap keeps firing at each creature that enters its range.
+ICON_TR = "Spell_Transmutation_SpikeGrowth"
+ICON_BOW = "PassiveFeature_CrossbowExpert_PointBlank"
+HELPER = "edca6656-dc8c-410b-9f16-fcc02d5ed803"           # vanilla Helper_Spell_Silence (invisible spell helper)
+MINE_FX = "4d883bd6-2686-41ef-bbe2-7499ba0da29d"          # vanilla Orthon mine status effect, so traps are visible
+TR_DC = "CalculateSpellDC(Ability.Intelligence, GetSummoner(context.Source))"
+BOOBY = "HasPassive('SSTORM_TR_BoobyTrap', GetSummoner(context.Source)) and not Combat()"
+TRIPS = "Character() and not Dead() and not Ally() and not Tagged('INVISIBLE_HELPER')"
+TRAP_FLAGS = "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+HIT_FLAGS = "DisableOverhead;InitiateCombat;BringIntoCombat"
+
+
+def dmg(dice, dtype, half=False):
+    """Damage functors that double the dice for a Booby Trap (7th level, triggered outside combat)."""
+    n, die = dice.split("d")
+    def d(x):
+        return f"({x}d{die})/2" if half else f"{x}d{die}"
+    return f"IF(not ({BOOBY})):DealDamage({d(n)},{dtype});IF({BOOBY}):DealDamage({d(int(n) * 2)},{dtype})"
+
+
+def trap_carrier(name, title, desc, radius, hit_status):
+    status(name, title, desc, ICON_TR, None, AuraRadius=radius, StatusPropertyFlags=TRAP_FLAGS, StatusEffect=MINE_FX,
+           AuraStatuses=f"TARGET:IF({TRIPS}):ApplyStatus({hit_status},100,-1)")
+
+
+def spender(name, carrier, then):
+    """A tiny explosion around the triggering creature that finds the trap carrying `carrier` and applies `then` to it."""
+    entry("Spell_Projectile.txt", name, "SpellData",
+          {"SpellType": "Projectile", "SpellProperties": f"IF(HasStatus('{carrier}')):ApplyStatus({then},100,1)",
+           "ExplodeRadius": "1.5", "TargetConditions": f"HasStatus('{carrier}')"})
+
+
+def deploy(name, title, desc, props, radius, area="1", costs="BonusActionPoint:1;SSTORM_TrapDeploy:1"):
+    target(name, title, desc, ICON_TR, props, costs, None, radius=radius, AreaRadius=area,
+           VerbalIntent="Damage", SpellFlags="CannotTargetCharacter;CannotTargetItems;IsHarmful")
+
+
+resource("SSTORM_TrapDeploy", "Trap Deployments", "Traps you can deploy. Regained on a short or long rest.", replenish="ShortRest")
+SUMMON = "GROUND:Summon(" + HELPER + ",100,,,,{})"
+
+# Man-Trap: Dexterity save or 2d8 slashing and trapped (can't move); half on a success. Fires once.
+status("SSTORM_TR_CLAMPED", "Caught in a Man-Trap", "Clamped in a hunting trap: can't move.", ICON_TR,
+       "ActionResourceBlock(Movement)", negative=True, TickType="EndTurn")
+status("SSTORM_TR_MANTRAP_SNAP", "Man-Trap", "A man-trap snapped shut on this creature.", ICON_TR, None, negative=True,
+       StatusPropertyFlags=HIT_FLAGS,
+       OnApplyRoll=f"not SavingThrow(Ability.Dexterity, {TR_DC})",
+       OnApplySuccess=dmg("2d8", "Slashing") + ";ApplyStatus(SSTORM_TR_CLAMPED,100,2)",
+       OnApplyFail=dmg("2d8", "Slashing", half=True),
+       OnApplyFunctors="CreateExplosion(Projectile_SSTORM_TR_SpendManTrap)")
+trap_carrier("SSTORM_TR_MANTRAP", "Man-Trap", "An oversized hunting trap, armed.", "1", "SSTORM_TR_MANTRAP_SNAP")
+status("SSTORM_TR_SPENT", "Spent Trap", "This trap has gone off.", ICON_TR, None, StatusPropertyFlags=TRAP_FLAGS,
+       OnApplyFunctors="RemoveStatus(SSTORM_TR_MANTRAP);Unsummon()")
+spender("Projectile_SSTORM_TR_SpendManTrap", "SSTORM_TR_MANTRAP", "SSTORM_TR_SPENT")
+deploy("Target_SSTORM_TR_ManTrap", "Trap: Man-Trap",
+       "Set an oversized hunting trap on the ground nearby. The first creature to step on it makes a Dexterity saving throw against your Masterwork save DC: on a failure it takes 2d8 slashing damage and is trapped, unable to move, for 2 turns; on a success it takes half damage. Your allies don't trigger it.",
+       SUMMON.format("SSTORM_TR_MANTRAP"), radius="3")
+
+# Trigger Bomb: when a creature comes within 5 ft, it explodes: Dexterity save, 2d6 fire (half on a success),
+# in 5 ft. The book's detonator reaction is automatic here.
+status("SSTORM_TR_BOMB_TRIP", "Trigger Bomb", "Set off a trigger bomb.", "Action_Monster_Bombardement_ProjectileStrike", None, negative=True,
+       StatusPropertyFlags=HIT_FLAGS, OnApplyFunctors="CreateExplosion(Projectile_SSTORM_TR_FindBomb)")
+trap_carrier("SSTORM_TR_BOMB", "Trigger Bomb", "An explosive device, armed.", "1.5", "SSTORM_TR_BOMB_TRIP")
+status("SSTORM_TR_DETONATE", "Detonating", "This bomb explodes.", ICON_TR, None, StatusPropertyFlags=TRAP_FLAGS,
+       OnApplyFunctors="CreateExplosion(Projectile_SSTORM_TR_BombBlast);RemoveStatus(SSTORM_TR_BOMB);Unsummon()")
+spender("Projectile_SSTORM_TR_FindBomb", "SSTORM_TR_BOMB", "SSTORM_TR_DETONATE")
+entry("Spell_Projectile.txt", "Projectile_SSTORM_TR_BombBlast", "SpellData",
+      {"SpellType": "Projectile", "ExplodeRadius": "1.5", "TargetConditions": "Character() and not Dead()",
+       "SpellRoll": f"not SavingThrow(Ability.Dexterity, {TR_DC})",
+       "SpellSuccess": dmg("2d6", "Fire").replace(BOOBY, BOOBY.replace("not Combat()", "not Combat(context.Target)")),
+       "SpellFail": dmg("2d6", "Fire", half=True).replace(BOOBY, BOOBY.replace("not Combat()", "not Combat(context.Target)"))})
+deploy("Target_SSTORM_TR_TriggerBomb", "Trap: Trigger Bomb",
+       "Toss an explosive device up to 9m away. When a creature other than your allies comes within 1.5m of it, it explodes: each creature within 1.5m makes a Dexterity saving throw against your Masterwork save DC, taking 2d6 fire damage on a failure or half on a success.",
+       SUMMON.format("SSTORM_TR_BOMB"), radius="9")
+
+# Ballista Trap: fires at each creature that enters its range (6m around it, standing in for the book's
+# 30-ft line): Dexterity save (standing in for the attack roll) or 2d8 piercing.
+status("SSTORM_TR_BALLISTA_SHOT", "Ballista Trap", "Shot by a ballista trap.", ICON_BOW, None, negative=True,
+       StatusPropertyFlags=HIT_FLAGS,
+       OnApplyRoll=f"not SavingThrow(Ability.Dexterity, {TR_DC})", OnApplySuccess=dmg("2d8", "Piercing"))
+trap_carrier("SSTORM_TR_BALLISTA", "Ballista Trap", "A compact ballista, loaded and aimed.", "6", "SSTORM_TR_BALLISTA_SHOT")
+deploy("Target_SSTORM_TR_Ballista", "Trap: Ballista Trap",
+       "Set up a compact ballista nearby. Each time a creature other than your allies comes within 6m of it, it fires: the creature makes a Dexterity saving throw against your Masterwork save DC or takes 2d8 piercing damage. Lasts 10 minutes.",
+       SUMMON.format("SSTORM_TR_BALLISTA"), radius="1.5")
+
+# Razor Wire: difficult terrain dealing 2d4 piercing per 1.5m moved (exactly vanilla Spike Growth's surface).
+deploy("Target_SSTORM_TR_RazorWire", "Trap: Razor Wire",
+       "Spread a tangle of razor wire nearby: the area becomes difficult terrain, and a creature moving through it takes 2d4 piercing damage for every 1.5m it travels. Razor wire can't be recovered.",
+       "GROUND:CreateSurface(2,100,SpikeGrowth)", radius="3", area="2")
+
+TRAP_SPELLS = ["Target_SSTORM_TR_ManTrap", "Target_SSTORM_TR_TriggerBomb", "Target_SSTORM_TR_Ballista", "Target_SSTORM_TR_RazorWire"]
+passive("SSTORM_TR_BoobyTrap", "Booby Trap",
+        "Your traps are hard to spot: a trap that goes off against a creature that isn't in combat yet deals twice as many damage dice.",
+        ICON_TR)
+status("SSTORM_TR_HAIRTRIGGER", "Hair-Trigger", "Advantage on your next ranged weapon attack.", ICON_BOW,
+       "IF(IsRangedWeaponAttack()):Advantage(AttackRoll)", RemoveEvents="OnAttack")
+passive("SSTORM_TR_AmbushModification", "Ambush Modification",
+        "Your ranged weapons have hair-triggers: when combat starts, your first ranged weapon attack has advantage.",
+        ICON_BOW, context="OnCombatStarted", functors="ApplyStatus(SELF,SSTORM_TR_HAIRTRIGGER,100,-1)")
+status("SSTORM_TR_RAPID", "Rapid Setup", "Deploying traps costs no bonus action this turn.", ICON_TR,
+       "UnlockSpellVariant(" + " or ".join(f"SpellId('{s}')" for s in TRAP_SPELLS)
+       + ",ModifyUseCosts(Replace,BonusActionPoint,0,0,BonusActionPoint))")
+shout("Shout_SSTORM_TR_RapidSetup", "Rapid Setup",
+      "For the rest of this turn, deploying traps doesn't cost a bonus action (each still uses a deployment), so you can lay out several at once. Once per short rest.",
+      ICON_TR, "ApplyStatus(SSTORM_TR_RAPID,100,1)", "ActionPoint:1", cooldown="OncePerShortRest")
+status("SSTORM_TR_NETTED", "Netted", "Tangled in a net: can't move, attacks against it have advantage and its attacks have disadvantage.",
+       ICON_TR, "ActionResourceBlock(Movement);Disadvantage(AttackRoll);Advantage(AttackTarget)", negative=True, TickType="EndTurn")
+passive("SSTORM_TR_Net", "Net (Legendary property)",
+        "Once per turn, when you hit a creature with a ranged weapon attack, a net deploys and entangles it until the end of its next turn.",
+        ICON_TR, context="OnDamage", conditions="IsRangedWeaponAttack() and HasDamageEffectFlag(DamageFlags.Hit)",
+        functors="ApplyStatus(SSTORM_TR_NETTED,100,1)", props="Highlighted;OncePerTurn")
+tr = {3: {"spells": TRAP_SPELLS, "ability": INT, "passives": ["DangerSense"], "boosts": "ActionResource(SSTORM_TrapDeploy,3,0)"},
+      7: {"passives": ["SSTORM_TR_BoobyTrap"]},
+      10: {"passives": ["SSTORM_TR_AmbushModification"]},
+      14: {"spells": ["Shout_SSTORM_TR_RapidSetup"], "ability": INT},
+      18: {"passives": ["SSTORM_TR_Net"]}}
+for lvl in (8, 12):   # deployments = Intelligence modifier in the book; fixed 3, 4, 5 here
+    tr.setdefault(lvl, {})["boosts"] = "ActionResource(SSTORM_TrapDeploy,1,0)"
+subclass(CRAFTSMAN, "TrappersGuild", "Trappers' Guild",
+         "A mechanical tinkerer that deploys lethal booby traps during combat. (Valda's Spire of Secrets)", tr,
+         sound="Fighter", casting_ability="4")
+
 # ------------------------------------------------------------------ the Craftsman base class
-GUILDS = [uid("class:" + n) for n in ["ArmigersGuild", "BladeworkersGuild", "ForgeknightsGuild", "ThunderlordsGuild"]]
+GUILDS = [uid("class:" + n) for n in ["ArcaneMaestersGuild", "ArmigersGuild", "BladeworkersGuild", "ForgeknightsGuild",
+                                      "ThunderlordsGuild", "TrappersGuild"]]
 SKILLS = uid("skills:Craftsman")
 upsert_lsx(PUB / "Lists" / "SkillLists.lsx",
            [f'<node id="SkillList">{attr("Name", "FixedString", "Craftsman Skill List")}'
